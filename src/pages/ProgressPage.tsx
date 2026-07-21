@@ -1,7 +1,57 @@
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { COURSE_MAP, getUnit } from '../data/course';
 import { useProgress } from '../store/progressStore';
 import { dueCards } from '../lib/srs';
+
+const SKILL_LABELS: Record<string, string> = {
+  listening: 'Dinleme',
+  reading: 'Okuma',
+  writing: 'Yazma',
+  speaking: 'Konuşma',
+  grammar: 'Gramer',
+  vocab: 'Kelime',
+};
+
+function RingChart({
+  value,
+  max,
+  label,
+  sub,
+}: {
+  value: number;
+  max: number;
+  label: string;
+  sub: string;
+}) {
+  const pct = Math.min(100, Math.round((value / Math.max(1, max)) * 100));
+  const r = 42;
+  const c = 2 * Math.PI * r;
+  const offset = c - (pct / 100) * c;
+
+  return (
+    <div className="ring-chart">
+      <svg viewBox="0 0 100 100" className="ring-svg" aria-hidden>
+        <circle className="ring-track" cx="50" cy="50" r={r} />
+        <motion.circle
+          className="ring-value"
+          cx="50"
+          cy="50"
+          r={r}
+          strokeDasharray={c}
+          initial={{ strokeDashoffset: c }}
+          animate={{ strokeDashoffset: offset }}
+          transition={{ duration: 0.9, ease: 'easeOut' }}
+        />
+      </svg>
+      <div className="ring-center">
+        <strong>{pct}%</strong>
+        <span>{label}</span>
+      </div>
+      <p className="ring-sub">{sub}</p>
+    </div>
+  );
+}
 
 export function ProgressPage() {
   const xp = useProgress((s) => s.xp);
@@ -12,96 +62,201 @@ export function ProgressPage() {
   const srs = useProgress((s) => s.srs);
   const todayMinutes = useProgress((s) => s.todayMinutes);
   const dailyGoal = useProgress((s) => s.dailyGoalMinutes);
+  const todayXp = useProgress((s) => s.todayXp);
 
   const unit = getUnit('UNT-A1-00-BENVENUTI');
   const completedLessons = Object.values(lessons).filter((l) => l.completed).length;
   const openMistakes = mistakes.filter((m) => !m.resolved).length;
   const due = dueCards(srs).length;
+  const unitDone = unit
+    ? unit.lessons.filter((l) => lessons[l.id]?.completed).length
+    : 0;
+  const unitTotal = unit?.lessons.length ?? 1;
+  const unitPct = Math.round((unitDone / unitTotal) * 100);
 
-  const skillEntries = Object.entries(skills) as [keyof typeof skills, number][];
-  const labels: Record<string, string> = {
-    listening: 'Dinleme',
-    reading: 'Okuma',
-    writing: 'Yazma',
-    speaking: 'Konuşma',
-    grammar: 'Gramer',
-    vocab: 'Kelime',
-  };
+  const skillEntries = (
+    Object.entries(skills) as [keyof typeof skills, number][]
+  ).sort((a, b) => b[1] - a[1]);
+  const maxSkill = Math.max(1, ...skillEntries.map(([, v]) => v));
+
+  const summary = [
+    { label: 'Toplam XP', value: xp, hint: 'Tüm zamandan' },
+    { label: 'Seri', value: `${streak} gün`, hint: 'Üst üste çalıştığın gün' },
+    { label: 'Ders', value: completedLessons, hint: 'Tamamlanan ders' },
+    { label: 'Bugün XP', value: todayXp, hint: 'Bugünkü kazanım' },
+  ];
 
   return (
-    <div className="page">
+    <div className="page progress-page">
       <header className="page-header">
         <h1>İlerleme</h1>
-        <p className="lede">Gelişimini buradan takip et.</p>
+        <p className="lede">
+          Bugünü, becerilerini ve üniteni tek bakışta gör. Eksik hissettiğin
+          yere pratikten devam et.
+        </p>
       </header>
 
-      <div className="home-stats" aria-label="Özet">
-        <div>
-          <strong>{xp}</strong>
-          <span>toplam XP</span>
-        </div>
-        <div>
-          <strong>{streak}</strong>
-          <span>gün seri</span>
-        </div>
-        <div>
-          <strong>{completedLessons}</strong>
-          <span>ders</span>
-        </div>
-        <div>
-          <strong>
-            {todayMinutes}/{dailyGoal}
-          </strong>
-          <span>dk bugün</span>
-        </div>
-      </div>
+      <section className="progress-hero-cards">
+        <motion.div
+          className="progress-panel ring-panel"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.35 }}
+        >
+          <h2>Bugünkü hedef</h2>
+          <RingChart
+            value={todayMinutes}
+            max={dailyGoal}
+            label="hedef"
+            sub={`${todayMinutes} / ${dailyGoal} dakika`}
+          />
+        </motion.div>
 
-      <section className="skill-section">
-        <h2>Beceriler</h2>
-        {skillEntries.map(([k, v]) => (
-          <div key={k} className="skill-bar">
-            <div className="skill-label">
-              <span>{labels[k]}</span>
-              <span>{v}</span>
-            </div>
-            <div className="mini-bar">
-              <div style={{ width: `${Math.min(100, v)}%` }} />
-            </div>
+        <motion.div
+          className="progress-panel ring-panel"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.35, delay: 0.06 }}
+        >
+          <h2>Ünite 0</h2>
+          <RingChart
+            value={unitDone}
+            max={unitTotal}
+            label="ders"
+            sub={`${unitDone} / ${unitTotal} tamamlandı`}
+          />
+          <div className="mini-bar unit-progress-bar" aria-hidden>
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: `${unitPct}%` }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+            />
           </div>
+        </motion.div>
+      </section>
+
+      <section className="progress-stat-grid" aria-label="Özet">
+        {summary.map((item, i) => (
+          <motion.div
+            key={item.label}
+            className="progress-stat-card"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.08 + i * 0.04 }}
+          >
+            <span className="progress-stat-label">{item.label}</span>
+            <strong className="progress-stat-value">{item.value}</strong>
+            <span className="progress-stat-hint">{item.hint}</span>
+          </motion.div>
         ))}
       </section>
 
-      <section className="progress-panel">
-        <h2>Ünite 0 — Benvenuti</h2>
-        <ul className="progress-lessons">
-          {unit?.lessons.map((l) => {
-            const p = lessons[l.id];
+      <motion.section
+        className="progress-panel skill-chart"
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.15 }}
+      >
+        <div className="section-head">
+          <h2>Beceri haritası</h2>
+          <span className="muted small">0–100 puan</span>
+        </div>
+        <div className="skill-chart-list">
+          {skillEntries.map(([k, v], i) => {
+            const width = Math.max(6, Math.round((v / maxSkill) * 100));
             return (
-              <li key={l.id}>
-                <span>{l.titleTr}</span>
-                <span className="muted">
-                  {p?.completed ? `${p.bestAccuracy}%` : '—'}
-                </span>
-              </li>
+              <div key={k} className="skill-chart-row">
+                <div className="skill-chart-meta">
+                  <span>{SKILL_LABELS[k]}</span>
+                  <strong>{v}</strong>
+                </div>
+                <div className="skill-chart-track">
+                  <motion.div
+                    className={`skill-chart-fill skill-${k}`}
+                    initial={{ width: 0 }}
+                    animate={{ width: `${width}%` }}
+                    transition={{ duration: 0.7, delay: 0.2 + i * 0.05 }}
+                  />
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </motion.section>
+
+      <motion.section
+        className="progress-panel"
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+      >
+        <div className="section-head">
+          <h2>Ünite 0 — Benvenuti</h2>
+          <Link to="/path/UNT-A1-00-BENVENUTI">Derse git</Link>
+        </div>
+        <ul className="lesson-chip-list">
+          {unit?.lessons.map((l, i) => {
+            const p = lessons[l.id];
+            const done = Boolean(p?.completed);
+            return (
+              <motion.li
+                key={l.id}
+                className={`lesson-chip ${done ? 'done' : ''}`}
+                initial={{ opacity: 0, scale: 0.96 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.22 + i * 0.03 }}
+              >
+                <span className="lesson-chip-num">{done ? '✓' : i + 1}</span>
+                <div>
+                  <strong>{l.titleTr}</strong>
+                  <span className="muted small">
+                    {done ? `En iyi: %${p?.bestAccuracy}` : 'Henüz tamamlanmadı'}
+                  </span>
+                </div>
+              </motion.li>
             );
           })}
         </ul>
-      </section>
+      </motion.section>
 
-      <section className="progress-panel">
-        <h2>Hızlı bağlantılar</h2>
-        <div className="settings-actions">
-          <Link className="btn ghost" to="/practice/srs">
-            SRS {due ? `(${due} hazır)` : ''}
+      <motion.section
+        className="progress-panel"
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.25 }}
+      >
+        <h2>Şimdi ne yapmalısın?</h2>
+        <div className="next-actions">
+          <Link
+            className={`next-action-card${due ? ' hot' : ''}`}
+            to="/practice/srs"
+          >
+            <strong>Aralıklı tekrar</strong>
+            <span>
+              {due
+                ? `${due} kart seni bekliyor`
+                : 'Şimdilik kart yok — dersten sonra dolacak'}
+            </span>
           </Link>
-          <Link className="btn ghost" to="/practice/mistakes">
-            Hatalar {openMistakes ? `(${openMistakes})` : ''}
+          <Link
+            className={`next-action-card${openMistakes ? ' hot' : ''}`}
+            to="/practice/mistakes"
+          >
+            <strong>Hatalar</strong>
+            <span>
+              {openMistakes
+                ? `${openMistakes} maddeyi gözden geçir`
+                : 'Açık hata yok — harika'}
+            </span>
           </Link>
-          <Link className="btn ghost" to="/path">
-            Yola git · {COURSE_MAP.filter((u) => u.available).length} aktif ünite
+          <Link className="next-action-card" to="/path">
+            <strong>Öğrenme yolu</strong>
+            <span>
+              {COURSE_MAP.filter((u) => u.available).length} aktif ünite
+            </span>
           </Link>
         </div>
-      </section>
+      </motion.section>
     </div>
   );
 }

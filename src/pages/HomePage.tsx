@@ -33,7 +33,7 @@ export function HomePage() {
             <span>ITA</span>lab
           </h1>
           <p className="lede">
-            Dinle, yaz, konuş. Kendi hızında, tarayıcında.
+            Dinle, yaz, konuş. ITAlab ile İtalyanca öğren!
           </p>
 
           {cont && (
@@ -54,11 +54,11 @@ export function HomePage() {
                 <span className="continue-cta-sub">{cont.lesson.titleTr}</span>
               </Link>
               <div className="cta-row secondary-cta">
-                <Link className="btn ghost" to="/path">
-                  Yola bak
+                <Link className="btn ghost" to="/progress">
+                  Gelişimini gör
                 </Link>
                 <Link className="btn ghost" to="/practice">
-                  Pratik
+                  Pratik yap
                 </Link>
               </div>
             </div>

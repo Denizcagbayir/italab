@@ -124,7 +124,7 @@ export function LessonPlayer({ lesson, unitTitle }: Props) {
               Üniteye dön
             </Link>
             <Link className="btn ghost" to="/practice">
-              Pratik
+              Pratik yap
             </Link>
           </div>
         </motion.div>
@@ -133,7 +133,7 @@ export function LessonPlayer({ lesson, unitTitle }: Props) {
   }
 
   return (
-    <div className="lesson-player">
+    <div className={`lesson-player${feedback ? ' is-resolved' : ''}`}>
       <div className="lesson-top">
         <Link to={`/path/${lesson.unitId}`} className="back-link">
           ← {unitTitle}
@@ -158,24 +158,33 @@ export function LessonPlayer({ lesson, unitTitle }: Props) {
         </motion.div>
       </AnimatePresence>
 
-      {feedback && (
-        <div className={`feedback-bar ${feedback}`} role="status">
-          <strong className="feedback-title">
-            {feedback === 'ok' ? 'Doğru!' : 'Henüz değil'}
-          </strong>
-          {feedback === 'bad' && ex.acceptedAnswers && (
-            <p className="feedback-detail" lang="it">
-              Doğru cevap: {ex.acceptedAnswers[0]}
-            </p>
-          )}
-          {feedback === 'bad' && ex.hint && (
-            <p className="hint">{ex.hint}</p>
-          )}
-          <button type="button" className="btn primary" onClick={next}>
-            Devam
-          </button>
-        </div>
-      )}
+      <AnimatePresence>
+        {feedback && (
+          <motion.div
+            className={`feedback-bar ${feedback}`}
+            role="status"
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <strong className="feedback-title">
+              {feedback === 'ok' ? 'Doğru!' : 'Henüz değil'}
+            </strong>
+            {feedback === 'bad' && ex.acceptedAnswers && (
+              <p className="feedback-detail" lang="it">
+                Doğru cevap: {ex.acceptedAnswers[0]}
+              </p>
+            )}
+            {feedback === 'bad' && ex.hint && (
+              <p className="hint">{ex.hint}</p>
+            )}
+            <button type="button" className="btn primary" onClick={next}>
+              Devam et
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

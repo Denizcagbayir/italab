@@ -1,0 +1,7106 @@
+[
+  {
+    "singular": "il libro",
+    "plural": "i libri",
+    "tr": "kitap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il tavolo",
+    "plural": "i tavoli",
+    "tr": "masa",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il telefono",
+    "plural": "i telefoni",
+    "tr": "telefon",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il computer",
+    "plural": "i computer",
+    "tr": "bilgisayar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il gatto",
+    "plural": "i gatti",
+    "tr": "kedi (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la gatta",
+    "plural": "le gatte",
+    "tr": "kedi (dişi)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cane",
+    "plural": "i cani",
+    "tr": "köpek",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la casa",
+    "plural": "le case",
+    "tr": "ev",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la porta",
+    "plural": "le porte",
+    "tr": "kapı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la finestra",
+    "plural": "le finestre",
+    "tr": "pencere",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la sedia",
+    "plural": "le sedie",
+    "tr": "sandalye",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il letto",
+    "plural": "i letti",
+    "tr": "yatak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il divano",
+    "plural": "i divani",
+    "tr": "kanepe",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cucina",
+    "plural": "le cucine",
+    "tr": "mutfak",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il bagno",
+    "plural": "i bagni",
+    "tr": "banyo",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la camera",
+    "plural": "le camere",
+    "tr": "oda",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il corridoio",
+    "plural": "i corridoi",
+    "tr": "koridor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il balcone",
+    "plural": "i balconi",
+    "tr": "balkon",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il giardino",
+    "plural": "i giardini",
+    "tr": "bahçe",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la strada",
+    "plural": "le strade",
+    "tr": "sokak/cadde",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la piazza",
+    "plural": "le piazze",
+    "tr": "meydan",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il parco",
+    "plural": "i parchi",
+    "tr": "park",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la città",
+    "plural": "le città",
+    "tr": "şehir",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il villaggio",
+    "plural": "i villaggi",
+    "tr": "köy",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo stato",
+    "plural": "gli stati",
+    "tr": "devlet/durum",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la nazione",
+    "plural": "le nazioni",
+    "tr": "ulus",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il paese",
+    "plural": "i paesi",
+    "tr": "ülke/kasaba",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la regione",
+    "plural": "le regioni",
+    "tr": "bölge",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la provincia",
+    "plural": "le province",
+    "tr": "il",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il comune",
+    "plural": "i comuni",
+    "tr": "belediye",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’indirizzo",
+    "plural": "gli indirizzi",
+    "tr": "adres",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la stazione",
+    "plural": "le stazioni",
+    "tr": "istasyon",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’aeroporto",
+    "plural": "gli aeroporti",
+    "tr": "havaalanı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la fermata",
+    "plural": "le fermate",
+    "tr": "durak",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’autobus",
+    "plural": "gli autobus",
+    "tr": "otobüs",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il treno",
+    "plural": "i treni",
+    "tr": "tren",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la metropolitana",
+    "plural": "le metropolitane",
+    "tr": "metro",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il taxi",
+    "plural": "i taxi",
+    "tr": "taksi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la bicicletta",
+    "plural": "le biciclette",
+    "tr": "bisiklet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la macchina",
+    "plural": "le macchine",
+    "tr": "araba",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’auto",
+    "plural": "le auto",
+    "tr": "araba (kısa)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il moto",
+    "plural": "i moti",
+    "tr": "hareket",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la moto",
+    "plural": "le moto",
+    "tr": "motosiklet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il biglietto",
+    "plural": "i biglietti",
+    "tr": "bilet",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’orario",
+    "plural": "gli orari",
+    "tr": "saat çizelgesi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la mappa",
+    "plural": "le mappe",
+    "tr": "harita",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la guida",
+    "plural": "le guide",
+    "tr": "rehber",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’albergo",
+    "plural": "gli alberghi",
+    "tr": "otel",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’ostello",
+    "plural": "gli ostelli",
+    "tr": "hostel",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la prenotazione",
+    "plural": "le prenotazioni",
+    "tr": "rezervasyon",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la chiave",
+    "plural": "le chiavi",
+    "tr": "anahtar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il conto",
+    "plural": "i conti",
+    "tr": "hesap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la ricevuta",
+    "plural": "le ricevute",
+    "tr": "fiş/makbuz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la carta",
+    "plural": "le carte",
+    "tr": "kart/kağıt",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il contante",
+    "plural": "i contanti",
+    "tr": "nakit",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il prezzo",
+    "plural": "i prezzi",
+    "tr": "fiyat",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo sconto",
+    "plural": "gli sconti",
+    "tr": "indirim",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il negozio",
+    "plural": "i negozi",
+    "tr": "mağaza",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il supermercato",
+    "plural": "i supermercati",
+    "tr": "süpermarket",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il mercato",
+    "plural": "i mercati",
+    "tr": "pazar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cassa",
+    "plural": "le casse",
+    "tr": "kasa",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cliente",
+    "plural": "i clienti",
+    "tr": "müşteri",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cliente",
+    "plural": "le clienti",
+    "tr": "müşteri (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il commesso",
+    "plural": "i commessi",
+    "tr": "tezgahtar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la commessa",
+    "plural": "le commesse",
+    "tr": "tezgahtar (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il prodotto",
+    "plural": "i prodotti",
+    "tr": "ürün",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la merce",
+    "plural": "le merci",
+    "tr": "mal/ürün",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’articolo",
+    "plural": "gli articoli",
+    "tr": "madde/ürün",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la qualità",
+    "plural": "le qualità",
+    "tr": "kalite",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la quantità",
+    "plural": "le quantità",
+    "tr": "miktar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il peso",
+    "plural": "i pesi",
+    "tr": "ağırlık",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la misura",
+    "plural": "le misure",
+    "tr": "ölçü",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la taglia",
+    "plural": "le taglie",
+    "tr": "beden",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il colore",
+    "plural": "i colori",
+    "tr": "renk",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il modello",
+    "plural": "i modelli",
+    "tr": "model",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la moda",
+    "plural": "le mode",
+    "tr": "moda",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il vestito",
+    "plural": "i vestiti",
+    "tr": "elbise/giysi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la maglietta",
+    "plural": "le magliette",
+    "tr": "tişört",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la camicia",
+    "plural": "le camicie",
+    "tr": "gömlek",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "i jeans",
+    "plural": "i jeans",
+    "tr": "kot",
+    "gender": "maschile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la giacca",
+    "plural": "le giacche",
+    "tr": "ceket",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cappotto",
+    "plural": "i cappotti",
+    "tr": "palto",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il maglione",
+    "plural": "i maglioni",
+    "tr": "kazak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "le scarpe",
+    "plural": "le scarpe",
+    "tr": "ayakkabılar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo stivale",
+    "plural": "gli stivali",
+    "tr": "çizme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il sandalo",
+    "plural": "i sandali",
+    "tr": "sandal",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il calzino",
+    "plural": "i calzini",
+    "tr": "çorap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cappello",
+    "plural": "i cappelli",
+    "tr": "şapka",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cintura",
+    "plural": "le cinture",
+    "tr": "kemer",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la borsa",
+    "plural": "le borse",
+    "tr": "çanta",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il portafoglio",
+    "plural": "i portafogli",
+    "tr": "cüzdan",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’orologio",
+    "plural": "gli orologi",
+    "tr": "saat",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’anello",
+    "plural": "gli anelli",
+    "tr": "yüzük",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la collana",
+    "plural": "le collane",
+    "tr": "kolye",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il bracciale",
+    "plural": "i bracciali",
+    "tr": "bilezik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "gli occhiali",
+    "plural": "gli occhiali",
+    "tr": "gözlük",
+    "gender": "maschile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la lente",
+    "plural": "le lenti",
+    "tr": "lens",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la penna",
+    "plural": "le penne",
+    "tr": "kalem",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la matita",
+    "plural": "le matite",
+    "tr": "kurşun kalem",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il quaderno",
+    "plural": "i quaderni",
+    "tr": "defter",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il libro",
+    "plural": "i libri",
+    "tr": "kitap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pagina",
+    "plural": "le pagine",
+    "tr": "sayfa",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la parola",
+    "plural": "le parole",
+    "tr": "kelime",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la frase",
+    "plural": "le frasi",
+    "tr": "cümle",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il paragrafo",
+    "plural": "i paragrafi",
+    "tr": "paragraf",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la domanda",
+    "plural": "le domande",
+    "tr": "soru",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la risposta",
+    "plural": "le risposte",
+    "tr": "cevap",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’esercizio",
+    "plural": "gli esercizi",
+    "tr": "alıştırma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’esame",
+    "plural": "gli esami",
+    "tr": "sınav",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la prova",
+    "plural": "le prove",
+    "tr": "deneme/sınav",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la scuola",
+    "plural": "le scuole",
+    "tr": "okul",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’università",
+    "plural": "le università",
+    "tr": "üniversite",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l’aula",
+    "plural": "le aule",
+    "tr": "sınıf (oda)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la lezione",
+    "plural": "le lezioni",
+    "tr": "ders",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l'insegnante",
+    "plural": "gli insegnanti",
+    "tr": "öğretmen",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l'insegnante",
+    "plural": "le insegnanti",
+    "tr": "öğretmen",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la studentessa",
+    "plural": "le studentesse",
+    "tr": "öğrenci (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo studente",
+    "plural": "gli studenti",
+    "tr": "öğrenci (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il direttore",
+    "plural": "i direttori",
+    "tr": "müdür",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la direttrice",
+    "plural": "le direttrici",
+    "tr": "müdire",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il lavoro",
+    "plural": "i lavori",
+    "tr": "iş/çalışma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il mestiere",
+    "plural": "i mestieri",
+    "tr": "zanaat/iş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’ufficio",
+    "plural": "gli uffici",
+    "tr": "ofis",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la riunione",
+    "plural": "le riunioni",
+    "tr": "toplantı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il collega",
+    "plural": "i colleghi",
+    "tr": "meslektaş (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la collega",
+    "plural": "le colleghe",
+    "tr": "meslektaş (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il capo",
+    "plural": "i capi",
+    "tr": "patron/şef",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il progetto",
+    "plural": "i progetti",
+    "tr": "proje",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la scadenza",
+    "plural": "le scadenze",
+    "tr": "son tarih",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il contratto",
+    "plural": "i contratti",
+    "tr": "sözleşme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo stipendio",
+    "plural": "gli stipendi",
+    "tr": "maaş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la carriera",
+    "plural": "le carriere",
+    "tr": "kariyer",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’imprenditore",
+    "plural": "gli imprenditori",
+    "tr": "girişimci",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la segretaria",
+    "plural": "le segretarie",
+    "tr": "sekreter",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il medico",
+    "plural": "i medici",
+    "tr": "doktor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’infermiere",
+    "plural": "gli infermieri",
+    "tr": "hemşire",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il farmacista",
+    "plural": "i farmacisti",
+    "tr": "eczacı (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la farmacista",
+    "plural": "le farmaciste",
+    "tr": "eczacı (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il dentista",
+    "plural": "i dentisti",
+    "tr": "dişçi (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la dentista",
+    "plural": "le dentiste",
+    "tr": "dişçi (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo psicologo",
+    "plural": "gli psicologi",
+    "tr": "psikolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’avvocato",
+    "plural": "gli avvocati",
+    "tr": "avukat",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’ingegnere",
+    "plural": "gli ingegneri",
+    "tr": "mühendis",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’architetto",
+    "plural": "gli architetti",
+    "tr": "mimar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il giornalista",
+    "plural": "i giornalisti",
+    "tr": "gazeteci (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la giornalista",
+    "plural": "le giornaliste",
+    "tr": "gazeteci (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il fotografo",
+    "plural": "i fotografi",
+    "tr": "fotoğrafçı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la guida",
+    "plural": "le guide",
+    "tr": "rehber",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cassiere",
+    "plural": "i cassieri",
+    "tr": "kasiyer",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cameriere",
+    "plural": "i camerieri",
+    "tr": "garson",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cuoco",
+    "plural": "i cuochi",
+    "tr": "aşçı (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cuoca",
+    "plural": "le cuoche",
+    "tr": "aşçı (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il panettiere",
+    "plural": "i panettieri",
+    "tr": "fırıncı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il macellaio",
+    "plural": "i macellai",
+    "tr": "kasap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pescivendolo",
+    "plural": "i pescivendoli",
+    "tr": "balıkçı (satıcı)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il fruttivendolo",
+    "plural": "i fruttivendoli",
+    "tr": "manav",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il parrucchiere",
+    "plural": "i parrucchieri",
+    "tr": "kuaför (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la parrucchiera",
+    "plural": "le parrucchiere",
+    "tr": "kuaför (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il tassista",
+    "plural": "i tassisti",
+    "tr": "taksi şoförü (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la tassista",
+    "plural": "le tassiste",
+    "tr": "taksi şoförü (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pilota",
+    "plural": "i piloti",
+    "tr": "pilot",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’autista",
+    "plural": "gli autisti",
+    "tr": "şoför",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’operaio",
+    "plural": "gli operai",
+    "tr": "işçi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’impiegato",
+    "plural": "gli impiegati",
+    "tr": "memur",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’informatico",
+    "plural": "gli informatici",
+    "tr": "bilişimci",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il programmatore",
+    "plural": "i programmatori",
+    "tr": "programcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la programmatrice",
+    "plural": "le programmatrici",
+    "tr": "programcı (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cantante",
+    "plural": "i cantanti",
+    "tr": "şarkıcı (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cantante",
+    "plural": "le cantanti",
+    "tr": "şarkıcı (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’attore",
+    "plural": "gli attori",
+    "tr": "aktör",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’attrice",
+    "plural": "le attrici",
+    "tr": "aktris",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pittore",
+    "plural": "i pittori",
+    "tr": "ressam",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pittrice",
+    "plural": "le pittrici",
+    "tr": "ressam (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo scrittore",
+    "plural": "gli scrittori",
+    "tr": "yazar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la scrittrice",
+    "plural": "le scrittrici",
+    "tr": "yazar (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il direttore",
+    "plural": "i direttori",
+    "tr": "yönetmen/müdür",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la direttrice",
+    "plural": "le direttrici",
+    "tr": "yönetmen/müdire",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il calciatore",
+    "plural": "i calciatori",
+    "tr": "futbolcu (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la calciatrice",
+    "plural": "le calciatrici",
+    "tr": "futbolcu (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’arbitro",
+    "plural": "gli arbitri",
+    "tr": "hakem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo sport",
+    "plural": "gli sport",
+    "tr": "spor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la partita",
+    "plural": "le partite",
+    "tr": "maç",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il gol",
+    "plural": "i gol",
+    "tr": "gol",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il punto",
+    "plural": "i punti",
+    "tr": "puan/nokta",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la vittoria",
+    "plural": "le vittorie",
+    "tr": "zafer",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la sconfitta",
+    "plural": "le sconfitte",
+    "tr": "yenilgi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pareggio",
+    "plural": "i pareggi",
+    "tr": "beraberlik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il gioco",
+    "plural": "i giochi",
+    "tr": "oyun",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la regola",
+    "plural": "le regole",
+    "tr": "kural",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il rischio",
+    "plural": "i rischi",
+    "tr": "risk",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la fortuna",
+    "plural": "le fortune",
+    "tr": "şans",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’amico",
+    "plural": "gli amici",
+    "tr": "arkadaş (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’amica",
+    "plural": "le amiche",
+    "tr": "arkadaş (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il vicino",
+    "plural": "i vicini",
+    "tr": "komşu (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la vicina",
+    "plural": "le vicine",
+    "tr": "komşu (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la famiglia",
+    "plural": "le famiglie",
+    "tr": "aile",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il padre",
+    "plural": "i padri",
+    "tr": "baba",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la madre",
+    "plural": "le madri",
+    "tr": "anne",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il figlio",
+    "plural": "i figli",
+    "tr": "oğul",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la figlia",
+    "plural": "le figlie",
+    "tr": "kız evlat",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il fratello",
+    "plural": "i fratelli",
+    "tr": "erkek kardeş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la sorella",
+    "plural": "le sorelle",
+    "tr": "kız kardeş",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il marito",
+    "plural": "i mariti",
+    "tr": "koca",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la moglie",
+    "plural": "le mogli",
+    "tr": "eş/karı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il nonno",
+    "plural": "i nonni",
+    "tr": "dede",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la nonna",
+    "plural": "le nonne",
+    "tr": "nine",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo zio",
+    "plural": "gli zii",
+    "tr": "amca/dayı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la zia",
+    "plural": "le zie",
+    "tr": "hala/teyze",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cugino",
+    "plural": "i cugini",
+    "tr": "kuzen (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cugina",
+    "plural": "le cugine",
+    "tr": "kuzen (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il bambino",
+    "plural": "i bambini",
+    "tr": "çocuk (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la bambina",
+    "plural": "le bambine",
+    "tr": "çocuk (kadın)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il ragazzo",
+    "plural": "i ragazzi",
+    "tr": "genç/erkek",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la ragazza",
+    "plural": "le ragazze",
+    "tr": "genç/kız",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’uomo",
+    "plural": "gli uomini",
+    "tr": "adam",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la donna",
+    "plural": "le donne",
+    "tr": "kadın",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la persona",
+    "plural": "le persone",
+    "tr": "kişi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il corpo",
+    "plural": "i corpi",
+    "tr": "vücut",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la testa",
+    "plural": "le teste",
+    "tr": "baş",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’occhio",
+    "plural": "gli occhi",
+    "tr": "göz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’orecchio",
+    "plural": "le orecchie",
+    "tr": "kulak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il naso",
+    "plural": "i nasi",
+    "tr": "burun",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la bocca",
+    "plural": "le bocche",
+    "tr": "ağız",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il dente",
+    "plural": "i denti",
+    "tr": "diş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la mano",
+    "plural": "le mani",
+    "tr": "el",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il braccio",
+    "plural": "le braccia",
+    "tr": "kol",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il piede",
+    "plural": "i piedi",
+    "tr": "ayak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la gamba",
+    "plural": "le gambe",
+    "tr": "bacak",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cuore",
+    "plural": "i cuori",
+    "tr": "kalp",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il sangue",
+    "plural": "il sangue",
+    "tr": "kan",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la salute",
+    "plural": "la salute",
+    "tr": "sağlık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la malattia",
+    "plural": "le malattie",
+    "tr": "hastalık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la medicina",
+    "plural": "le medicine",
+    "tr": "ilaç/tıp",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la ricetta",
+    "plural": "le ricette",
+    "tr": "reçete/tarif",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il termometro",
+    "plural": "i termometri",
+    "tr": "termometre",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la febbre",
+    "plural": "le febbri",
+    "tr": "ateş (hastalık)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il dolore",
+    "plural": "i dolori",
+    "tr": "ağrı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cura",
+    "plural": "le cure",
+    "tr": "bakım/tedavi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pasto",
+    "plural": "i pasti",
+    "tr": "öğün",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la colazione",
+    "plural": "le colazioni",
+    "tr": "kahvaltı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pranzo",
+    "plural": "i pranzi",
+    "tr": "öğle yemeği",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cena",
+    "plural": "le cene",
+    "tr": "akşam yemeği",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il piatto",
+    "plural": "i piatti",
+    "tr": "tabak/yemek",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la forchetta",
+    "plural": "le forchette",
+    "tr": "çatal",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il coltello",
+    "plural": "i coltelli",
+    "tr": "bıçak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cucchiaio",
+    "plural": "i cucchiai",
+    "tr": "kaşık",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il bicchiere",
+    "plural": "i bicchieri",
+    "tr": "bardak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la tazza",
+    "plural": "le tazze",
+    "tr": "fincan",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il piattino",
+    "plural": "i piattini",
+    "tr": "çay tabağı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il tovagliolo",
+    "plural": "i tovaglioli",
+    "tr": "peçete",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la tovaglia",
+    "plural": "le tovaglie",
+    "tr": "masa örtüsü",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il sale",
+    "plural": "i sali",
+    "tr": "tuz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "lo zucchero",
+    "plural": "gli zuccheri",
+    "tr": "şeker",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’olio",
+    "plural": "gli oli",
+    "tr": "yağ",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’acqua",
+    "plural": "le acque",
+    "tr": "su",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il vino",
+    "plural": "i vini",
+    "tr": "şarap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la birra",
+    "plural": "le birre",
+    "tr": "bira",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il caffè",
+    "plural": "i caffè",
+    "tr": "kahve",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il cappuccino",
+    "plural": "i cappuccini",
+    "tr": "kapuçino",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il tè",
+    "plural": "i tè",
+    "tr": "çay",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la spremuta",
+    "plural": "le spremute",
+    "tr": "taze sıkma",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il succo",
+    "plural": "i succhi",
+    "tr": "meyve suyu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la mela",
+    "plural": "le mele",
+    "tr": "elma",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pera",
+    "plural": "le pere",
+    "tr": "armut",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’arancia",
+    "plural": "le arance",
+    "tr": "portakal",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il limone",
+    "plural": "i limoni",
+    "tr": "limon",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la fragola",
+    "plural": "le fragole",
+    "tr": "çilek",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’uva",
+    "plural": "le uve",
+    "tr": "üzüm",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la banana",
+    "plural": "le banane",
+    "tr": "muz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pesca",
+    "plural": "le pesche",
+    "tr": "şeftali",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’albicocca",
+    "plural": "le albicocche",
+    "tr": "kayısı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il melone",
+    "plural": "i meloni",
+    "tr": "kavun",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’anguria",
+    "plural": "le angurie",
+    "tr": "karpuz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la ciliegia",
+    "plural": "le ciliegie",
+    "tr": "kiraz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la prugna",
+    "plural": "le prugne",
+    "tr": "erik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la verdura",
+    "plural": "le verdure",
+    "tr": "sebze",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la frutta",
+    "plural": "la frutta",
+    "tr": "meyve",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il pomodoro",
+    "plural": "i pomodori",
+    "tr": "domates",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cetriolo",
+    "plural": "i cetrioli",
+    "tr": "salatalık",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la carota",
+    "plural": "le carote",
+    "tr": "havuç",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la cipolla",
+    "plural": "le cipolle",
+    "tr": "soğan",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’aglio",
+    "plural": "gli agli",
+    "tr": "sarımsak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la patata",
+    "plural": "le patate",
+    "tr": "patates",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la melanzana",
+    "plural": "le melanzane",
+    "tr": "patlıcan",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la zucchina",
+    "plural": "le zucchine",
+    "tr": "kabak",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il peperone",
+    "plural": "i peperoni",
+    "tr": "biber",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il riso",
+    "plural": "i risi",
+    "tr": "pirinç",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pasta",
+    "plural": "le paste",
+    "tr": "makarna/hamur işi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pane",
+    "plural": "i pani",
+    "tr": "ekmek",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pizza",
+    "plural": "le pizze",
+    "tr": "pizza",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il formaggio",
+    "plural": "i formaggi",
+    "tr": "peynir",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il prosciutto",
+    "plural": "i prosciutti",
+    "tr": "jambon",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il salame",
+    "plural": "i salami",
+    "tr": "salam",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pollo",
+    "plural": "i polli",
+    "tr": "tavuk",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la carne",
+    "plural": "le carni",
+    "tr": "et",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pesce",
+    "plural": "i pesci",
+    "tr": "balık",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’uovo",
+    "plural": "le uova",
+    "tr": "yumurta",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il dolce",
+    "plural": "i dolci",
+    "tr": "tatlı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il gelato",
+    "plural": "i gelati",
+    "tr": "dondurma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la torta",
+    "plural": "le torte",
+    "tr": "pasta/turta",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il biscotto",
+    "plural": "i biscotti",
+    "tr": "bisküvi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cioccolato",
+    "plural": "i cioccolati",
+    "tr": "çikolata",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il miele",
+    "plural": "i mieli",
+    "tr": "bal",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il burro",
+    "plural": "i burri",
+    "tr": "tereyağı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’olio d’oliva",
+    "plural": "gli oli d’oliva",
+    "tr": "zeytinyağı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’aceto",
+    "plural": "gli aceti",
+    "tr": "sirke",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il sale",
+    "plural": "i sali",
+    "tr": "tuz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il pepe",
+    "plural": "i pepi",
+    "tr": "karabiber",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la spezia",
+    "plural": "le spezie",
+    "tr": "baharat",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il forno",
+    "plural": "i forni",
+    "tr": "fırın",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il frigo",
+    "plural": "i frigo",
+    "tr": "buzdolabı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il congelatore",
+    "plural": "i congelatori",
+    "tr": "dondurucu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il lavandino",
+    "plural": "i lavandini",
+    "tr": "lavabo",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la lavastoviglie",
+    "plural": "le lavastoviglie",
+    "tr": "bulaşık makinesi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la lavatrice",
+    "plural": "le lavatrici",
+    "tr": "çamaşır makinesi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il ferro da stiro",
+    "plural": "i ferri da stiro",
+    "tr": "ütü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’aspirapolvere",
+    "plural": "gli aspirapolvere",
+    "tr": "elektrik süpürgesi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la lampada",
+    "plural": "le lampade",
+    "tr": "lamba",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la luce",
+    "plural": "le luci",
+    "tr": "ışık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la presa",
+    "plural": "le prese",
+    "tr": "priz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cavo",
+    "plural": "i cavi",
+    "tr": "kablo",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la batteria",
+    "plural": "le batterie",
+    "tr": "batarya/pil",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il caricatore",
+    "plural": "i caricatori",
+    "tr": "şarj aleti",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il telecomando",
+    "plural": "i telecomandi",
+    "tr": "uzaktan kumanda",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la televisione",
+    "plural": "le televisioni",
+    "tr": "televizyon",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la radio",
+    "plural": "le radio",
+    "tr": "radyo",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il video",
+    "plural": "i video",
+    "tr": "video",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la musica",
+    "plural": "le musiche",
+    "tr": "müzik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la canzone",
+    "plural": "le canzoni",
+    "tr": "şarkı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il suono",
+    "plural": "i suoni",
+    "tr": "ses (sound)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la voce",
+    "plural": "le voci",
+    "tr": "ses (insan)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il silenzio",
+    "plural": "i silenzi",
+    "tr": "sessizlik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la notizia",
+    "plural": "le notizie",
+    "tr": "haber",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il giornale",
+    "plural": "i giornali",
+    "tr": "gazete",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la rivista",
+    "plural": "le riviste",
+    "tr": "dergi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il libro",
+    "plural": "i libri",
+    "tr": "kitap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il romanzo",
+    "plural": "i romanzi",
+    "tr": "roman",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il racconto",
+    "plural": "i racconti",
+    "tr": "öykü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la poesia",
+    "plural": "le poesie",
+    "tr": "şiir",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il teatro",
+    "plural": "i teatri",
+    "tr": "tiyatro",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cinema",
+    "plural": "i cinema",
+    "tr": "sinema",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il museo",
+    "plural": "i musei",
+    "tr": "müze",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la mostra",
+    "plural": "le mostre",
+    "tr": "sergi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la foto",
+    "plural": "le foto",
+    "tr": "fotoğraf",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il dipinto",
+    "plural": "i dipinti",
+    "tr": "tablo",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la scultura",
+    "plural": "le sculture",
+    "tr": "heykel",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il monumento",
+    "plural": "i monumenti",
+    "tr": "anıt",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la chiesa",
+    "plural": "le chiese",
+    "tr": "kilise",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la moschea",
+    "plural": "le moschee",
+    "tr": "cami",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il tempio",
+    "plural": "i templi",
+    "tr": "tapınak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il castello",
+    "plural": "i castelli",
+    "tr": "kale",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il palazzo",
+    "plural": "i palazzi",
+    "tr": "saray/konak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il ponte",
+    "plural": "i ponti",
+    "tr": "köprü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la fontana",
+    "plural": "le fontane",
+    "tr": "çeşme",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la torre",
+    "plural": "le torri",
+    "tr": "kule",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la piazza",
+    "plural": "le piazze",
+    "tr": "meydan",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il viale",
+    "plural": "i viali",
+    "tr": "bulvar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il quartiere",
+    "plural": "i quartieri",
+    "tr": "mahalle",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il centro",
+    "plural": "i centri",
+    "tr": "merkez",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la periferia",
+    "plural": "le periferie",
+    "tr": "varoş/çeper",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la campagna",
+    "plural": "le campagne",
+    "tr": "kırsal",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la montagna",
+    "plural": "le montagne",
+    "tr": "dağ",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il mare",
+    "plural": "i mari",
+    "tr": "deniz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il lago",
+    "plural": "i laghi",
+    "tr": "göl",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il fiume",
+    "plural": "i fiumi",
+    "tr": "nehir",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’isola",
+    "plural": "le isole",
+    "tr": "ada",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la spiaggia",
+    "plural": "le spiagge",
+    "tr": "plaj",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il sole",
+    "plural": "i soli",
+    "tr": "güneş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la luna",
+    "plural": "le lune",
+    "tr": "ay (uydu)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la stella",
+    "plural": "le stelle",
+    "tr": "yıldız",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il cielo",
+    "plural": "i cieli",
+    "tr": "gökyüzü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la nuvola",
+    "plural": "le nuvole",
+    "tr": "bulut",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pioggia",
+    "plural": "le piogge",
+    "tr": "yağmur",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la neve",
+    "plural": "le nevi",
+    "tr": "kar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il vento",
+    "plural": "i venti",
+    "tr": "rüzgâr",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il temporale",
+    "plural": "i temporali",
+    "tr": "fırtına",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la tempesta",
+    "plural": "le tempeste",
+    "tr": "kasırga/fırtına",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il fulmine",
+    "plural": "i fulmini",
+    "tr": "şimşek",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il tuono",
+    "plural": "i tuoni",
+    "tr": "gök gürültüsü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la stagione",
+    "plural": "le stagioni",
+    "tr": "mevsim",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la primavera",
+    "plural": "le primavere",
+    "tr": "ilkbahar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’estate",
+    "plural": "le estati",
+    "tr": "yaz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’autunno",
+    "plural": "gli autunni",
+    "tr": "sonbahar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l’inverno",
+    "plural": "gli inverni",
+    "tr": "kış",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la città",
+    "plural": "le città",
+    "tr": "şehir",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'università",
+    "plural": "le università",
+    "tr": "üniversite",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la realtà",
+    "plural": "le realtà",
+    "tr": "gerçeklik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la libertà",
+    "plural": "le libertà",
+    "tr": "özgürlük",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'attività",
+    "plural": "le attività",
+    "tr": "faaliyet",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la difficoltà",
+    "plural": "le difficoltà",
+    "tr": "zorluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la possibilità",
+    "plural": "le possibilità",
+    "tr": "olasılık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la responsabilità",
+    "plural": "le responsabilità",
+    "tr": "sorumluluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la qualità",
+    "plural": "le qualità",
+    "tr": "kalite",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la quantità",
+    "plural": "le quantità",
+    "tr": "miktar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la pubblicità",
+    "plural": "le pubblicità",
+    "tr": "reklam",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'identità",
+    "plural": "le identità",
+    "tr": "kimlik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la dignità",
+    "plural": "le dignità",
+    "tr": "onur",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la proprietà",
+    "plural": "le proprietà",
+    "tr": "mülkiyet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la volontà",
+    "plural": "le volontà",
+    "tr": "irade",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la varietà",
+    "plural": "le varietà",
+    "tr": "çeşitlilik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la comunità",
+    "plural": "le comunità",
+    "tr": "topluluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la società",
+    "plural": "le società",
+    "tr": "toplum/şirket",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la bontà",
+    "plural": "le bontà",
+    "tr": "iyilik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la realtà",
+    "plural": "le realtà",
+    "tr": "gerçeklik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la sanità",
+    "plural": "le sanità",
+    "tr": "sağlık (sistemi)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la lealtà",
+    "plural": "le lealtà",
+    "tr": "sadakat",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la fedeltà",
+    "plural": "le fedeltà",
+    "tr": "bağlılık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la pietà",
+    "plural": "le pietà",
+    "tr": "merhamet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la povertà",
+    "plural": "le povertà",
+    "tr": "yoksulluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la maturità",
+    "plural": "le maturità",
+    "tr": "olgunluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la velocità",
+    "plural": "le velocità",
+    "tr": "hız",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la stabilità",
+    "plural": "le stabilità",
+    "tr": "istikrar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la fragilità",
+    "plural": "le fragilità",
+    "tr": "kırılganlık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la virtù",
+    "plural": "le virtù",
+    "tr": "erdem",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la gioventù",
+    "plural": "le gioventù",
+    "tr": "gençlik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la salute",
+    "plural": "le salute",
+    "tr": "sağlık (soyut)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il caffè",
+    "plural": "i caffè",
+    "tr": "kahve",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il tè",
+    "plural": "i tè",
+    "tr": "çay",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il film",
+    "plural": "i film",
+    "tr": "film",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il video",
+    "plural": "i video",
+    "tr": "video",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il computer",
+    "plural": "i computer",
+    "tr": "bilgisayar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo smartphone",
+    "plural": "gli smartphone",
+    "tr": "akıllı telefon",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il tablet",
+    "plural": "i tablet",
+    "tr": "tablet",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il notebook",
+    "plural": "i notebook",
+    "tr": "dizüstü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'hardware",
+    "plural": "gli hardware",
+    "tr": "donanım",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il software",
+    "plural": "i software",
+    "tr": "yazılım",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il download",
+    "plural": "i download",
+    "tr": "indirme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo screenshot",
+    "plural": "gli screenshot",
+    "tr": "ekran görüntüsü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il podcast",
+    "plural": "i podcast",
+    "tr": "podcast",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il web",
+    "plural": "i web",
+    "tr": "web",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il wifi",
+    "plural": "i wifi",
+    "tr": "wifi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la chat",
+    "plural": "le chat",
+    "tr": "sohbet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'email",
+    "plural": "le email",
+    "tr": "e-posta",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la mail",
+    "plural": "le mail",
+    "tr": "e-posta (mail)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il post",
+    "plural": "i post",
+    "tr": "gönderi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il link",
+    "plural": "i link",
+    "tr": "bağlantı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il golf",
+    "plural": "i golf",
+    "tr": "golf",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo sport",
+    "plural": "gli sport",
+    "tr": "spor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il tennis",
+    "plural": "i tennis",
+    "tr": "tenis",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il rugby",
+    "plural": "i rugby",
+    "tr": "ragbi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il volley",
+    "plural": "i volley",
+    "tr": "voleybol",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il basket",
+    "plural": "i basket",
+    "tr": "basketbol",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il bar",
+    "plural": "i bar",
+    "tr": "bar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il pub",
+    "plural": "i pub",
+    "tr": "pub",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il toast",
+    "plural": "i toast",
+    "tr": "tost",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo yogurt",
+    "plural": "gli yogurt",
+    "tr": "yoğurt",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il kebab",
+    "plural": "i kebab",
+    "tr": "kebap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il tram",
+    "plural": "i tram",
+    "tr": "tramvay",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'autobus",
+    "plural": "gli autobus",
+    "tr": "otobüs",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il taxi",
+    "plural": "i taxi",
+    "tr": "taksi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il bus",
+    "plural": "i bus",
+    "tr": "otobüs",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il film",
+    "plural": "i film",
+    "tr": "film",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il re",
+    "plural": "i re",
+    "tr": "kral",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il test",
+    "plural": "i test",
+    "tr": "test",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il virus",
+    "plural": "i virus",
+    "tr": "virüs",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il bonus",
+    "plural": "i bonus",
+    "tr": "bonus",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il campus",
+    "plural": "i campus",
+    "tr": "kampüs",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il focus",
+    "plural": "i focus",
+    "tr": "odak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il lapsus",
+    "plural": "i lapsus",
+    "tr": "dil sürçmesi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il status",
+    "plural": "i status",
+    "tr": "statü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il plus",
+    "plural": "i plus",
+    "tr": "artı/üstünlük",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il deficit",
+    "plural": "i deficit",
+    "tr": "açık (bütçe)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo chef",
+    "plural": "gli chef",
+    "tr": "şef (aşçı)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il leader",
+    "plural": "i leader",
+    "tr": "lider",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il weekend",
+    "plural": "i weekend",
+    "tr": "hafta sonu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il party",
+    "plural": "i party",
+    "tr": "parti",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'hobby",
+    "plural": "gli hobby",
+    "tr": "hobi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'alibi",
+    "plural": "gli alibi",
+    "tr": "mazeret",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il film",
+    "plural": "i film",
+    "tr": "film",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la radio",
+    "plural": "le radio",
+    "tr": "radyo",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la foto",
+    "plural": "le foto",
+    "tr": "fotoğraf",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la moto",
+    "plural": "le moto",
+    "tr": "motosiklet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la bici",
+    "plural": "le bici",
+    "tr": "bisiklet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la metro",
+    "plural": "le metro",
+    "tr": "metro",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'auto",
+    "plural": "le auto",
+    "tr": "araba",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la crisi",
+    "plural": "le crisi",
+    "tr": "kriz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'analisi",
+    "plural": "le analisi",
+    "tr": "analiz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la tesi",
+    "plural": "le tesi",
+    "tr": "tez",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la sintesi",
+    "plural": "le sintesi",
+    "tr": "özet/sentez",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'ipotesi",
+    "plural": "le ipotesi",
+    "tr": "hipotez",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la diagnosi",
+    "plural": "le diagnosi",
+    "tr": "tanı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la prognosi",
+    "plural": "le prognosi",
+    "tr": "prognoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la psicosi",
+    "plural": "le psicosi",
+    "tr": "psikoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la nevrosi",
+    "plural": "le nevrosi",
+    "tr": "nevroz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la trombosi",
+    "plural": "le trombosi",
+    "tr": "tromboz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la metamorfosi",
+    "plural": "le metamorfosi",
+    "tr": "başkalaşım",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'osmosi",
+    "plural": "le osmosi",
+    "tr": "ozmoz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'ipnosi",
+    "plural": "le ipnosi",
+    "tr": "hipnoz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la perifrasi",
+    "plural": "le perifrasi",
+    "tr": "dolaylı anlatım",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la parentesi",
+    "plural": "le parentesi",
+    "tr": "parantez",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la protesi",
+    "plural": "le protesi",
+    "tr": "protez",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la diuresi",
+    "plural": "le diuresi",
+    "tr": "diürez",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la mimesi",
+    "plural": "le mimesi",
+    "tr": "öykünme",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la sintassi",
+    "plural": "le sintassi",
+    "tr": "söz dizimi",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la serie",
+    "plural": "le serie",
+    "tr": "dizi/seri",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la specie",
+    "plural": "le specie",
+    "tr": "tür",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la carie",
+    "plural": "le carie",
+    "tr": "diş çürüğü",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il sangue",
+    "plural": "il sangue",
+    "tr": "kan",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la salute",
+    "plural": "la salute",
+    "tr": "sağlık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'uovo",
+    "plural": "le uova",
+    "tr": "yumurta",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il braccio",
+    "plural": "le braccia",
+    "tr": "kol",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il dito",
+    "plural": "le dita",
+    "tr": "parmak",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il ginocchio",
+    "plural": "le ginocchia",
+    "tr": "diz",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il labbro",
+    "plural": "le labbra",
+    "tr": "dudak",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il ciglio",
+    "plural": "le ciglia",
+    "tr": "kirpik",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il sopracciglio",
+    "plural": "le sopracciglia",
+    "tr": "kaş",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'osso",
+    "plural": "le ossa",
+    "tr": "kemik",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il lenzuolo",
+    "plural": "le lenzuola",
+    "tr": "çarşaf",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il paio",
+    "plural": "le paia",
+    "tr": "çift",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il miglio",
+    "plural": "le miglia",
+    "tr": "mil",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il centinaio",
+    "plural": "le centinaia",
+    "tr": "yüzlük",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il migliaio",
+    "plural": "le migliaia",
+    "tr": "binlik",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il grido",
+    "plural": "le grida",
+    "tr": "çığlık (insan)",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'urlo",
+    "plural": "le urla",
+    "tr": "çığlık (hayvan/insan)",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il membro",
+    "plural": "le membra",
+    "tr": "uzuv",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il muro",
+    "plural": "le mura",
+    "tr": "surlar",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il corno",
+    "plural": "le corna",
+    "tr": "boynuz (hayvan)",
+    "gender": "maschile → femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il poeta",
+    "plural": "i poeti",
+    "tr": "şair (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il profeta",
+    "plural": "i profeti",
+    "tr": "peygamber",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il pilota",
+    "plural": "i piloti",
+    "tr": "pilot (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il collega",
+    "plural": "i colleghi",
+    "tr": "meslektaş (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il monarca",
+    "plural": "i monarchi",
+    "tr": "monark",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il patriarca",
+    "plural": "i patriarchi",
+    "tr": "patrik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il pirata",
+    "plural": "i pirati",
+    "tr": "korsan (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il poeta",
+    "plural": "i poeti",
+    "tr": "şair (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il pigiama",
+    "plural": "i pigiami",
+    "tr": "pijama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il clima",
+    "plural": "i climi",
+    "tr": "iklim",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il problema",
+    "plural": "i problemi",
+    "tr": "problem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il tema",
+    "plural": "i temi",
+    "tr": "tema",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il teorema",
+    "plural": "i teoremi",
+    "tr": "teorem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "lo schema",
+    "plural": "gli schemi",
+    "tr": "şema",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'amico",
+    "plural": "gli amici",
+    "tr": "arkadaş (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il nemico",
+    "plural": "i nemici",
+    "tr": "düşman",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il greco",
+    "plural": "i greci",
+    "tr": "Yunan",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il medico",
+    "plural": "i medici",
+    "tr": "doktor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il porco",
+    "plural": "i porci",
+    "tr": "domuz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il parco",
+    "plural": "i parchi",
+    "tr": "park",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'albergo",
+    "plural": "gli alberghi",
+    "tr": "otel",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il dialogo",
+    "plural": "i dialoghi",
+    "tr": "diyalog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il catalogo",
+    "plural": "i cataloghi",
+    "tr": "katalog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "lo psicologo",
+    "plural": "gli psicologi",
+    "tr": "psikolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il biologo",
+    "plural": "i biologi",
+    "tr": "biyolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il sociologo",
+    "plural": "i sociologi",
+    "tr": "sosyolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'archeologo",
+    "plural": "gli archeologi",
+    "tr": "arkeolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'antropologo",
+    "plural": "gli antropologi",
+    "tr": "antropolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il geologo",
+    "plural": "i geologi",
+    "tr": "jeolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il teologo",
+    "plural": "i teologi",
+    "tr": "teolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'uomo",
+    "plural": "gli uomini",
+    "tr": "adam",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il dio",
+    "plural": "gli dei",
+    "tr": "tanrı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il bue",
+    "plural": "i buoi",
+    "tr": "öküz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'eco",
+    "plural": "gli echi",
+    "tr": "yankı",
+    "gender": "femminile → maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'orecchio",
+    "plural": "le orecchie",
+    "tr": "kulak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il tempio",
+    "plural": "i templi",
+    "tr": "tapınak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "gli occhiali",
+    "plural": "gli occhiali",
+    "tr": "gözlük",
+    "gender": "maschile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "i jeans",
+    "plural": "i jeans",
+    "tr": "kot",
+    "gender": "maschile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "i pantaloni",
+    "plural": "i pantaloni",
+    "tr": "pantolon",
+    "gender": "maschile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "le nozze",
+    "plural": "le nozze",
+    "tr": "düğün",
+    "gender": "femminile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il file",
+    "plural": "i file",
+    "tr": "dosya",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il server",
+    "plural": "i server",
+    "tr": "sunucu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il router",
+    "plural": "i router",
+    "tr": "yönlendirici",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il browser",
+    "plural": "i browser",
+    "tr": "tarayıcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il driver",
+    "plural": "i driver",
+    "tr": "sürücü (yazılım)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il provider",
+    "plural": "i provider",
+    "tr": "sağlayıcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il cluster",
+    "plural": "i cluster",
+    "tr": "küme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il banner",
+    "plural": "i banner",
+    "tr": "afiş/baner",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il trailer",
+    "plural": "i trailer",
+    "tr": "fragman",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo streaming",
+    "plural": "gli streaming",
+    "tr": "yayın (streaming)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il meeting",
+    "plural": "i meeting",
+    "tr": "toplantı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il briefing",
+    "plural": "i briefing",
+    "tr": "brifing",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il coaching",
+    "plural": "i coaching",
+    "tr": "koçluk",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il marketing",
+    "plural": "i marketing",
+    "tr": "pazarlama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il management",
+    "plural": "i management",
+    "tr": "yönetim",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la startup",
+    "plural": "le startup",
+    "tr": "startup",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il lapis",
+    "plural": "i lapis",
+    "tr": "kurşun kalem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il bonus",
+    "plural": "i bonus",
+    "tr": "bonus",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il minus",
+    "plural": "i minus",
+    "tr": "eksi/olumsuz yön",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il campus",
+    "plural": "i campus",
+    "tr": "kampüs",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il focus",
+    "plural": "i focus",
+    "tr": "odak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il problema",
+    "plural": "i problemi",
+    "tr": "problem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il sistema",
+    "plural": "i sistemi",
+    "tr": "sistem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il tema",
+    "plural": "i temi",
+    "tr": "tema",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il teorema",
+    "plural": "i teoremi",
+    "tr": "teorem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il poema",
+    "plural": "i poemi",
+    "tr": "şiir/poem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il diploma",
+    "plural": "i diplomi",
+    "tr": "diploma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il programma",
+    "plural": "i programmi",
+    "tr": "program",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il telegramma",
+    "plural": "i telegrammi",
+    "tr": "telgraf",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il diagramma",
+    "plural": "i diagrammi",
+    "tr": "diyagram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il anagramma",
+    "plural": "i anagrammi",
+    "tr": "anagram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il ideograma",
+    "plural": "i ideogrami",
+    "tr": "ideogram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il fonema",
+    "plural": "i fonemi",
+    "tr": "fonema",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il telegrafema",
+    "plural": "i telegrafemi",
+    "tr": "telegrafem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il dramma",
+    "plural": "i drammi",
+    "tr": "dram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il carisma",
+    "plural": "i carismi",
+    "tr": "karizma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il panorama",
+    "plural": "i panorami",
+    "tr": "manzara",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il trauma",
+    "plural": "i traumi",
+    "tr": "travma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il enigma",
+    "plural": "i enigmi",
+    "tr": "bilmece",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il dogma",
+    "plural": "i dogmi",
+    "tr": "dogma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il aroma",
+    "plural": "i aromi",
+    "tr": "aroma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il fuoco",
+    "plural": "i fuochi",
+    "tr": "ateş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il gioco",
+    "plural": "i giochi",
+    "tr": "oyun",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il cuoco",
+    "plural": "i cuochi",
+    "tr": "aşçı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il banco",
+    "plural": "i banchi",
+    "tr": "tezgâh/sıra",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "lo sbocco",
+    "plural": "gli sbocchi",
+    "tr": "açık çıkış",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "lo stratega",
+    "plural": "gli strateghi",
+    "tr": "stratejist",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'orecchio",
+    "plural": "gli orecchi",
+    "tr": "kulak (bireysel)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'orecchio",
+    "plural": "le orecchie",
+    "tr": "kulak (toplu)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'osso",
+    "plural": "gli ossi",
+    "tr": "kemik (bireysel)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "lo smartphone",
+    "plural": "gli smartphone",
+    "tr": "akıllı telefon",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo smartwatch",
+    "plural": "gli smartwatch",
+    "tr": "akıllı saat",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo screenshot",
+    "plural": "gli screenshot",
+    "tr": "ekran görüntüsü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il cloud",
+    "plural": "i cloud",
+    "tr": "bulut (BT)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il backup",
+    "plural": "i backup",
+    "tr": "yedek",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il login",
+    "plural": "i login",
+    "tr": "oturum açma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il logout",
+    "plural": "i logout",
+    "tr": "oturum kapama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il bug",
+    "plural": "i bug",
+    "tr": "hata",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il crash",
+    "plural": "i crash",
+    "tr": "çökme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il commit",
+    "plural": "i commit",
+    "tr": "commit",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il merge",
+    "plural": "i merge",
+    "tr": "birleştirme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il branch",
+    "plural": "i branch",
+    "tr": "dal (git)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il ticket",
+    "plural": "i ticket",
+    "tr": "talep/tiket",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo sprint",
+    "plural": "gli sprint",
+    "tr": "sprint",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo stakeholder",
+    "plural": "gli stakeholder",
+    "tr": "paydaş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il teaser",
+    "plural": "i teaser",
+    "tr": "teaser",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il podcast",
+    "plural": "i podcast",
+    "tr": "podcast",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "le ferie",
+    "plural": "le ferie",
+    "tr": "tatil (izin)",
+    "gender": "femminile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "le stoviglie",
+    "plural": "le stoviglie",
+    "tr": "tabak çanak",
+    "gender": "femminile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "le vettovaglie",
+    "plural": "le vettovaglie",
+    "tr": "erzak",
+    "gender": "femminile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'abilità",
+    "plural": "le abilità",
+    "tr": "yetenek",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'agilità",
+    "plural": "le agilità",
+    "tr": "çeviklik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la brutalità",
+    "plural": "le brutalità",
+    "tr": "vahşilik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la capacità",
+    "plural": "le capacità",
+    "tr": "kapasite",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la celebrità",
+    "plural": "le celebrità",
+    "tr": "şöhret",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la creatività",
+    "plural": "le creatività",
+    "tr": "yaratıcılık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la curiosità",
+    "plural": "le curiosità",
+    "tr": "merak",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la disponibilità",
+    "plural": "le disponibilità",
+    "tr": "müsaitlik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la diversità",
+    "plural": "le diversità",
+    "tr": "çeşitlilik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'elasticità",
+    "plural": "le elasticità",
+    "tr": "esneklik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la fedeltà",
+    "plural": "le fedeltà",
+    "tr": "sadakat",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la felicità",
+    "plural": "le felicità",
+    "tr": "mutluluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la formalità",
+    "plural": "le formalità",
+    "tr": "resmiyet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la generosità",
+    "plural": "le generosità",
+    "tr": "cömertlik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la legalità",
+    "plural": "le legalità",
+    "tr": "yasallık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la lealtà",
+    "plural": "le lealtà",
+    "tr": "sadakat",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la laicità",
+    "plural": "le laicità",
+    "tr": "laiklik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la libertà",
+    "plural": "le libertà",
+    "tr": "özgürlük",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la maturità",
+    "plural": "le maturità",
+    "tr": "olgunluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la mobilità",
+    "plural": "le mobilità",
+    "tr": "hareketlilik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la nazionalità",
+    "plural": "le nazionalità",
+    "tr": "uyruk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la normalità",
+    "plural": "le normalità",
+    "tr": "normallik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la particolarità",
+    "plural": "le particolarità",
+    "tr": "özgünlük",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la personalità",
+    "plural": "le personalità",
+    "tr": "kişilik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la pietà",
+    "plural": "le pietà",
+    "tr": "merhamet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la povertà",
+    "plural": "le povertà",
+    "tr": "yoksulluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la proprietà",
+    "plural": "le proprietà",
+    "tr": "mülkiyet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la qualità",
+    "plural": "le qualità",
+    "tr": "kalite",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la realtà",
+    "plural": "le realtà",
+    "tr": "gerçeklik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la rapidità",
+    "plural": "le rapidità",
+    "tr": "hız",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la rarità",
+    "plural": "le rarità",
+    "tr": "nadirlik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la responsabilità",
+    "plural": "le responsabilità",
+    "tr": "sorumluluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la semplicità",
+    "plural": "le semplicità",
+    "tr": "sadelik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la sensibilità",
+    "plural": "le sensibilità",
+    "tr": "duyarlılık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la serietà",
+    "plural": "le serietà",
+    "tr": "ciddiyet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la società",
+    "plural": "le società",
+    "tr": "toplum/şirket",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la solidarietà",
+    "plural": "le solidarietà",
+    "tr": "dayanışma",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la specialità",
+    "plural": "le specialità",
+    "tr": "uzmanlık/özellik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la stabilità",
+    "plural": "le stabilità",
+    "tr": "istikrar",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la stupidità",
+    "plural": "le stupidità",
+    "tr": "aptallık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la superficialità",
+    "plural": "le superficialità",
+    "tr": "yüzeysellik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'umanità",
+    "plural": "le umanità",
+    "tr": "insanlık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il file",
+    "plural": "i file",
+    "tr": "dosya",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il folder",
+    "plural": "i folder",
+    "tr": "klasör",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il parser",
+    "plural": "i parser",
+    "tr": "ayrıştırıcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il player",
+    "plural": "i player",
+    "tr": "oynatıcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il browser",
+    "plural": "i browser",
+    "tr": "tarayıcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il router",
+    "plural": "i router",
+    "tr": "yönlendirici",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il server",
+    "plural": "i server",
+    "tr": "sunucu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il client",
+    "plural": "i client",
+    "tr": "istemci",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il manager",
+    "plural": "i manager",
+    "tr": "yönetici",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il trainer",
+    "plural": "i trainer",
+    "tr": "eğitmen",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il designer",
+    "plural": "i designer",
+    "tr": "tasarımcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il developer",
+    "plural": "i developer",
+    "tr": "geliştirici",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il tester",
+    "plural": "i tester",
+    "tr": "testçi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il tracker",
+    "plural": "i tracker",
+    "tr": "izleyici",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il reporter",
+    "plural": "i reporter",
+    "tr": "haberci",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il follower",
+    "plural": "i follower",
+    "tr": "takipçi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il leader",
+    "plural": "i leader",
+    "tr": "lider",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il blogger",
+    "plural": "i blogger",
+    "tr": "blogger",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il gamer",
+    "plural": "i gamer",
+    "tr": "oyuncu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la mano",
+    "plural": "le mani",
+    "tr": "el",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'ala",
+    "plural": "le ali",
+    "tr": "kanat",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'arma",
+    "plural": "le armi",
+    "tr": "silah",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il lago",
+    "plural": "i laghi",
+    "tr": "göl",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il rogo",
+    "plural": "i roghi",
+    "tr": "yakma ateşi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il fungo",
+    "plural": "i funghi",
+    "tr": "mantar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il dialogo",
+    "plural": "i dialoghi",
+    "tr": "diyalog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il catalogo",
+    "plural": "i cataloghi",
+    "tr": "katalog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "lo psicologo",
+    "plural": "gli psicologi",
+    "tr": "psikolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il format",
+    "plural": "i format",
+    "tr": "format",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il concept",
+    "plural": "i concept",
+    "tr": "konsept",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il contest",
+    "plural": "i contest",
+    "tr": "yarışma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il briefing",
+    "plural": "i briefing",
+    "tr": "brifing",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il brainstorming",
+    "plural": "i brainstorming",
+    "tr": "beyin fırtınası",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il fact-checking",
+    "plural": "i fact-checking",
+    "tr": "doğrulama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il benchmarking",
+    "plural": "i benchmarking",
+    "tr": "kıyaslama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il crowdfunding",
+    "plural": "i crowdfunding",
+    "tr": "kitlesel fonlama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il wearable",
+    "plural": "i wearable",
+    "tr": "giyilebilir",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la meiosi",
+    "plural": "le meiosi",
+    "tr": "mayoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la mitosi",
+    "plural": "le mitosi",
+    "tr": "mitoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la cirrosi",
+    "plural": "le cirrosi",
+    "tr": "siroz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la stenosi",
+    "plural": "le stenosi",
+    "tr": "darlık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la scoliosi",
+    "plural": "le scoliosi",
+    "tr": "skolyoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la lordosi",
+    "plural": "le lordosi",
+    "tr": "lordoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la cifosi",
+    "plural": "le cifosi",
+    "tr": "kifoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la necrosi",
+    "plural": "le necrosi",
+    "tr": "nekroz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la prognosi",
+    "plural": "le prognosi",
+    "tr": "prognoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la diagnosi",
+    "plural": "le diagnosi",
+    "tr": "tanı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "le derrate",
+    "plural": "le derrate",
+    "tr": "erzak",
+    "gender": "femminile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "le provviste",
+    "plural": "le provviste",
+    "tr": "erzak",
+    "gender": "femminile",
+    "number": "plurale",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il schema",
+    "plural": "i schemi",
+    "tr": "şema",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il diploma",
+    "plural": "i diplomi",
+    "tr": "diploma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il telegramma",
+    "plural": "i telegrammi",
+    "tr": "telgraf",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il programma",
+    "plural": "i programmi",
+    "tr": "program",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il diagramma",
+    "plural": "i diagrammi",
+    "tr": "diyagram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il anagramma",
+    "plural": "i anagrammi",
+    "tr": "anagram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il ideogramma",
+    "plural": "i ideogrammi",
+    "tr": "ideogram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il fotogramma",
+    "plural": "i fotogrammi",
+    "tr": "fotogram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il crittogramma",
+    "plural": "i crittogrammi",
+    "tr": "kriptogram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il pittogramma",
+    "plural": "i pittogrammi",
+    "tr": "piktogram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il teorema",
+    "plural": "i teoremi",
+    "tr": "teorem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il teorema",
+    "plural": "i teoremi",
+    "tr": "teorem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il teorema",
+    "plural": "i teoremi",
+    "tr": "teorem",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il dramma",
+    "plural": "i drammi",
+    "tr": "dram",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il carisma",
+    "plural": "i carismi",
+    "tr": "karizma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il enigma",
+    "plural": "i enigmi",
+    "tr": "bilmece",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il dogma",
+    "plural": "i dogmi",
+    "tr": "dogma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il aroma",
+    "plural": "i aromi",
+    "tr": "aroma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il trauma",
+    "plural": "i traumi",
+    "tr": "travma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il stigma",
+    "plural": "i stigmi",
+    "tr": "stigma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il medico",
+    "plural": "i medici",
+    "tr": "doktor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il sindaco",
+    "plural": "i sindaci",
+    "tr": "belediye başkanı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il porco",
+    "plural": "i porci",
+    "tr": "domuz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il carico",
+    "plural": "i carichi",
+    "tr": "yük",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'incarico",
+    "plural": "gli incarichi",
+    "tr": "görev",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il catalogo",
+    "plural": "i cataloghi",
+    "tr": "katalog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il dialogo",
+    "plural": "i dialoghi",
+    "tr": "diyalog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo psicologo",
+    "plural": "gli psicologi",
+    "tr": "psikolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il biologo",
+    "plural": "i biologi",
+    "tr": "biyolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'archeologo",
+    "plural": "gli archeologi",
+    "tr": "arkeolog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il demagogo",
+    "plural": "i demagoghi",
+    "tr": "demagog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il pedagogo",
+    "plural": "i pedagoghi",
+    "tr": "pedagog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la password",
+    "plural": "le password",
+    "tr": "parola (şifre)",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo screenshot",
+    "plural": "gli screenshot",
+    "tr": "ekran görüntüsü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo streaming",
+    "plural": "gli streaming",
+    "tr": "yayın (streaming)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il download",
+    "plural": "i download",
+    "tr": "indirme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'upload",
+    "plural": "gli upload",
+    "tr": "yükleme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il backup",
+    "plural": "i backup",
+    "tr": "yedek",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il blog",
+    "plural": "i blog",
+    "tr": "blog",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il post",
+    "plural": "i post",
+    "tr": "gönderi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il feed",
+    "plural": "i feed",
+    "tr": "akış",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il like",
+    "plural": "i like",
+    "tr": "beğeni",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il follower",
+    "plural": "i follower",
+    "tr": "takipçi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il trend",
+    "plural": "i trend",
+    "tr": "trend",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo swap",
+    "plural": "gli swap",
+    "tr": "takas",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo script",
+    "plural": "gli script",
+    "tr": "betik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo spam",
+    "plural": "gli spam",
+    "tr": "istenmeyen e-posta",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo scanner",
+    "plural": "gli scanner",
+    "tr": "tarayıcı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo speaker",
+    "plural": "gli speaker",
+    "tr": "hoparlör/konuşmacı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo staff",
+    "plural": "gli staff",
+    "tr": "kadro",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo standard",
+    "plural": "gli standard",
+    "tr": "standart",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo sport",
+    "plural": "gli sport",
+    "tr": "spor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo spot",
+    "plural": "gli spot",
+    "tr": "reklam spotu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo sponsor",
+    "plural": "gli sponsor",
+    "tr": "sponsor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo stage",
+    "plural": "gli stage",
+    "tr": "staj",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo status",
+    "plural": "gli status",
+    "tr": "durum/statü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo stress",
+    "plural": "gli stress",
+    "tr": "stres",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo strike",
+    "plural": "gli strike",
+    "tr": "grev/strike",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'autorità",
+    "plural": "le autorità",
+    "tr": "otorite",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la capacità",
+    "plural": "le capacità",
+    "tr": "kapasite",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la civiltà",
+    "plural": "le civiltà",
+    "tr": "medeniyet",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la compatibilità",
+    "plural": "le compatibilità",
+    "tr": "uyumluluk",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la creatività",
+    "plural": "le creatività",
+    "tr": "yaratıcılık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la disponibilità",
+    "plural": "le disponibilità",
+    "tr": "müsaitlik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la fatalità",
+    "plural": "le fatalità",
+    "tr": "kader",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la fedeltà",
+    "plural": "le fedeltà",
+    "tr": "sadakat",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la flessibilità",
+    "plural": "le flessibilità",
+    "tr": "esneklik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la fraternità",
+    "plural": "le fraternità",
+    "tr": "kardeşlik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la fragilità",
+    "plural": "le fragilità",
+    "tr": "kırılganlık",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la funzionalità",
+    "plural": "le funzionalità",
+    "tr": "işlevsellik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la generosità",
+    "plural": "le generosità",
+    "tr": "cömertlik",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'identità",
+    "plural": "le identità",
+    "tr": "kimlik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'ipotesi",
+    "plural": "le ipotesi",
+    "tr": "hipotez",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "l'analisi",
+    "plural": "le analisi",
+    "tr": "analiz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la sintesi",
+    "plural": "le sintesi",
+    "tr": "sentez",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la diagnosi",
+    "plural": "le diagnosi",
+    "tr": "tanı",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la prognosi",
+    "plural": "le prognosi",
+    "tr": "prognoz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la trombosi",
+    "plural": "le trombosi",
+    "tr": "tromboz",
+    "gender": "femminile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il jazz",
+    "plural": "i jazz",
+    "tr": "caz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il rock",
+    "plural": "i rock",
+    "tr": "rock",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il pop",
+    "plural": "i pop",
+    "tr": "pop",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il rap",
+    "plural": "i rap",
+    "tr": "rap",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il metal",
+    "plural": "i metal",
+    "tr": "metal",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il punk",
+    "plural": "i punk",
+    "tr": "punk",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il blues",
+    "plural": "i blues",
+    "tr": "blues",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il country",
+    "plural": "i country",
+    "tr": "country",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo show",
+    "plural": "gli show",
+    "tr": "gösteri",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo show-room",
+    "plural": "gli show-room",
+    "tr": "showroom",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo shop",
+    "plural": "gli shop",
+    "tr": "mağaza (shop)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "gli shorts",
+    "plural": "gli shorts",
+    "tr": "şort",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il marketing",
+    "plural": "i marketing",
+    "tr": "pazarlama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il branding",
+    "plural": "i branding",
+    "tr": "markalama",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il factoring",
+    "plural": "i factoring",
+    "tr": "faktoring",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il leasing",
+    "plural": "i leasing",
+    "tr": "leasing",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il catering",
+    "plural": "i catering",
+    "tr": "ikram/hizmet",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il jogging",
+    "plural": "i jogging",
+    "tr": "koşu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il bodybuilding",
+    "plural": "i bodybuilding",
+    "tr": "vücut geliştirme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il fitness",
+    "plural": "i fitness",
+    "tr": "fitness",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il pilates",
+    "plural": "i pilates",
+    "tr": "pilates",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il crossfit",
+    "plural": "i crossfit",
+    "tr": "crossfit",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il trekking",
+    "plural": "i trekking",
+    "tr": "doğa yürüyüşü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo skating",
+    "plural": "gli skating",
+    "tr": "paten",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo snowboard",
+    "plural": "gli snowboard",
+    "tr": "snowboard",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo surf",
+    "plural": "gli surf",
+    "tr": "sörf",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo windsurf",
+    "plural": "gli windsurf",
+    "tr": "rüzgâr sörfü",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo kitesurf",
+    "plural": "gli kitesurf",
+    "tr": "kite sörf",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo paintball",
+    "plural": "gli paintball",
+    "tr": "paintball",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo baseball",
+    "plural": "gli baseball",
+    "tr": "beyzbol",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo softball",
+    "plural": "gli softball",
+    "tr": "softbol",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo football",
+    "plural": "gli football",
+    "tr": "Amerikan futbolu",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo badminton",
+    "plural": "gli badminton",
+    "tr": "badminton",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo squash",
+    "plural": "gli squash",
+    "tr": "squash",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo curling",
+    "plural": "gli curling",
+    "tr": "curling",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo hockey",
+    "plural": "gli hockey",
+    "tr": "hokey",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il toast",
+    "plural": "i toast",
+    "tr": "tost",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il club",
+    "plural": "i club",
+    "tr": "kulüp",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il pub",
+    "plural": "i pub",
+    "tr": "pub",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il bar",
+    "plural": "i bar",
+    "tr": "bar",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il grill",
+    "plural": "i grill",
+    "tr": "ızgara",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il brunch",
+    "plural": "i brunch",
+    "tr": "branç",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il fast-food",
+    "plural": "i fast-food",
+    "tr": "fast food",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il take-away",
+    "plural": "i take-away",
+    "tr": "paket servis",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il delivery",
+    "plural": "i delivery",
+    "tr": "teslimat",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il check-in",
+    "plural": "i check-in",
+    "tr": "giriş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il check-out",
+    "plural": "i check-out",
+    "tr": "çıkış",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il duty-free",
+    "plural": "i duty-free",
+    "tr": "gümrüksüz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo staff",
+    "plural": "gli staff",
+    "tr": "ekip kadro",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "lo smartworking",
+    "plural": "gli smartworking",
+    "tr": "uzaktan çalışma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il poeta",
+    "plural": "i poeti",
+    "tr": "şair",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il profeta",
+    "plural": "i profeti",
+    "tr": "peygamber",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il pianeta",
+    "plural": "i pianeti",
+    "tr": "gezegen",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il collega",
+    "plural": "i colleghi",
+    "tr": "meslektaş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il monarca",
+    "plural": "i monarchi",
+    "tr": "monark",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il patriarca",
+    "plural": "i patriarchi",
+    "tr": "patrik",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il pirata",
+    "plural": "i pirati",
+    "tr": "korsan",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'atleta",
+    "plural": "gli atleti",
+    "tr": "atlet (erkek)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'obbligo",
+    "plural": "gli obblighi",
+    "tr": "yükümlülük",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "lo stratega",
+    "plural": "gli strateghi",
+    "tr": "stratejist",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il tempio",
+    "plural": "i templi",
+    "tr": "tapınak",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "l'uomo",
+    "plural": "gli uomini",
+    "tr": "adam",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il dio",
+    "plural": "gli dei",
+    "tr": "tanrı",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il bue",
+    "plural": "i buoi",
+    "tr": "öküz",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "irregolare"
+  },
+  {
+    "singular": "il meme",
+    "plural": "i meme",
+    "tr": "meme",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il selfie",
+    "plural": "i selfie",
+    "tr": "selfie",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il reel",
+    "plural": "i reel",
+    "tr": "reel",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "gli shorts",
+    "plural": "gli shorts",
+    "tr": "şort",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il derby",
+    "plural": "i derby",
+    "tr": "derbi",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il fair-play",
+    "plural": "i fair-play",
+    "tr": "fair play",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il time-out",
+    "plural": "i time-out",
+    "tr": "mola (time-out)",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il match",
+    "plural": "i match",
+    "tr": "maç",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il set",
+    "plural": "i set",
+    "tr": "set",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il record",
+    "plural": "i record",
+    "tr": "rekor",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "la modernità",
+    "plural": "le modernità",
+    "tr": "modernlik",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la creatività",
+    "plural": "le creatività",
+    "tr": "yaratıcılık",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la produttività",
+    "plural": "le produttività",
+    "tr": "verimlilik",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la priorità",
+    "plural": "le priorità",
+    "tr": "öncelik",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la pubblicità",
+    "plural": "le pubblicità",
+    "tr": "reklam",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la realtà",
+    "plural": "le realtà",
+    "tr": "gerçeklik",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "la spiritualità",
+    "plural": "le spiritualità",
+    "tr": "maneviyat",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "l'università",
+    "plural": "le università",
+    "tr": "üniversite",
+    "gender": "femminile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il bestseller",
+    "plural": "i bestseller",
+    "tr": "bestseller",
+    "gender": "maschile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il bestseller",
+    "plural": "i bestseller",
+    "tr": "çok satan kitap",
+    "gender": "maschile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il boom",
+    "plural": "i boom",
+    "tr": "patlama (trend)",
+    "gender": "maschile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il boom",
+    "plural": "i boom",
+    "tr": "patlama",
+    "gender": "maschile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il boom",
+    "plural": "i boom",
+    "tr": "ekonomik patlama",
+    "gender": "maschile",
+    "number": "",
+    "variation": "variabile"
+  },
+  {
+    "singular": "il concept-store",
+    "plural": "i concept-store",
+    "tr": "kavram mağazası",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il coworking",
+    "plural": "i coworking",
+    "tr": "ortak çalışma",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il curriculum",
+    "plural": "i curriculum",
+    "tr": "özgeçmiş",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il referendum",
+    "plural": "i referendum",
+    "tr": "referandum",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  },
+  {
+    "singular": "il forum",
+    "plural": "i forum",
+    "tr": "forum",
+    "gender": "maschile",
+    "number": "singolare",
+    "variation": "invariabile"
+  }
+]

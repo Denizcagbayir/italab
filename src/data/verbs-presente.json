@@ -1,0 +1,4244 @@
+[
+  {
+    "lemma": "parlare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "parlo",
+    "tr": "konuşmak"
+  },
+  {
+    "lemma": "parlare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "parli",
+    "tr": ""
+  },
+  {
+    "lemma": "parlare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "parla",
+    "tr": ""
+  },
+  {
+    "lemma": "parlare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "parliamo",
+    "tr": ""
+  },
+  {
+    "lemma": "parlare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "parlate",
+    "tr": ""
+  },
+  {
+    "lemma": "parlare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "parlano",
+    "tr": ""
+  },
+  {
+    "lemma": "mangiare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "mangio",
+    "tr": "yemek yemek"
+  },
+  {
+    "lemma": "mangiare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "mangii",
+    "tr": ""
+  },
+  {
+    "lemma": "mangiare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "mangia",
+    "tr": ""
+  },
+  {
+    "lemma": "mangiare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "mangiiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "mangiare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "mangiate",
+    "tr": ""
+  },
+  {
+    "lemma": "mangiare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "mangiano",
+    "tr": ""
+  },
+  {
+    "lemma": "ascoltare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "ascolto",
+    "tr": "dinlemek"
+  },
+  {
+    "lemma": "ascoltare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "ascolti",
+    "tr": ""
+  },
+  {
+    "lemma": "ascoltare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "ascolta",
+    "tr": ""
+  },
+  {
+    "lemma": "ascoltare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "ascoltiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "ascoltare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "ascoltate",
+    "tr": ""
+  },
+  {
+    "lemma": "ascoltare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "ascoltano",
+    "tr": ""
+  },
+  {
+    "lemma": "guardare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "guardo",
+    "tr": "izlemek, bakmak"
+  },
+  {
+    "lemma": "guardare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "guardi",
+    "tr": ""
+  },
+  {
+    "lemma": "guardare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "guarda",
+    "tr": ""
+  },
+  {
+    "lemma": "guardare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "guardiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "guardare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "guardate",
+    "tr": ""
+  },
+  {
+    "lemma": "guardare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "guardano",
+    "tr": ""
+  },
+  {
+    "lemma": "abitare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "abito",
+    "tr": "yaş amak"
+  },
+  {
+    "lemma": "abitare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "abiti",
+    "tr": ""
+  },
+  {
+    "lemma": "abitare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "abita",
+    "tr": ""
+  },
+  {
+    "lemma": "abitare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "abitiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "abitare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "abitate",
+    "tr": ""
+  },
+  {
+    "lemma": "abitare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "abitano",
+    "tr": ""
+  },
+  {
+    "lemma": "studiare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "studio",
+    "tr": "ders çalı ş mak"
+  },
+  {
+    "lemma": "studiare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "studii",
+    "tr": ""
+  },
+  {
+    "lemma": "studiare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "studia",
+    "tr": ""
+  },
+  {
+    "lemma": "studiare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "studiiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "studiare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "studiate",
+    "tr": ""
+  },
+  {
+    "lemma": "studiare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "studiano",
+    "tr": ""
+  },
+  {
+    "lemma": "arrivare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "arrivo",
+    "tr": "varmak"
+  },
+  {
+    "lemma": "arrivare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "arrivi",
+    "tr": ""
+  },
+  {
+    "lemma": "arrivare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "arriva",
+    "tr": ""
+  },
+  {
+    "lemma": "arrivare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "arriviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "arrivare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "arrivate",
+    "tr": ""
+  },
+  {
+    "lemma": "arrivare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "arrivano",
+    "tr": ""
+  },
+  {
+    "lemma": "lavorare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "lavoro",
+    "tr": "çalı ş mak"
+  },
+  {
+    "lemma": "lavorare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "lavori",
+    "tr": ""
+  },
+  {
+    "lemma": "lavorare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "lavora",
+    "tr": ""
+  },
+  {
+    "lemma": "lavorare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "lavoriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "lavorare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "lavorate",
+    "tr": ""
+  },
+  {
+    "lemma": "lavorare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "lavorano",
+    "tr": ""
+  },
+  {
+    "lemma": "cantare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "canto",
+    "tr": "ş arkı söylemek"
+  },
+  {
+    "lemma": "cantare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "canti",
+    "tr": ""
+  },
+  {
+    "lemma": "cantare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "canta",
+    "tr": ""
+  },
+  {
+    "lemma": "cantare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "cantiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "cantare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "cantate",
+    "tr": ""
+  },
+  {
+    "lemma": "cantare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "cantano",
+    "tr": ""
+  },
+  {
+    "lemma": "camminare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "cammino",
+    "tr": "yürümek"
+  },
+  {
+    "lemma": "camminare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "cammini",
+    "tr": ""
+  },
+  {
+    "lemma": "camminare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "cammina",
+    "tr": ""
+  },
+  {
+    "lemma": "camminare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "camminiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "camminare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "camminate",
+    "tr": ""
+  },
+  {
+    "lemma": "camminare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "camminano",
+    "tr": ""
+  },
+  {
+    "lemma": "comprare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "compro",
+    "tr": "satı n almak"
+  },
+  {
+    "lemma": "comprare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "compri",
+    "tr": ""
+  },
+  {
+    "lemma": "comprare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "compra",
+    "tr": ""
+  },
+  {
+    "lemma": "comprare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "compriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "comprare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "comprate",
+    "tr": ""
+  },
+  {
+    "lemma": "comprare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "comprano",
+    "tr": ""
+  },
+  {
+    "lemma": "entrare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "entro",
+    "tr": "girmek"
+  },
+  {
+    "lemma": "entrare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "entri",
+    "tr": ""
+  },
+  {
+    "lemma": "entrare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "entra",
+    "tr": ""
+  },
+  {
+    "lemma": "entrare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "entriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "entrare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "entrate",
+    "tr": ""
+  },
+  {
+    "lemma": "entrare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "entrano",
+    "tr": ""
+  },
+  {
+    "lemma": "trovare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "trovo",
+    "tr": "bulmak"
+  },
+  {
+    "lemma": "trovare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "trovi",
+    "tr": ""
+  },
+  {
+    "lemma": "trovare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "trova",
+    "tr": ""
+  },
+  {
+    "lemma": "trovare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "troviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "trovare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "trovate",
+    "tr": ""
+  },
+  {
+    "lemma": "trovare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "trovano",
+    "tr": ""
+  },
+  {
+    "lemma": "telefonare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "telefono",
+    "tr": "telefon etmek"
+  },
+  {
+    "lemma": "telefonare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "telefoni",
+    "tr": ""
+  },
+  {
+    "lemma": "telefonare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "telefona",
+    "tr": ""
+  },
+  {
+    "lemma": "telefonare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "telefoniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "telefonare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "telefonate",
+    "tr": ""
+  },
+  {
+    "lemma": "telefonare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "telefonano",
+    "tr": ""
+  },
+  {
+    "lemma": "visitare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "visito",
+    "tr": "ziyaret etmek"
+  },
+  {
+    "lemma": "visitare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "visiti",
+    "tr": ""
+  },
+  {
+    "lemma": "visitare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "visita",
+    "tr": ""
+  },
+  {
+    "lemma": "visitare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "visitiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "visitare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "visitate",
+    "tr": ""
+  },
+  {
+    "lemma": "visitare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "visitano",
+    "tr": ""
+  },
+  {
+    "lemma": "viaggiare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "viaggio",
+    "tr": "seyahat etmek"
+  },
+  {
+    "lemma": "viaggiare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "viaggii",
+    "tr": ""
+  },
+  {
+    "lemma": "viaggiare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "viaggia",
+    "tr": ""
+  },
+  {
+    "lemma": "viaggiare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "viaggiiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "viaggiare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "viaggiate",
+    "tr": ""
+  },
+  {
+    "lemma": "viaggiare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "viaggiano",
+    "tr": ""
+  },
+  {
+    "lemma": "imparare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "imparo",
+    "tr": "öğ renmek"
+  },
+  {
+    "lemma": "imparare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "impari",
+    "tr": ""
+  },
+  {
+    "lemma": "imparare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "impara",
+    "tr": ""
+  },
+  {
+    "lemma": "imparare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "impariamo",
+    "tr": ""
+  },
+  {
+    "lemma": "imparare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "imparate",
+    "tr": ""
+  },
+  {
+    "lemma": "imparare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "imparano",
+    "tr": ""
+  },
+  {
+    "lemma": "aiutare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "aiuto",
+    "tr": "yardı m etmek"
+  },
+  {
+    "lemma": "aiutare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "aiuti",
+    "tr": ""
+  },
+  {
+    "lemma": "aiutare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "aiuta",
+    "tr": ""
+  },
+  {
+    "lemma": "aiutare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "aiutiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "aiutare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "aiutate",
+    "tr": ""
+  },
+  {
+    "lemma": "aiutare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "aiutano",
+    "tr": ""
+  },
+  {
+    "lemma": "pensare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "penso",
+    "tr": "düş ünmek"
+  },
+  {
+    "lemma": "pensare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "pensi",
+    "tr": ""
+  },
+  {
+    "lemma": "pensare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "pensa",
+    "tr": ""
+  },
+  {
+    "lemma": "pensare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "pensiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "pensare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "pensate",
+    "tr": ""
+  },
+  {
+    "lemma": "pensare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "pensano",
+    "tr": ""
+  },
+  {
+    "lemma": "chiamare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "chiamo",
+    "tr": "aramak, çağ ı rmak"
+  },
+  {
+    "lemma": "chiamare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "chiami",
+    "tr": ""
+  },
+  {
+    "lemma": "chiamare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "chiama",
+    "tr": ""
+  },
+  {
+    "lemma": "chiamare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "chiamiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "chiamare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "chiamate",
+    "tr": ""
+  },
+  {
+    "lemma": "chiamare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "chiamano",
+    "tr": ""
+  },
+  {
+    "lemma": "parcheggiare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "parcheggio",
+    "tr": "park etmek"
+  },
+  {
+    "lemma": "parcheggiare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "parcheggii",
+    "tr": ""
+  },
+  {
+    "lemma": "parcheggiare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "parcheggia",
+    "tr": ""
+  },
+  {
+    "lemma": "parcheggiare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "parcheggiiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "parcheggiare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "parcheggiate",
+    "tr": ""
+  },
+  {
+    "lemma": "parcheggiare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "parcheggiano",
+    "tr": ""
+  },
+  {
+    "lemma": "preparare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "preparo",
+    "tr": "hazı rlamak"
+  },
+  {
+    "lemma": "preparare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "prepari",
+    "tr": ""
+  },
+  {
+    "lemma": "preparare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "prepara",
+    "tr": ""
+  },
+  {
+    "lemma": "preparare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "prepariamo",
+    "tr": ""
+  },
+  {
+    "lemma": "preparare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "preparate",
+    "tr": ""
+  },
+  {
+    "lemma": "preparare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "preparano",
+    "tr": ""
+  },
+  {
+    "lemma": "suonare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "suono",
+    "tr": "çalmak (müzik)"
+  },
+  {
+    "lemma": "suonare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "suoni",
+    "tr": ""
+  },
+  {
+    "lemma": "suonare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "suona",
+    "tr": ""
+  },
+  {
+    "lemma": "suonare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "suoniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "suonare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "suonate",
+    "tr": ""
+  },
+  {
+    "lemma": "suonare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "suonano",
+    "tr": ""
+  },
+  {
+    "lemma": "tornare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "torno",
+    "tr": "geri dönmek"
+  },
+  {
+    "lemma": "tornare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "torni",
+    "tr": ""
+  },
+  {
+    "lemma": "tornare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "torna",
+    "tr": ""
+  },
+  {
+    "lemma": "tornare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "torniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "tornare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "tornate",
+    "tr": ""
+  },
+  {
+    "lemma": "tornare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "tornano",
+    "tr": ""
+  },
+  {
+    "lemma": "portare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "porto",
+    "tr": "taş ı mak, getirmek"
+  },
+  {
+    "lemma": "portare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "porti",
+    "tr": ""
+  },
+  {
+    "lemma": "portare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "porta",
+    "tr": ""
+  },
+  {
+    "lemma": "portare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "portiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "portare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "portate",
+    "tr": ""
+  },
+  {
+    "lemma": "portare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "portano",
+    "tr": ""
+  },
+  {
+    "lemma": "aspettare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "aspetto",
+    "tr": "beklemek"
+  },
+  {
+    "lemma": "aspettare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "aspetti",
+    "tr": ""
+  },
+  {
+    "lemma": "aspettare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "aspetta",
+    "tr": ""
+  },
+  {
+    "lemma": "aspettare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "aspettiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "aspettare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "aspettate",
+    "tr": ""
+  },
+  {
+    "lemma": "aspettare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "aspettano",
+    "tr": ""
+  },
+  {
+    "lemma": "lavare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "lavo",
+    "tr": "yı kamak"
+  },
+  {
+    "lemma": "lavare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "lavi",
+    "tr": ""
+  },
+  {
+    "lemma": "lavare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "lava",
+    "tr": ""
+  },
+  {
+    "lemma": "lavare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "laviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "lavare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "lavate",
+    "tr": ""
+  },
+  {
+    "lemma": "lavare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "lavano",
+    "tr": ""
+  },
+  {
+    "lemma": "nuotare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "nuoto",
+    "tr": "yüzmek"
+  },
+  {
+    "lemma": "nuotare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "nuoti",
+    "tr": ""
+  },
+  {
+    "lemma": "nuotare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "nuota",
+    "tr": ""
+  },
+  {
+    "lemma": "nuotare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "nuotiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "nuotare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "nuotate",
+    "tr": ""
+  },
+  {
+    "lemma": "nuotare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "nuotano",
+    "tr": ""
+  },
+  {
+    "lemma": "sognare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "sogno",
+    "tr": "hayal etmek"
+  },
+  {
+    "lemma": "sognare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "sogni",
+    "tr": ""
+  },
+  {
+    "lemma": "sognare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "sogna",
+    "tr": ""
+  },
+  {
+    "lemma": "sognare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "sogniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "sognare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "sognate",
+    "tr": ""
+  },
+  {
+    "lemma": "sognare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "sognano",
+    "tr": ""
+  },
+  {
+    "lemma": "ballare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "ballo",
+    "tr": "dans etmek"
+  },
+  {
+    "lemma": "ballare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "balli",
+    "tr": ""
+  },
+  {
+    "lemma": "ballare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "balla",
+    "tr": ""
+  },
+  {
+    "lemma": "ballare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "balliamo",
+    "tr": ""
+  },
+  {
+    "lemma": "ballare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "ballate",
+    "tr": ""
+  },
+  {
+    "lemma": "ballare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "ballano",
+    "tr": ""
+  },
+  {
+    "lemma": "cucinare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "cucino",
+    "tr": "yemek piş irmek"
+  },
+  {
+    "lemma": "cucinare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "cucini",
+    "tr": ""
+  },
+  {
+    "lemma": "cucinare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "cucina",
+    "tr": ""
+  },
+  {
+    "lemma": "cucinare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "cuciniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "cucinare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "cucinate",
+    "tr": ""
+  },
+  {
+    "lemma": "cucinare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "cucinano",
+    "tr": ""
+  },
+  {
+    "lemma": "usare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "uso",
+    "tr": "kullanmak"
+  },
+  {
+    "lemma": "usare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "usi",
+    "tr": ""
+  },
+  {
+    "lemma": "usare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "usa",
+    "tr": ""
+  },
+  {
+    "lemma": "usare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "usiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "usare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "usate",
+    "tr": ""
+  },
+  {
+    "lemma": "usare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "usano",
+    "tr": ""
+  },
+  {
+    "lemma": "insegnare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "insegno",
+    "tr": "öğ retmek"
+  },
+  {
+    "lemma": "insegnare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "insegni",
+    "tr": ""
+  },
+  {
+    "lemma": "insegnare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "insegna",
+    "tr": ""
+  },
+  {
+    "lemma": "insegnare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "insegniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "insegnare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "insegnate",
+    "tr": ""
+  },
+  {
+    "lemma": "insegnare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "insegnano",
+    "tr": ""
+  },
+  {
+    "lemma": "restare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "resto",
+    "tr": "kalmak"
+  },
+  {
+    "lemma": "restare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "resti",
+    "tr": ""
+  },
+  {
+    "lemma": "restare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "resta",
+    "tr": ""
+  },
+  {
+    "lemma": "restare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "restiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "restare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "restate",
+    "tr": ""
+  },
+  {
+    "lemma": "restare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "restano",
+    "tr": ""
+  },
+  {
+    "lemma": "sperare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "spero",
+    "tr": "ummak"
+  },
+  {
+    "lemma": "sperare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "speri",
+    "tr": ""
+  },
+  {
+    "lemma": "sperare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "spera",
+    "tr": ""
+  },
+  {
+    "lemma": "sperare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "speriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "sperare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "sperate",
+    "tr": ""
+  },
+  {
+    "lemma": "sperare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "sperano",
+    "tr": ""
+  },
+  {
+    "lemma": "mandare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "mando",
+    "tr": "göndermek"
+  },
+  {
+    "lemma": "mandare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "mandi",
+    "tr": ""
+  },
+  {
+    "lemma": "mandare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "manda",
+    "tr": ""
+  },
+  {
+    "lemma": "mandare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "mandiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "mandare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "mandate",
+    "tr": ""
+  },
+  {
+    "lemma": "mandare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "mandano",
+    "tr": ""
+  },
+  {
+    "lemma": "provare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "provo",
+    "tr": "denemek"
+  },
+  {
+    "lemma": "provare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "provi",
+    "tr": ""
+  },
+  {
+    "lemma": "provare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "prova",
+    "tr": ""
+  },
+  {
+    "lemma": "provare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "proviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "provare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "provate",
+    "tr": ""
+  },
+  {
+    "lemma": "provare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "provano",
+    "tr": ""
+  },
+  {
+    "lemma": "disegnare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "disegno",
+    "tr": "çizmek"
+  },
+  {
+    "lemma": "disegnare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "disegni",
+    "tr": ""
+  },
+  {
+    "lemma": "disegnare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "disegna",
+    "tr": ""
+  },
+  {
+    "lemma": "disegnare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "disegniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "disegnare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "disegnate",
+    "tr": ""
+  },
+  {
+    "lemma": "disegnare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "disegnano",
+    "tr": ""
+  },
+  {
+    "lemma": "cambiare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "cambio",
+    "tr": "değ iş tirmek"
+  },
+  {
+    "lemma": "cambiare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "cambii",
+    "tr": ""
+  },
+  {
+    "lemma": "cambiare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "cambia",
+    "tr": ""
+  },
+  {
+    "lemma": "cambiare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "cambiiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "cambiare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "cambiate",
+    "tr": ""
+  },
+  {
+    "lemma": "cambiare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "cambiano",
+    "tr": ""
+  },
+  {
+    "lemma": "tagliare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "taglio",
+    "tr": "kesmek"
+  },
+  {
+    "lemma": "tagliare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "taglii",
+    "tr": ""
+  },
+  {
+    "lemma": "tagliare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "taglia",
+    "tr": ""
+  },
+  {
+    "lemma": "tagliare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "tagliiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "tagliare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "tagliate",
+    "tr": ""
+  },
+  {
+    "lemma": "tagliare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "tagliano",
+    "tr": ""
+  },
+  {
+    "lemma": "credere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "credo",
+    "tr": "inanmak"
+  },
+  {
+    "lemma": "credere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "credi",
+    "tr": ""
+  },
+  {
+    "lemma": "credere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "crede",
+    "tr": ""
+  },
+  {
+    "lemma": "credere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "crediamo",
+    "tr": ""
+  },
+  {
+    "lemma": "credere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "credete",
+    "tr": ""
+  },
+  {
+    "lemma": "credere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "credono",
+    "tr": ""
+  },
+  {
+    "lemma": "leggere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "leggo",
+    "tr": "okumak"
+  },
+  {
+    "lemma": "leggere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "leggi",
+    "tr": ""
+  },
+  {
+    "lemma": "leggere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "legge",
+    "tr": ""
+  },
+  {
+    "lemma": "leggere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "leggiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "leggere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "leggete",
+    "tr": ""
+  },
+  {
+    "lemma": "leggere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "leggono",
+    "tr": ""
+  },
+  {
+    "lemma": "scrivere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "scrivo",
+    "tr": "yazmak"
+  },
+  {
+    "lemma": "scrivere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "scrivi",
+    "tr": ""
+  },
+  {
+    "lemma": "scrivere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "scrive",
+    "tr": ""
+  },
+  {
+    "lemma": "scrivere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "scriviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "scrivere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "scrivete",
+    "tr": ""
+  },
+  {
+    "lemma": "scrivere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "scrivono",
+    "tr": ""
+  },
+  {
+    "lemma": "prendere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "prendo",
+    "tr": "almak"
+  },
+  {
+    "lemma": "prendere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "prendi",
+    "tr": ""
+  },
+  {
+    "lemma": "prendere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "prende",
+    "tr": ""
+  },
+  {
+    "lemma": "prendere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "prendiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "prendere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "prendete",
+    "tr": ""
+  },
+  {
+    "lemma": "prendere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "prendono",
+    "tr": ""
+  },
+  {
+    "lemma": "vedere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "vedo",
+    "tr": "görmek"
+  },
+  {
+    "lemma": "vedere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "vedi",
+    "tr": ""
+  },
+  {
+    "lemma": "vedere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "vede",
+    "tr": ""
+  },
+  {
+    "lemma": "vedere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "vediamo",
+    "tr": ""
+  },
+  {
+    "lemma": "vedere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "vedete",
+    "tr": ""
+  },
+  {
+    "lemma": "vedere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "vedono",
+    "tr": ""
+  },
+  {
+    "lemma": "correre",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "corro",
+    "tr": "koş mak"
+  },
+  {
+    "lemma": "correre",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "corri",
+    "tr": ""
+  },
+  {
+    "lemma": "correre",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "corre",
+    "tr": ""
+  },
+  {
+    "lemma": "correre",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "corriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "correre",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "correte",
+    "tr": ""
+  },
+  {
+    "lemma": "correre",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "corrono",
+    "tr": ""
+  },
+  {
+    "lemma": "chiudere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "chiudo",
+    "tr": "kapatmak"
+  },
+  {
+    "lemma": "chiudere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "chiudi",
+    "tr": ""
+  },
+  {
+    "lemma": "chiudere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "chiude",
+    "tr": ""
+  },
+  {
+    "lemma": "chiudere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "chiudiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "chiudere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "chiudete",
+    "tr": ""
+  },
+  {
+    "lemma": "chiudere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "chiudono",
+    "tr": ""
+  },
+  {
+    "lemma": "mettere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "metto",
+    "tr": "koymak"
+  },
+  {
+    "lemma": "mettere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "metti",
+    "tr": ""
+  },
+  {
+    "lemma": "mettere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "mette",
+    "tr": ""
+  },
+  {
+    "lemma": "mettere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "mettiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "mettere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "mettete",
+    "tr": ""
+  },
+  {
+    "lemma": "mettere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "mettono",
+    "tr": ""
+  },
+  {
+    "lemma": "conoscere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "conosco",
+    "tr": "tanı mak"
+  },
+  {
+    "lemma": "conoscere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "conosci",
+    "tr": ""
+  },
+  {
+    "lemma": "conoscere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "conosce",
+    "tr": ""
+  },
+  {
+    "lemma": "conoscere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "conosciamo",
+    "tr": ""
+  },
+  {
+    "lemma": "conoscere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "conoscete",
+    "tr": ""
+  },
+  {
+    "lemma": "conoscere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "conoscono",
+    "tr": ""
+  },
+  {
+    "lemma": "ricevere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "ricevo",
+    "tr": "almak (mektup vb.)"
+  },
+  {
+    "lemma": "ricevere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "ricevi",
+    "tr": ""
+  },
+  {
+    "lemma": "ricevere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "riceve",
+    "tr": ""
+  },
+  {
+    "lemma": "ricevere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "riceviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "ricevere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "ricevete",
+    "tr": ""
+  },
+  {
+    "lemma": "ricevere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "ricevono",
+    "tr": ""
+  },
+  {
+    "lemma": "ridere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "rido",
+    "tr": "gülmek"
+  },
+  {
+    "lemma": "ridere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "ridi",
+    "tr": ""
+  },
+  {
+    "lemma": "ridere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "ride",
+    "tr": ""
+  },
+  {
+    "lemma": "ridere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "ridiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "ridere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "ridete",
+    "tr": ""
+  },
+  {
+    "lemma": "ridere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "ridono",
+    "tr": ""
+  },
+  {
+    "lemma": "vivere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "vivo",
+    "tr": "yaş amak"
+  },
+  {
+    "lemma": "vivere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "vivi",
+    "tr": ""
+  },
+  {
+    "lemma": "vivere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "vive",
+    "tr": ""
+  },
+  {
+    "lemma": "vivere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "viviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "vivere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "vivete",
+    "tr": ""
+  },
+  {
+    "lemma": "vivere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "vivono",
+    "tr": ""
+  },
+  {
+    "lemma": "vendere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "vendo",
+    "tr": "satmak"
+  },
+  {
+    "lemma": "vendere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "vendi",
+    "tr": ""
+  },
+  {
+    "lemma": "vendere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "vende",
+    "tr": ""
+  },
+  {
+    "lemma": "vendere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "vendiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "vendere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "vendete",
+    "tr": ""
+  },
+  {
+    "lemma": "vendere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "vendono",
+    "tr": ""
+  },
+  {
+    "lemma": "spendere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "spendo",
+    "tr": "harcamak"
+  },
+  {
+    "lemma": "spendere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "spendi",
+    "tr": ""
+  },
+  {
+    "lemma": "spendere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "spende",
+    "tr": ""
+  },
+  {
+    "lemma": "spendere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "spendiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "spendere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "spendete",
+    "tr": ""
+  },
+  {
+    "lemma": "spendere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "spendono",
+    "tr": ""
+  },
+  {
+    "lemma": "decidere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "decido",
+    "tr": "karar vermek"
+  },
+  {
+    "lemma": "decidere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "decidi",
+    "tr": ""
+  },
+  {
+    "lemma": "decidere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "decide",
+    "tr": ""
+  },
+  {
+    "lemma": "decidere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "decidiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "decidere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "decidete",
+    "tr": ""
+  },
+  {
+    "lemma": "decidere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "decidono",
+    "tr": ""
+  },
+  {
+    "lemma": "chiedere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "chiedo",
+    "tr": "istemek, sormak"
+  },
+  {
+    "lemma": "chiedere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "chiedi",
+    "tr": ""
+  },
+  {
+    "lemma": "chiedere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "chiede",
+    "tr": ""
+  },
+  {
+    "lemma": "chiedere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "chiediamo",
+    "tr": ""
+  },
+  {
+    "lemma": "chiedere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "chiedete",
+    "tr": ""
+  },
+  {
+    "lemma": "chiedere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "chiedono",
+    "tr": ""
+  },
+  {
+    "lemma": "scendere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "scendo",
+    "tr": "inmek"
+  },
+  {
+    "lemma": "scendere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "scendi",
+    "tr": ""
+  },
+  {
+    "lemma": "scendere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "scende",
+    "tr": ""
+  },
+  {
+    "lemma": "scendere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "scendiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "scendere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "scendete",
+    "tr": ""
+  },
+  {
+    "lemma": "scendere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "scendono",
+    "tr": ""
+  },
+  {
+    "lemma": "rispondere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "rispondo",
+    "tr": "cevap vermek"
+  },
+  {
+    "lemma": "rispondere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "rispondi",
+    "tr": ""
+  },
+  {
+    "lemma": "rispondere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "risponde",
+    "tr": ""
+  },
+  {
+    "lemma": "rispondere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "rispondiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "rispondere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "rispondete",
+    "tr": ""
+  },
+  {
+    "lemma": "rispondere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "rispondono",
+    "tr": ""
+  },
+  {
+    "lemma": "perdere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "perdo",
+    "tr": "kaybetmek"
+  },
+  {
+    "lemma": "perdere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "perdi",
+    "tr": ""
+  },
+  {
+    "lemma": "perdere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "perde",
+    "tr": ""
+  },
+  {
+    "lemma": "perdere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "perdiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "perdere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "perdete",
+    "tr": ""
+  },
+  {
+    "lemma": "perdere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "perdono",
+    "tr": ""
+  },
+  {
+    "lemma": "succedere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "succedo",
+    "tr": "olmak, gerçekleş mek"
+  },
+  {
+    "lemma": "succedere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "succedi",
+    "tr": ""
+  },
+  {
+    "lemma": "succedere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "succede",
+    "tr": ""
+  },
+  {
+    "lemma": "succedere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "succediamo",
+    "tr": ""
+  },
+  {
+    "lemma": "succedere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "succedete",
+    "tr": ""
+  },
+  {
+    "lemma": "succedere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "succedono",
+    "tr": ""
+  },
+  {
+    "lemma": "temere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "temo",
+    "tr": "korkmak"
+  },
+  {
+    "lemma": "temere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "temi",
+    "tr": ""
+  },
+  {
+    "lemma": "temere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "teme",
+    "tr": ""
+  },
+  {
+    "lemma": "temere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "temiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "temere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "temete",
+    "tr": ""
+  },
+  {
+    "lemma": "temere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "temono",
+    "tr": ""
+  },
+  {
+    "lemma": "dividere",
+    "conjugation": "-ere",
+    "person": "io",
+    "form": "divido",
+    "tr": "bölmek"
+  },
+  {
+    "lemma": "dividere",
+    "conjugation": "-ere",
+    "person": "tu",
+    "form": "dividi",
+    "tr": ""
+  },
+  {
+    "lemma": "dividere",
+    "conjugation": "-ere",
+    "person": "lui/lei",
+    "form": "divide",
+    "tr": ""
+  },
+  {
+    "lemma": "dividere",
+    "conjugation": "-ere",
+    "person": "noi",
+    "form": "dividiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "dividere",
+    "conjugation": "-ere",
+    "person": "voi",
+    "form": "dividete",
+    "tr": ""
+  },
+  {
+    "lemma": "dividere",
+    "conjugation": "-ere",
+    "person": "loro",
+    "form": "dividono",
+    "tr": ""
+  },
+  {
+    "lemma": "dormire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "dormo",
+    "tr": "uyumak"
+  },
+  {
+    "lemma": "dormire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "dormi",
+    "tr": ""
+  },
+  {
+    "lemma": "dormire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "dorme",
+    "tr": ""
+  },
+  {
+    "lemma": "dormire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "dormiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "dormire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "dormite",
+    "tr": ""
+  },
+  {
+    "lemma": "dormire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "dormono",
+    "tr": ""
+  },
+  {
+    "lemma": "sentire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "sento",
+    "tr": "duymak, hissetmek"
+  },
+  {
+    "lemma": "sentire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "senti",
+    "tr": ""
+  },
+  {
+    "lemma": "sentire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "sente",
+    "tr": ""
+  },
+  {
+    "lemma": "sentire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "sentiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "sentire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "sentite",
+    "tr": ""
+  },
+  {
+    "lemma": "sentire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "sentono",
+    "tr": ""
+  },
+  {
+    "lemma": "aprire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "apro",
+    "tr": "açmak"
+  },
+  {
+    "lemma": "aprire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "apri",
+    "tr": ""
+  },
+  {
+    "lemma": "aprire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "apre",
+    "tr": ""
+  },
+  {
+    "lemma": "aprire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "apriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "aprire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "aprite",
+    "tr": ""
+  },
+  {
+    "lemma": "aprire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "aprono",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "offro",
+    "tr": "teklif etmek"
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "offri",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "offre",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "offriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "offrite",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "offrono",
+    "tr": ""
+  },
+  {
+    "lemma": "partire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "parto",
+    "tr": "ayrı lmak"
+  },
+  {
+    "lemma": "partire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "parti",
+    "tr": ""
+  },
+  {
+    "lemma": "partire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "parte",
+    "tr": ""
+  },
+  {
+    "lemma": "partire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "partiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "partire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "partite",
+    "tr": ""
+  },
+  {
+    "lemma": "partire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "partono",
+    "tr": ""
+  },
+  {
+    "lemma": "seguire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "seguo",
+    "tr": "takip etmek"
+  },
+  {
+    "lemma": "seguire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "segui",
+    "tr": ""
+  },
+  {
+    "lemma": "seguire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "segue",
+    "tr": ""
+  },
+  {
+    "lemma": "seguire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "seguiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "seguire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "seguite",
+    "tr": ""
+  },
+  {
+    "lemma": "seguire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "seguono",
+    "tr": ""
+  },
+  {
+    "lemma": "servire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "servo",
+    "tr": "hizmet etmek, iş e yaramak"
+  },
+  {
+    "lemma": "servire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "servi",
+    "tr": ""
+  },
+  {
+    "lemma": "servire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "serve",
+    "tr": ""
+  },
+  {
+    "lemma": "servire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "serviamo",
+    "tr": ""
+  },
+  {
+    "lemma": "servire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "servite",
+    "tr": ""
+  },
+  {
+    "lemma": "servire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "servono",
+    "tr": ""
+  },
+  {
+    "lemma": "vestire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "vesto",
+    "tr": "giydirmek"
+  },
+  {
+    "lemma": "vestire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "vesti",
+    "tr": ""
+  },
+  {
+    "lemma": "vestire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "veste",
+    "tr": ""
+  },
+  {
+    "lemma": "vestire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "vestiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "vestire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "vestite",
+    "tr": ""
+  },
+  {
+    "lemma": "vestire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "vestono",
+    "tr": ""
+  },
+  {
+    "lemma": "coprire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "copro",
+    "tr": "örtmek"
+  },
+  {
+    "lemma": "coprire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "copri",
+    "tr": ""
+  },
+  {
+    "lemma": "coprire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "copre",
+    "tr": ""
+  },
+  {
+    "lemma": "coprire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "copriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "coprire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "coprite",
+    "tr": ""
+  },
+  {
+    "lemma": "coprire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "coprono",
+    "tr": ""
+  },
+  {
+    "lemma": "bollire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "bollo",
+    "tr": "kaynamak"
+  },
+  {
+    "lemma": "bollire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "bolli",
+    "tr": ""
+  },
+  {
+    "lemma": "bollire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "bolle",
+    "tr": ""
+  },
+  {
+    "lemma": "bollire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "bolliamo",
+    "tr": ""
+  },
+  {
+    "lemma": "bollire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "bollite",
+    "tr": ""
+  },
+  {
+    "lemma": "bollire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "bollono",
+    "tr": ""
+  },
+  {
+    "lemma": "fuggire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "fuggo",
+    "tr": "kaçmak"
+  },
+  {
+    "lemma": "fuggire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "fuggi",
+    "tr": ""
+  },
+  {
+    "lemma": "fuggire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "fugge",
+    "tr": ""
+  },
+  {
+    "lemma": "fuggire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "fuggiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "fuggire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "fuggite",
+    "tr": ""
+  },
+  {
+    "lemma": "fuggire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "fuggono",
+    "tr": ""
+  },
+  {
+    "lemma": "divertire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "diverto",
+    "tr": "eğ lendirmek"
+  },
+  {
+    "lemma": "divertire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "diverti",
+    "tr": ""
+  },
+  {
+    "lemma": "divertire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "diverte",
+    "tr": ""
+  },
+  {
+    "lemma": "divertire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "divertiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "divertire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "divertite",
+    "tr": ""
+  },
+  {
+    "lemma": "divertire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "divertono",
+    "tr": ""
+  },
+  {
+    "lemma": "scoprire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "scopro",
+    "tr": "keş fetmek"
+  },
+  {
+    "lemma": "scoprire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "scopri",
+    "tr": ""
+  },
+  {
+    "lemma": "scoprire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "scopre",
+    "tr": ""
+  },
+  {
+    "lemma": "scoprire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "scopriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "scoprire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "scoprite",
+    "tr": ""
+  },
+  {
+    "lemma": "scoprire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "scoprono",
+    "tr": ""
+  },
+  {
+    "lemma": "capire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "capisco",
+    "tr": "anlamak"
+  },
+  {
+    "lemma": "capire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "capisci",
+    "tr": ""
+  },
+  {
+    "lemma": "capire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "capisce",
+    "tr": ""
+  },
+  {
+    "lemma": "capire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "capiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "capire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "capite",
+    "tr": ""
+  },
+  {
+    "lemma": "capire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "capiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "finire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "finisco",
+    "tr": "bitirmek"
+  },
+  {
+    "lemma": "finire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "finisci",
+    "tr": ""
+  },
+  {
+    "lemma": "finire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "finisce",
+    "tr": ""
+  },
+  {
+    "lemma": "finire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "finiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "finire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "finite",
+    "tr": ""
+  },
+  {
+    "lemma": "finire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "finiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "preferire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "preferisco",
+    "tr": "tercih etmek"
+  },
+  {
+    "lemma": "preferire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "preferisci",
+    "tr": ""
+  },
+  {
+    "lemma": "preferire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "preferisce",
+    "tr": ""
+  },
+  {
+    "lemma": "preferire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "preferiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "preferire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "preferite",
+    "tr": ""
+  },
+  {
+    "lemma": "preferire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "preferiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "pulire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "pulisco",
+    "tr": "temizlemek"
+  },
+  {
+    "lemma": "pulire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "pulisci",
+    "tr": ""
+  },
+  {
+    "lemma": "pulire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "pulisce",
+    "tr": ""
+  },
+  {
+    "lemma": "pulire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "puliamo",
+    "tr": ""
+  },
+  {
+    "lemma": "pulire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "pulite",
+    "tr": ""
+  },
+  {
+    "lemma": "pulire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "puliscono",
+    "tr": ""
+  },
+  {
+    "lemma": "spedire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "spedisco",
+    "tr": "göndermek"
+  },
+  {
+    "lemma": "spedire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "spedisci",
+    "tr": ""
+  },
+  {
+    "lemma": "spedire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "spedisce",
+    "tr": ""
+  },
+  {
+    "lemma": "spedire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "spediamo",
+    "tr": ""
+  },
+  {
+    "lemma": "spedire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "spedite",
+    "tr": ""
+  },
+  {
+    "lemma": "spedire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "spediscono",
+    "tr": ""
+  },
+  {
+    "lemma": "costruire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "costruisco",
+    "tr": "inş a etmek"
+  },
+  {
+    "lemma": "costruire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "costruisci",
+    "tr": ""
+  },
+  {
+    "lemma": "costruire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "costruisce",
+    "tr": ""
+  },
+  {
+    "lemma": "costruire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "costruiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "costruire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "costruite",
+    "tr": ""
+  },
+  {
+    "lemma": "costruire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "costruiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "restituire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "restituisco",
+    "tr": "geri vermek"
+  },
+  {
+    "lemma": "restituire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "restituisci",
+    "tr": ""
+  },
+  {
+    "lemma": "restituire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "restituisce",
+    "tr": ""
+  },
+  {
+    "lemma": "restituire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "restituiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "restituire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "restituite",
+    "tr": ""
+  },
+  {
+    "lemma": "restituire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "restituiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "unire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "unisco",
+    "tr": "birleş tirmek"
+  },
+  {
+    "lemma": "unire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "unisci",
+    "tr": ""
+  },
+  {
+    "lemma": "unire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "unisce",
+    "tr": ""
+  },
+  {
+    "lemma": "unire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "uniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "unire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "unite",
+    "tr": ""
+  },
+  {
+    "lemma": "unire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "uniscono",
+    "tr": ""
+  },
+  {
+    "lemma": "sostituire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "sostituisco",
+    "tr": "yerine koymak"
+  },
+  {
+    "lemma": "sostituire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "sostituisci",
+    "tr": ""
+  },
+  {
+    "lemma": "sostituire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "sostituisce",
+    "tr": ""
+  },
+  {
+    "lemma": "sostituire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "sostituiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "sostituire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "sostituite",
+    "tr": ""
+  },
+  {
+    "lemma": "sostituire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "sostituiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "fornire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "fornisco",
+    "tr": "sağ lamak"
+  },
+  {
+    "lemma": "fornire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "fornisci",
+    "tr": ""
+  },
+  {
+    "lemma": "fornire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "fornisce",
+    "tr": ""
+  },
+  {
+    "lemma": "fornire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "forniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "fornire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "fornite",
+    "tr": ""
+  },
+  {
+    "lemma": "fornire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "forniscono",
+    "tr": ""
+  },
+  {
+    "lemma": "obbedire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "obbedisco",
+    "tr": "itaat etmek"
+  },
+  {
+    "lemma": "obbedire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "obbedisci",
+    "tr": ""
+  },
+  {
+    "lemma": "obbedire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "obbedisce",
+    "tr": ""
+  },
+  {
+    "lemma": "obbedire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "obbediamo",
+    "tr": ""
+  },
+  {
+    "lemma": "obbedire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "obbedite",
+    "tr": ""
+  },
+  {
+    "lemma": "obbedire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "obbediscono",
+    "tr": ""
+  },
+  {
+    "lemma": "colpire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "colpisco",
+    "tr": "vurmak"
+  },
+  {
+    "lemma": "colpire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "colpisci",
+    "tr": ""
+  },
+  {
+    "lemma": "colpire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "colpisce",
+    "tr": ""
+  },
+  {
+    "lemma": "colpire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "colpiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "colpire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "colpite",
+    "tr": ""
+  },
+  {
+    "lemma": "colpire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "colpiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "proibire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "proibisco",
+    "tr": "yasaklamak"
+  },
+  {
+    "lemma": "proibire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "proibisci",
+    "tr": ""
+  },
+  {
+    "lemma": "proibire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "proibisce",
+    "tr": ""
+  },
+  {
+    "lemma": "proibire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "proibiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "proibire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "proibite",
+    "tr": ""
+  },
+  {
+    "lemma": "proibire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "proibiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "punire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "punisco",
+    "tr": "cezalandı rmak"
+  },
+  {
+    "lemma": "punire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "punisci",
+    "tr": ""
+  },
+  {
+    "lemma": "punire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "punisce",
+    "tr": ""
+  },
+  {
+    "lemma": "punire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "puniamo",
+    "tr": ""
+  },
+  {
+    "lemma": "punire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "punite",
+    "tr": ""
+  },
+  {
+    "lemma": "punire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "puniscono",
+    "tr": ""
+  },
+  {
+    "lemma": "contribuire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "contribuisco",
+    "tr": "katkı da bulunmak"
+  },
+  {
+    "lemma": "contribuire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "contribuisci",
+    "tr": ""
+  },
+  {
+    "lemma": "contribuire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "contribuisce",
+    "tr": ""
+  },
+  {
+    "lemma": "contribuire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "contribuiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "contribuire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "contribuite",
+    "tr": ""
+  },
+  {
+    "lemma": "contribuire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "contribuiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "distribuire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "distribuisco",
+    "tr": "dağ ı tmak"
+  },
+  {
+    "lemma": "distribuire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "distribuisci",
+    "tr": ""
+  },
+  {
+    "lemma": "distribuire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "distribuisce",
+    "tr": ""
+  },
+  {
+    "lemma": "distribuire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "distribuiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "distribuire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "distribuite",
+    "tr": ""
+  },
+  {
+    "lemma": "distribuire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "distribuiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "offrisco",
+    "tr": "sunmak"
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "offrisci",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "offrisce",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "offriamo",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "offrite",
+    "tr": ""
+  },
+  {
+    "lemma": "offrire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "offriscono",
+    "tr": ""
+  },
+  {
+    "lemma": "ubbidire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "ubbidisco",
+    "tr": "itaat etmek"
+  },
+  {
+    "lemma": "ubbidire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "ubbidisci",
+    "tr": ""
+  },
+  {
+    "lemma": "ubbidire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "ubbidisce",
+    "tr": ""
+  },
+  {
+    "lemma": "ubbidire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "ubbidiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "ubbidire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "ubbidite",
+    "tr": ""
+  },
+  {
+    "lemma": "ubbidire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "ubbidiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "definire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "definisco",
+    "tr": "tanı mlamak"
+  },
+  {
+    "lemma": "definire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "definisci",
+    "tr": ""
+  },
+  {
+    "lemma": "definire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "definisce",
+    "tr": ""
+  },
+  {
+    "lemma": "definire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "definiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "definire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "definite",
+    "tr": ""
+  },
+  {
+    "lemma": "definire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "definiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "esibire",
+    "conjugation": "-ire (isc)",
+    "person": "io",
+    "form": "esibisco",
+    "tr": "sergilemek"
+  },
+  {
+    "lemma": "esibire",
+    "conjugation": "-ire (isc)",
+    "person": "tu",
+    "form": "esibisci",
+    "tr": ""
+  },
+  {
+    "lemma": "esibire",
+    "conjugation": "-ire (isc)",
+    "person": "lui/lei",
+    "form": "esibisce",
+    "tr": ""
+  },
+  {
+    "lemma": "esibire",
+    "conjugation": "-ire (isc)",
+    "person": "noi",
+    "form": "esibiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "esibire",
+    "conjugation": "-ire (isc)",
+    "person": "voi",
+    "form": "esibite",
+    "tr": ""
+  },
+  {
+    "lemma": "esibire",
+    "conjugation": "-ire (isc)",
+    "person": "loro",
+    "form": "esibiscono",
+    "tr": ""
+  },
+  {
+    "lemma": "cercare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "cerco",
+    "tr": "aramak"
+  },
+  {
+    "lemma": "cercare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "cerchi",
+    "tr": ""
+  },
+  {
+    "lemma": "cercare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "cerca",
+    "tr": ""
+  },
+  {
+    "lemma": "cercare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "cerchiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "cercare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "cercate",
+    "tr": ""
+  },
+  {
+    "lemma": "cercare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "cercano",
+    "tr": ""
+  },
+  {
+    "lemma": "spiegare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "spiego",
+    "tr": "açı klamak"
+  },
+  {
+    "lemma": "spiegare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "spieghi",
+    "tr": ""
+  },
+  {
+    "lemma": "spiegare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "spiega",
+    "tr": ""
+  },
+  {
+    "lemma": "spiegare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "spieghiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "spiegare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "spiegate",
+    "tr": ""
+  },
+  {
+    "lemma": "spiegare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "spiegano",
+    "tr": ""
+  },
+  {
+    "lemma": "pagare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "pago",
+    "tr": "ödemek"
+  },
+  {
+    "lemma": "pagare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "paghi",
+    "tr": ""
+  },
+  {
+    "lemma": "pagare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "paga",
+    "tr": ""
+  },
+  {
+    "lemma": "pagare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "paghiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "pagare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "pagate",
+    "tr": ""
+  },
+  {
+    "lemma": "pagare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "pagano",
+    "tr": ""
+  },
+  {
+    "lemma": "giocare",
+    "conjugation": "-are",
+    "person": "io",
+    "form": "gioco",
+    "tr": "oynamak"
+  },
+  {
+    "lemma": "giocare",
+    "conjugation": "-are",
+    "person": "tu",
+    "form": "giochi",
+    "tr": ""
+  },
+  {
+    "lemma": "giocare",
+    "conjugation": "-are",
+    "person": "lui/lei",
+    "form": "gioca",
+    "tr": ""
+  },
+  {
+    "lemma": "giocare",
+    "conjugation": "-are",
+    "person": "noi",
+    "form": "giochiamo",
+    "tr": ""
+  },
+  {
+    "lemma": "giocare",
+    "conjugation": "-are",
+    "person": "voi",
+    "form": "giocate",
+    "tr": ""
+  },
+  {
+    "lemma": "giocare",
+    "conjugation": "-are",
+    "person": "loro",
+    "form": "giocano",
+    "tr": ""
+  },
+  {
+    "lemma": "uscire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "esco",
+    "tr": "çı kmak (dı ş arı )"
+  },
+  {
+    "lemma": "uscire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "esci",
+    "tr": ""
+  },
+  {
+    "lemma": "uscire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "esce",
+    "tr": ""
+  },
+  {
+    "lemma": "uscire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "usciamo",
+    "tr": ""
+  },
+  {
+    "lemma": "uscire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "uscite",
+    "tr": ""
+  },
+  {
+    "lemma": "uscire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "escono",
+    "tr": ""
+  },
+  {
+    "lemma": "salire",
+    "conjugation": "-ire",
+    "person": "io",
+    "form": "salgo",
+    "tr": "çı kmak"
+  },
+  {
+    "lemma": "salire",
+    "conjugation": "-ire",
+    "person": "tu",
+    "form": "sali",
+    "tr": ""
+  },
+  {
+    "lemma": "salire",
+    "conjugation": "-ire",
+    "person": "lui/lei",
+    "form": "sale",
+    "tr": ""
+  },
+  {
+    "lemma": "salire",
+    "conjugation": "-ire",
+    "person": "noi",
+    "form": "saliamo",
+    "tr": ""
+  },
+  {
+    "lemma": "salire",
+    "conjugation": "-ire",
+    "person": "voi",
+    "form": "salite",
+    "tr": ""
+  },
+  {
+    "lemma": "salire",
+    "conjugation": "-ire",
+    "person": "loro",
+    "form": "salgono",
+    "tr": ""
+  }
+]

@@ -1,0 +1,5361 @@
+[
+  {
+    "it": "ciao",
+    "category": "selamlama",
+    "tr": [
+      "merhaba",
+      "hoşça kal"
+    ],
+    "note": ""
+  },
+  {
+    "it": "buongiorno",
+    "category": "selamlama",
+    "tr": [
+      "günaydın",
+      "iyi günler"
+    ],
+    "note": ""
+  },
+  {
+    "it": "buonasera",
+    "category": "selamlama",
+    "tr": [
+      "iyi akşamlar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "arrivederci",
+    "category": "selamlama",
+    "tr": [
+      "hoşça kalı n",
+      "görüş ürüz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "grazie",
+    "category": "ifade",
+    "tr": [
+      "teş ekkür ederim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "prego",
+    "category": "ifade",
+    "tr": [
+      "rica ederim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "scusa",
+    "category": "ifade",
+    "tr": [
+      "affedersin",
+      "özür dilerim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi dispiace",
+    "category": "ifade",
+    "tr": [
+      "üzgünüm"
+    ],
+    "note": ""
+  },
+  {
+    "it": "per favore",
+    "category": "ifade",
+    "tr": [
+      "lütfen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "come stai?",
+    "category": "cümle",
+    "tr": [
+      "nası lsı n?"
+    ],
+    "note": "günlük ifade"
+  },
+  {
+    "it": "sto bene",
+    "category": "cümle",
+    "tr": [
+      "iyiyim"
+    ],
+    "note": "günlük ifade"
+  },
+  {
+    "it": "non c’è male",
+    "category": "cümle",
+    "tr": [
+      "fena değ il"
+    ],
+    "note": "günlük ifade"
+  },
+  {
+    "it": "e tu?",
+    "category": "cümle",
+    "tr": [
+      "ya sen?"
+    ],
+    "note": "günlük ifade"
+  },
+  {
+    "it": "sì",
+    "category": "zarf",
+    "tr": [
+      "evet"
+    ],
+    "note": ""
+  },
+  {
+    "it": "no",
+    "category": "zarf",
+    "tr": [
+      "hayı r"
+    ],
+    "note": ""
+  },
+  {
+    "it": "forse",
+    "category": "zarf",
+    "tr": [
+      "belki"
+    ],
+    "note": ""
+  },
+  {
+    "it": "oggi",
+    "category": "zarf",
+    "tr": [
+      "bugün"
+    ],
+    "note": ""
+  },
+  {
+    "it": "domani",
+    "category": "zarf",
+    "tr": [
+      "yarı n"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ieri",
+    "category": "zarf",
+    "tr": [
+      "dün"
+    ],
+    "note": ""
+  },
+  {
+    "it": "adesso",
+    "category": "zarf",
+    "tr": [
+      "ş imdi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sempre",
+    "category": "zarf",
+    "tr": [
+      "her zaman"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mai",
+    "category": "zarf",
+    "tr": [
+      "asla"
+    ],
+    "note": ""
+  },
+  {
+    "it": "spesso",
+    "category": "zarf",
+    "tr": [
+      "sı k sı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "io",
+    "category": "zamir",
+    "tr": [
+      "ben"
+    ],
+    "note": ""
+  },
+  {
+    "it": "tu",
+    "category": "zamir",
+    "tr": [
+      "sen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lui",
+    "category": "zamir",
+    "tr": [
+      "o (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lei",
+    "category": "zamir",
+    "tr": [
+      "o (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "noi",
+    "category": "zamir",
+    "tr": [
+      "biz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "voi",
+    "category": "zamir",
+    "tr": [
+      "siz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "loro",
+    "category": "zamir",
+    "tr": [
+      "onlar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "questo",
+    "category": "zamir",
+    "tr": [
+      "bu"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quello",
+    "category": "zamir",
+    "tr": [
+      "ş u",
+      "o"
+    ],
+    "note": ""
+  },
+  {
+    "it": "chi?",
+    "category": "zamir",
+    "tr": [
+      "kim?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "che cosa?",
+    "category": "zamir",
+    "tr": [
+      "ne?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dove?",
+    "category": "zamir",
+    "tr": [
+      "nerede?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quando?",
+    "category": "zamir",
+    "tr": [
+      "ne zaman?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "perché?",
+    "category": "zamir",
+    "tr": [
+      "neden?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "essere",
+    "category": "fiil",
+    "tr": [
+      "olmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "avere",
+    "category": "fiil",
+    "tr": [
+      "sahip olmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "andare",
+    "category": "fiil",
+    "tr": [
+      "gitmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fare",
+    "category": "fiil",
+    "tr": [
+      "yapmak",
+      "etmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dire",
+    "category": "fiil",
+    "tr": [
+      "söylemek",
+      "demek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "venire",
+    "category": "fiil",
+    "tr": [
+      "gelmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vedere",
+    "category": "fiil",
+    "tr": [
+      "görmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sapere",
+    "category": "fiil",
+    "tr": [
+      "bilmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "parlare",
+    "category": "fiil",
+    "tr": [
+      "konuşmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mangiare",
+    "category": "fiil",
+    "tr": [
+      "yemek yemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "bere",
+    "category": "fiil",
+    "tr": [
+      "içmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "leggere",
+    "category": "fiil",
+    "tr": [
+      "okumak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "scrivere",
+    "category": "fiil",
+    "tr": [
+      "yazmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dormire",
+    "category": "fiil",
+    "tr": [
+      "uyumak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "studiare",
+    "category": "fiil",
+    "tr": [
+      "çalı ş mak",
+      "ders çalı ş mak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ascoltare",
+    "category": "fiil",
+    "tr": [
+      "dinlemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "capire",
+    "category": "fiil",
+    "tr": [
+      "anlamak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "aprire",
+    "category": "fiil",
+    "tr": [
+      "açmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "chiudere",
+    "category": "fiil",
+    "tr": [
+      "kapatmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "entrare",
+    "category": "fiil",
+    "tr": [
+      "girmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "uscire",
+    "category": "fiil",
+    "tr": [
+      "çı kmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vivere",
+    "category": "fiil",
+    "tr": [
+      "yaş amak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "comprare",
+    "category": "fiil",
+    "tr": [
+      "satı n almak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "volere",
+    "category": "fiil",
+    "tr": [
+      "istemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "potere",
+    "category": "fiil",
+    "tr": [
+      "-ebilmek",
+      "yapabilmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "bello",
+    "category": "sı fat",
+    "tr": [
+      "güzel"
+    ],
+    "note": ""
+  },
+  {
+    "it": "brutto",
+    "category": "sı fat",
+    "tr": [
+      "çirkin"
+    ],
+    "note": ""
+  },
+  {
+    "it": "grande",
+    "category": "sı fat",
+    "tr": [
+      "büyük"
+    ],
+    "note": ""
+  },
+  {
+    "it": "piccolo",
+    "category": "sı fat",
+    "tr": [
+      "küçük"
+    ],
+    "note": ""
+  },
+  {
+    "it": "nuovo",
+    "category": "sı fat",
+    "tr": [
+      "yeni"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vecchio",
+    "category": "sı fat",
+    "tr": [
+      "eski"
+    ],
+    "note": ""
+  },
+  {
+    "it": "buono",
+    "category": "sı fat",
+    "tr": [
+      "iyi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cattivo",
+    "category": "sı fat",
+    "tr": [
+      "kötü"
+    ],
+    "note": ""
+  },
+  {
+    "it": "caldo",
+    "category": "sı fat",
+    "tr": [
+      "sı cak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "freddo",
+    "category": "sı fat",
+    "tr": [
+      "soğ uk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "felice",
+    "category": "sı fat",
+    "tr": [
+      "mutlu"
+    ],
+    "note": ""
+  },
+  {
+    "it": "triste",
+    "category": "sı fat",
+    "tr": [
+      "üzgün"
+    ],
+    "note": ""
+  },
+  {
+    "it": "stanco",
+    "category": "sı fat",
+    "tr": [
+      "yorgun"
+    ],
+    "note": ""
+  },
+  {
+    "it": "pulito",
+    "category": "sı fat",
+    "tr": [
+      "temiz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sporco",
+    "category": "sı fat",
+    "tr": [
+      "kirli"
+    ],
+    "note": ""
+  },
+  {
+    "it": "veloce",
+    "category": "sı fat",
+    "tr": [
+      "hı zlı",
+      "çabuk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lento",
+    "category": "sı fat",
+    "tr": [
+      "yavaş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "aperto",
+    "category": "sı fat",
+    "tr": [
+      "açı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "chiuso",
+    "category": "sı fat",
+    "tr": [
+      "kapalı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "facile",
+    "category": "sı fat",
+    "tr": [
+      "kolay"
+    ],
+    "note": ""
+  },
+  {
+    "it": "difficile",
+    "category": "sı fat",
+    "tr": [
+      "zor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la casa",
+    "category": "isim",
+    "tr": [
+      "ev"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il libro",
+    "category": "isim",
+    "tr": [
+      "kitap"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la sedia",
+    "category": "isim",
+    "tr": [
+      "sandalye"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il tavolo",
+    "category": "isim",
+    "tr": [
+      "masa"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la finestra",
+    "category": "isim",
+    "tr": [
+      "pencere"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la porta",
+    "category": "isim",
+    "tr": [
+      "kapı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la macchina",
+    "category": "isim",
+    "tr": [
+      "araba"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il lavoro",
+    "category": "isim",
+    "tr": [
+      "iş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la scuola",
+    "category": "isim",
+    "tr": [
+      "okul"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la città",
+    "category": "isim",
+    "tr": [
+      "ş ehir"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cibo",
+    "category": "isim",
+    "tr": [
+      "yemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’acqua",
+    "category": "isim",
+    "tr": [
+      "su"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il vino",
+    "category": "isim",
+    "tr": [
+      "ş arap"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pane",
+    "category": "isim",
+    "tr": [
+      "ekmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la madre",
+    "category": "isim",
+    "tr": [
+      "anne"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il padre",
+    "category": "isim",
+    "tr": [
+      "baba"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’amico",
+    "category": "isim",
+    "tr": [
+      "erkek arkadaş",
+      "dost"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’amica",
+    "category": "isim",
+    "tr": [
+      "kı z arkadaş",
+      "dost"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il giorno",
+    "category": "isim",
+    "tr": [
+      "gün"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la notte",
+    "category": "isim",
+    "tr": [
+      "gece"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la mattina",
+    "category": "isim",
+    "tr": [
+      "sabah"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pomeriggio",
+    "category": "isim",
+    "tr": [
+      "öğ leden sonra"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la sera",
+    "category": "isim",
+    "tr": [
+      "akş am"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il tempo",
+    "category": "isim",
+    "tr": [
+      "zaman",
+      "hava"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il posto",
+    "category": "isim",
+    "tr": [
+      "yer"
+    ],
+    "note": ""
+  },
+  {
+    "it": "La casa è grande.",
+    "category": "cümle",
+    "tr": [
+      "Ev büyük."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Il tavolo è rotondo.",
+    "category": "cümle",
+    "tr": [
+      "Masa yuvarlak."
+    ],
+    "note": ""
+  },
+  {
+    "it": "La porta è chiusa.",
+    "category": "cümle",
+    "tr": [
+      "Kapı kapalı ."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Il vino è buono.",
+    "category": "cümle",
+    "tr": [
+      "Ş arap güzel."
+    ],
+    "note": ""
+  },
+  {
+    "it": "L’acqua è fredda.",
+    "category": "cümle",
+    "tr": [
+      "Su soğ uk."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Il libro è interessante.",
+    "category": "cümle",
+    "tr": [
+      "Kitap ilginç."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Sono felice.",
+    "category": "cümle",
+    "tr": [
+      "Mutluyum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Sei stanco?",
+    "category": "cümle",
+    "tr": [
+      "Yorgun musun?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Abbiamo fame.",
+    "category": "cümle",
+    "tr": [
+      "Açı z."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Hai sete?",
+    "category": "cümle",
+    "tr": [
+      "Susadı n mı ?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Vado a casa.",
+    "category": "cümle",
+    "tr": [
+      "Eve gidiyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Studio italiano.",
+    "category": "cümle",
+    "tr": [
+      "İ talyanca çalı ş ı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Parlo poco italiano.",
+    "category": "cümle",
+    "tr": [
+      "Az İ talyanca konuş uyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Capisco un po’.",
+    "category": "cümle",
+    "tr": [
+      "Biraz anlı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Non so.",
+    "category": "cümle",
+    "tr": [
+      "Bilmiyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Voglio un caffè.",
+    "category": "cümle",
+    "tr": [
+      "Bir kahve istiyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Quanto costa?",
+    "category": "cümle",
+    "tr": [
+      "Ne kadar?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Che ore sono?",
+    "category": "cümle",
+    "tr": [
+      "Saat kaç?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Dove abiti?",
+    "category": "cümle",
+    "tr": [
+      "Nerede yaş ı yorsun?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Abito a Roma.",
+    "category": "cümle",
+    "tr": [
+      "Roma’da yaş ı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Andiamo!",
+    "category": "cümle",
+    "tr": [
+      "Hadi gidelim!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Perfetto!",
+    "category": "ifade",
+    "tr": [
+      "Mükemmel!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Va bene.",
+    "category": "ifade",
+    "tr": [
+      "Tamam",
+      "olur"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Non importa.",
+    "category": "ifade",
+    "tr": [
+      "Önemli değ il"
+    ],
+    "note": ""
+  },
+  {
+    "it": "alzarsi",
+    "category": "fiil",
+    "tr": [
+      "kalkmak (yatağ ı ndan)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "svegliarsi",
+    "category": "fiil",
+    "tr": [
+      "uyanmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lavarsi",
+    "category": "fiil",
+    "tr": [
+      "yı kanmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vestirsi",
+    "category": "fiil",
+    "tr": [
+      "giyinmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "truccarsi",
+    "category": "fiil",
+    "tr": [
+      "makyaj yapmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fare colazione",
+    "category": "fiil",
+    "tr": [
+      "kahvaltı yapmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "pranzare",
+    "category": "fiil",
+    "tr": [
+      "öğ le yemeğ i yemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cenare",
+    "category": "fiil",
+    "tr": [
+      "akş am yemeğ i yemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cucinare",
+    "category": "fiil",
+    "tr": [
+      "yemek piş irmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lavorare",
+    "category": "fiil",
+    "tr": [
+      "çalı ş mak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "camminare",
+    "category": "fiil",
+    "tr": [
+      "yürümek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "correre",
+    "category": "fiil",
+    "tr": [
+      "koş mak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "nuotare",
+    "category": "fiil",
+    "tr": [
+      "yüzmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "guardare",
+    "category": "fiil",
+    "tr": [
+      "izlemek",
+      "bakmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "telefonare",
+    "category": "fiil",
+    "tr": [
+      "telefon etmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "incontrare",
+    "category": "fiil",
+    "tr": [
+      "buluş mak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "aspettare",
+    "category": "fiil",
+    "tr": [
+      "beklemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "viaggiare",
+    "category": "fiil",
+    "tr": [
+      "seyahat etmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "giocare",
+    "category": "fiil",
+    "tr": [
+      "oynamak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cantare",
+    "category": "fiil",
+    "tr": [
+      "ş arkı söylemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ballare",
+    "category": "fiil",
+    "tr": [
+      "dans etmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "spendere",
+    "category": "fiil",
+    "tr": [
+      "harcamak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "pulire",
+    "category": "fiil",
+    "tr": [
+      "temizlemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "aiutare",
+    "category": "fiil",
+    "tr": [
+      "yardı m etmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "pensare",
+    "category": "fiil",
+    "tr": [
+      "düş ünmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ricordare",
+    "category": "fiil",
+    "tr": [
+      "hatı rlamak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dimenticare",
+    "category": "fiil",
+    "tr": [
+      "unutmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "tornare",
+    "category": "fiil",
+    "tr": [
+      "geri dönmek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "arrivare",
+    "category": "fiil",
+    "tr": [
+      "varmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "partire",
+    "category": "fiil",
+    "tr": [
+      "ayrı lmak",
+      "yola çı kmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mattina",
+    "category": "isim",
+    "tr": [
+      "sabah"
+    ],
+    "note": ""
+  },
+  {
+    "it": "pomeriggio",
+    "category": "isim",
+    "tr": [
+      "öğ leden sonra"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sera",
+    "category": "isim",
+    "tr": [
+      "akş am"
+    ],
+    "note": ""
+  },
+  {
+    "it": "notte",
+    "category": "isim",
+    "tr": [
+      "gece"
+    ],
+    "note": ""
+  },
+  {
+    "it": "presto",
+    "category": "zarf",
+    "tr": [
+      "erken"
+    ],
+    "note": ""
+  },
+  {
+    "it": "tardi",
+    "category": "zarf",
+    "tr": [
+      "geç"
+    ],
+    "note": ""
+  },
+  {
+    "it": "settimana",
+    "category": "isim",
+    "tr": [
+      "hafta"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mese",
+    "category": "isim",
+    "tr": [
+      "ay"
+    ],
+    "note": ""
+  },
+  {
+    "it": "anno",
+    "category": "isim",
+    "tr": [
+      "yı l"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lunedì",
+    "category": "isim",
+    "tr": [
+      "pazartesi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "martedì",
+    "category": "isim",
+    "tr": [
+      "salı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mercoledì",
+    "category": "isim",
+    "tr": [
+      "çarş amba"
+    ],
+    "note": ""
+  },
+  {
+    "it": "giovedì",
+    "category": "isim",
+    "tr": [
+      "perş embe"
+    ],
+    "note": ""
+  },
+  {
+    "it": "venerdì",
+    "category": "isim",
+    "tr": [
+      "cuma"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sabato",
+    "category": "isim",
+    "tr": [
+      "cumartesi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "domenica",
+    "category": "isim",
+    "tr": [
+      "pazar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "gennaio",
+    "category": "isim",
+    "tr": [
+      "ocak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "febbraio",
+    "category": "isim",
+    "tr": [
+      "ş ubat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "marzo",
+    "category": "isim",
+    "tr": [
+      "mart"
+    ],
+    "note": ""
+  },
+  {
+    "it": "aprile",
+    "category": "isim",
+    "tr": [
+      "nisan"
+    ],
+    "note": ""
+  },
+  {
+    "it": "maggio",
+    "category": "isim",
+    "tr": [
+      "mayı s"
+    ],
+    "note": ""
+  },
+  {
+    "it": "giugno",
+    "category": "isim",
+    "tr": [
+      "haziran"
+    ],
+    "note": ""
+  },
+  {
+    "it": "luglio",
+    "category": "isim",
+    "tr": [
+      "temmuz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "agosto",
+    "category": "isim",
+    "tr": [
+      "ağ ustos"
+    ],
+    "note": ""
+  },
+  {
+    "it": "settembre",
+    "category": "isim",
+    "tr": [
+      "eylül"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ottobre",
+    "category": "isim",
+    "tr": [
+      "ekim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "novembre",
+    "category": "isim",
+    "tr": [
+      "kası m"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dicembre",
+    "category": "isim",
+    "tr": [
+      "aralı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "zero",
+    "category": "sayı",
+    "tr": [
+      "sı fı r"
+    ],
+    "note": ""
+  },
+  {
+    "it": "uno",
+    "category": "sayı",
+    "tr": [
+      "bir"
+    ],
+    "note": ""
+  },
+  {
+    "it": "due",
+    "category": "sayı",
+    "tr": [
+      "iki"
+    ],
+    "note": ""
+  },
+  {
+    "it": "tre",
+    "category": "sayı",
+    "tr": [
+      "üç"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quattro",
+    "category": "sayı",
+    "tr": [
+      "dört"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cinque",
+    "category": "sayı",
+    "tr": [
+      "beş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sei",
+    "category": "sayı",
+    "tr": [
+      "altı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sette",
+    "category": "sayı",
+    "tr": [
+      "yedi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "otto",
+    "category": "sayı",
+    "tr": [
+      "sekiz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "nove",
+    "category": "sayı",
+    "tr": [
+      "dokuz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dieci",
+    "category": "sayı",
+    "tr": [
+      "on"
+    ],
+    "note": ""
+  },
+  {
+    "it": "undici",
+    "category": "sayı",
+    "tr": [
+      "on bir"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dodici",
+    "category": "sayı",
+    "tr": [
+      "on iki"
+    ],
+    "note": ""
+  },
+  {
+    "it": "tredici",
+    "category": "sayı",
+    "tr": [
+      "on üç"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quattordici",
+    "category": "sayı",
+    "tr": [
+      "on dört"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quindici",
+    "category": "sayı",
+    "tr": [
+      "on beş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sedici",
+    "category": "sayı",
+    "tr": [
+      "on altı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "diciassette",
+    "category": "sayı",
+    "tr": [
+      "on yedi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "diciotto",
+    "category": "sayı",
+    "tr": [
+      "on sekiz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "diciannove",
+    "category": "sayı",
+    "tr": [
+      "on dokuz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "venti",
+    "category": "sayı",
+    "tr": [
+      "yirmi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "trenta",
+    "category": "sayı",
+    "tr": [
+      "otuz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quaranta",
+    "category": "sayı",
+    "tr": [
+      "kı rk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cinquanta",
+    "category": "sayı",
+    "tr": [
+      "elli"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sessanta",
+    "category": "sayı",
+    "tr": [
+      "altmı ş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "settanta",
+    "category": "sayı",
+    "tr": [
+      "yetmiş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ottanta",
+    "category": "sayı",
+    "tr": [
+      "seksen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "novanta",
+    "category": "sayı",
+    "tr": [
+      "doksan"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cento",
+    "category": "sayı",
+    "tr": [
+      "yüz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "destra",
+    "category": "isim",
+    "tr": [
+      "sağ"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sinistra",
+    "category": "isim",
+    "tr": [
+      "sol"
+    ],
+    "note": ""
+  },
+  {
+    "it": "davanti",
+    "category": "zarf",
+    "tr": [
+      "önünde"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dietro",
+    "category": "zarf",
+    "tr": [
+      "arkası nda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sopra",
+    "category": "zarf",
+    "tr": [
+      "üstünde"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sotto",
+    "category": "zarf",
+    "tr": [
+      "altı nda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vicino",
+    "category": "sı fat",
+    "tr": [
+      "yakı n"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lontano",
+    "category": "sı fat",
+    "tr": [
+      "uzak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dentro",
+    "category": "zarf",
+    "tr": [
+      "içinde"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fuori",
+    "category": "zarf",
+    "tr": [
+      "dı ş ı nda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "tra / fra",
+    "category": "edat",
+    "tr": [
+      "arası nda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "accanto",
+    "category": "zarf",
+    "tr": [
+      "yanı nda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "intorno",
+    "category": "zarf",
+    "tr": [
+      "etrafı nda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in città",
+    "category": "ifade",
+    "tr": [
+      "ş ehirde"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in campagna",
+    "category": "ifade",
+    "tr": [
+      "kı rsalda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "al mare",
+    "category": "ifade",
+    "tr": [
+      "denizde"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in montagna",
+    "category": "ifade",
+    "tr": [
+      "dağ da"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Mi sveglio presto.",
+    "category": "cümle",
+    "tr": [
+      "Erken uyanı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Faccio colazione alle otto.",
+    "category": "cümle",
+    "tr": [
+      "Saat sekizde kahvaltı yapı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Vado al lavoro.",
+    "category": "cümle",
+    "tr": [
+      "İ ş e gidiyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Studio italiano ogni giorno.",
+    "category": "cümle",
+    "tr": [
+      "Her gün İ talyanca çalı ş ı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Lavoro in ufficio.",
+    "category": "cümle",
+    "tr": [
+      "Ofiste çalı ş ı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Mi piace leggere.",
+    "category": "cümle",
+    "tr": [
+      "Okumayı seviyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Non mi piace cucinare.",
+    "category": "cümle",
+    "tr": [
+      "Yemek yapmayı sevmem."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Torno a casa tardi.",
+    "category": "cümle",
+    "tr": [
+      "Eve geç dönüyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Guardo la TV la sera.",
+    "category": "cümle",
+    "tr": [
+      "Akş am televizyon izliyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Mi rilasso sul divano.",
+    "category": "cümle",
+    "tr": [
+      "Kanepede dinleniyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Esco con gli amici.",
+    "category": "cümle",
+    "tr": [
+      "Arkadaş ları mla dı ş arı çı kı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Ascolto la musica.",
+    "category": "cümle",
+    "tr": [
+      "Müzik dinliyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Mi addormento alle undici.",
+    "category": "cümle",
+    "tr": [
+      "Saat on birde uyuyorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Che giorno è oggi?",
+    "category": "cümle",
+    "tr": [
+      "Bugün günlerden ne?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Oggi è lunedì.",
+    "category": "cümle",
+    "tr": [
+      "Bugün pazartesi."
+    ],
+    "note": ""
+  },
+  {
+    "it": "È tardi!",
+    "category": "cümle",
+    "tr": [
+      "Geç oldu!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "A che ora parti?",
+    "category": "cümle",
+    "tr": [
+      "Saat kaçta ayrı lı yorsun?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Parto alle sette.",
+    "category": "cümle",
+    "tr": [
+      "Saat yedide çı kı yorum."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Dove sei?",
+    "category": "cümle",
+    "tr": [
+      "Neredesin?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Sono a casa.",
+    "category": "cümle",
+    "tr": [
+      "Evdeyim."
+    ],
+    "note": ""
+  },
+  {
+    "it": "È vicino o lontano?",
+    "category": "cümle",
+    "tr": [
+      "Yakı n mı uzak mı ?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "A destra, per favore.",
+    "category": "cümle",
+    "tr": [
+      "Sağ dan lütfen."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Gira a sinistra!",
+    "category": "cümle",
+    "tr": [
+      "Sola dön!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Il supermercato è dietro la banca.",
+    "category": "cümle",
+    "tr": [
+      "Süpermarket bankanı n arkası nda."
+    ],
+    "note": ""
+  },
+  {
+    "it": "Ci vediamo domani!",
+    "category": "ifade",
+    "tr": [
+      "Yarı n görüş ürüz!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "Buona giornata!",
+    "category": "ifade",
+    "tr": [
+      "İ yi günler dilerim!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la famiglia",
+    "category": "isim",
+    "tr": [
+      "aile"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il figlio",
+    "category": "isim",
+    "tr": [
+      "oğ ul"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la figlia",
+    "category": "isim",
+    "tr": [
+      "kı z evlat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il fratello",
+    "category": "isim",
+    "tr": [
+      "erkek kardeş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la sorella",
+    "category": "isim",
+    "tr": [
+      "kı z kardeş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "i genitori",
+    "category": "isim",
+    "tr": [
+      "ebeveynler"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il marito",
+    "category": "isim",
+    "tr": [
+      "koca"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la moglie",
+    "category": "isim",
+    "tr": [
+      "eş",
+      "karı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il nonno",
+    "category": "isim",
+    "tr": [
+      "dede"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la nonna",
+    "category": "isim",
+    "tr": [
+      "nine"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lo zio",
+    "category": "isim",
+    "tr": [
+      "amca",
+      "dayı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la zia",
+    "category": "isim",
+    "tr": [
+      "teyze",
+      "hala"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il nipote",
+    "category": "isim",
+    "tr": [
+      "torun",
+      "yeğ en (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la nipote",
+    "category": "isim",
+    "tr": [
+      "torun",
+      "yeğ en (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cugino",
+    "category": "isim",
+    "tr": [
+      "kuzen (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cugina",
+    "category": "isim",
+    "tr": [
+      "kuzen (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il bambino",
+    "category": "isim",
+    "tr": [
+      "çocuk",
+      "erkek çocuk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la bambina",
+    "category": "isim",
+    "tr": [
+      "kı z çocuk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il ragazzo",
+    "category": "isim",
+    "tr": [
+      "genç erkek",
+      "erkek arkadaş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la ragazza",
+    "category": "isim",
+    "tr": [
+      "genç kı z",
+      "kı z arkadaş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la famiglia è grande",
+    "category": "cümle",
+    "tr": [
+      "aile büyük"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mia madre è gentile",
+    "category": "cümle",
+    "tr": [
+      "annem nazik"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho due fratelli",
+    "category": "cümle",
+    "tr": [
+      "iki erkek kardeş im var"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il dottore",
+    "category": "isim",
+    "tr": [
+      "doktor (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la dottoressa",
+    "category": "isim",
+    "tr": [
+      "doktor (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’insegnante",
+    "category": "isim",
+    "tr": [
+      "öğ retmen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’operaio",
+    "category": "isim",
+    "tr": [
+      "iş çi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cameriere",
+    "category": "isim",
+    "tr": [
+      "garson (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cameriera",
+    "category": "isim",
+    "tr": [
+      "garson (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’avvocato",
+    "category": "isim",
+    "tr": [
+      "avukat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cuoco",
+    "category": "isim",
+    "tr": [
+      "aş çı (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cuoca",
+    "category": "isim",
+    "tr": [
+      "aş çı (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’autista",
+    "category": "isim",
+    "tr": [
+      "ş oför"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il poliziotto",
+    "category": "isim",
+    "tr": [
+      "polis memuru (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la poliziotta",
+    "category": "isim",
+    "tr": [
+      "polis memuru (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pompiere",
+    "category": "isim",
+    "tr": [
+      "itfaiyeci"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il musicista",
+    "category": "isim",
+    "tr": [
+      "müzisyen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pittore",
+    "category": "isim",
+    "tr": [
+      "ressam (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la pittrice",
+    "category": "isim",
+    "tr": [
+      "ressam (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il commesso",
+    "category": "isim",
+    "tr": [
+      "tezgahtar (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la commessa",
+    "category": "isim",
+    "tr": [
+      "tezgahtar (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il farmacista",
+    "category": "isim",
+    "tr": [
+      "eczacı (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la farmacista",
+    "category": "isim",
+    "tr": [
+      "eczacı (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’impiegato",
+    "category": "isim",
+    "tr": [
+      "memur (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’impiegata",
+    "category": "isim",
+    "tr": [
+      "memur (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il meccanico",
+    "category": "isim",
+    "tr": [
+      "tamirci"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il parrucchiere",
+    "category": "isim",
+    "tr": [
+      "kuaför (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la parrucchiera",
+    "category": "isim",
+    "tr": [
+      "kuaför (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il tassista",
+    "category": "isim",
+    "tr": [
+      "taksici"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il fotografo",
+    "category": "isim",
+    "tr": [
+      "fotoğ rafçı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lo studente",
+    "category": "isim",
+    "tr": [
+      "öğ renci (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la studentessa",
+    "category": "isim",
+    "tr": [
+      "öğ renci (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’infermiere",
+    "category": "isim",
+    "tr": [
+      "hemş ire (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’infermiera",
+    "category": "isim",
+    "tr": [
+      "hemş ire (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il direttore",
+    "category": "isim",
+    "tr": [
+      "müdür"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la segretaria",
+    "category": "isim",
+    "tr": [
+      "sekreter"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il panettiere",
+    "category": "isim",
+    "tr": [
+      "fı rı ncı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il postino",
+    "category": "isim",
+    "tr": [
+      "postacı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il giornalista",
+    "category": "isim",
+    "tr": [
+      "gazeteci"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cantante",
+    "category": "isim",
+    "tr": [
+      "ş arkı cı (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cantante",
+    "category": "isim",
+    "tr": [
+      "ş arkı cı (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il maestro",
+    "category": "isim",
+    "tr": [
+      "öğ retmen (ilkokul)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la maestra",
+    "category": "isim",
+    "tr": [
+      "öğ retmen (ilkokul)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’attore",
+    "category": "isim",
+    "tr": [
+      "aktör"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’attrice",
+    "category": "isim",
+    "tr": [
+      "aktris"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il lavoro è interessante",
+    "category": "cümle",
+    "tr": [
+      "iş ilginç"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il dottore è gentile",
+    "category": "cümle",
+    "tr": [
+      "doktor nazik"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la maestra è simpatica",
+    "category": "cümle",
+    "tr": [
+      "öğ retmen sevimli"
+    ],
+    "note": ""
+  },
+  {
+    "it": "rosso",
+    "category": "sı fat",
+    "tr": [
+      "kı rmı zı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "giallo",
+    "category": "sı fat",
+    "tr": [
+      "sarı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "verde",
+    "category": "sı fat",
+    "tr": [
+      "yeş il"
+    ],
+    "note": ""
+  },
+  {
+    "it": "blu",
+    "category": "sı fat",
+    "tr": [
+      "mavi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "azzurro",
+    "category": "sı fat",
+    "tr": [
+      "gök mavisi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "nero",
+    "category": "sı fat",
+    "tr": [
+      "siyah"
+    ],
+    "note": ""
+  },
+  {
+    "it": "bianco",
+    "category": "sı fat",
+    "tr": [
+      "beyaz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "grigio",
+    "category": "sı fat",
+    "tr": [
+      "gri"
+    ],
+    "note": ""
+  },
+  {
+    "it": "marrone",
+    "category": "sı fat",
+    "tr": [
+      "kahverengi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "rosa",
+    "category": "sı fat",
+    "tr": [
+      "pembe"
+    ],
+    "note": ""
+  },
+  {
+    "it": "viola",
+    "category": "sı fat",
+    "tr": [
+      "mor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "arancione",
+    "category": "sı fat",
+    "tr": [
+      "turuncu"
+    ],
+    "note": ""
+  },
+  {
+    "it": "chiaro",
+    "category": "sı fat",
+    "tr": [
+      "açı k (renk)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "scuro",
+    "category": "sı fat",
+    "tr": [
+      "koyu (renk)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cielo è azzurro",
+    "category": "cümle",
+    "tr": [
+      "gökyüzü mavi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la casa è bianca",
+    "category": "cümle",
+    "tr": [
+      "ev beyaz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il tavolo è marrone",
+    "category": "cümle",
+    "tr": [
+      "masa kahverengi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "le scarpe sono nere",
+    "category": "cümle",
+    "tr": [
+      "ayakkabı lar siyah"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il vestito è rosso",
+    "category": "cümle",
+    "tr": [
+      "elbise kı rmı zı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "contento",
+    "category": "sı fat",
+    "tr": [
+      "mutlu"
+    ],
+    "note": ""
+  },
+  {
+    "it": "arrabbiato",
+    "category": "sı fat",
+    "tr": [
+      "sinirli"
+    ],
+    "note": ""
+  },
+  {
+    "it": "nervoso",
+    "category": "sı fat",
+    "tr": [
+      "gergin"
+    ],
+    "note": ""
+  },
+  {
+    "it": "calmo",
+    "category": "sı fat",
+    "tr": [
+      "sakin"
+    ],
+    "note": ""
+  },
+  {
+    "it": "gentile",
+    "category": "sı fat",
+    "tr": [
+      "kibar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "simpatico",
+    "category": "sı fat",
+    "tr": [
+      "sempatik"
+    ],
+    "note": ""
+  },
+  {
+    "it": "antipatico",
+    "category": "sı fat",
+    "tr": [
+      "antipatik"
+    ],
+    "note": ""
+  },
+  {
+    "it": "timido",
+    "category": "sı fat",
+    "tr": [
+      "utangaç"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sicuro",
+    "category": "sı fat",
+    "tr": [
+      "emin"
+    ],
+    "note": ""
+  },
+  {
+    "it": "orgoglioso",
+    "category": "sı fat",
+    "tr": [
+      "gururlu"
+    ],
+    "note": ""
+  },
+  {
+    "it": "generoso",
+    "category": "sı fat",
+    "tr": [
+      "cömert"
+    ],
+    "note": ""
+  },
+  {
+    "it": "pigro",
+    "category": "sı fat",
+    "tr": [
+      "tembel"
+    ],
+    "note": ""
+  },
+  {
+    "it": "attivo",
+    "category": "sı fat",
+    "tr": [
+      "aktif"
+    ],
+    "note": ""
+  },
+  {
+    "it": "intelligente",
+    "category": "sı fat",
+    "tr": [
+      "zeki"
+    ],
+    "note": ""
+  },
+  {
+    "it": "stupido",
+    "category": "sı fat",
+    "tr": [
+      "aptal"
+    ],
+    "note": ""
+  },
+  {
+    "it": "onesto",
+    "category": "sı fat",
+    "tr": [
+      "dürüst"
+    ],
+    "note": ""
+  },
+  {
+    "it": "curioso",
+    "category": "sı fat",
+    "tr": [
+      "meraklı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "tranquillo",
+    "category": "sı fat",
+    "tr": [
+      "huzurlu"
+    ],
+    "note": ""
+  },
+  {
+    "it": "stressato",
+    "category": "sı fat",
+    "tr": [
+      "stresli"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho fame",
+    "category": "cümle",
+    "tr": [
+      "açı m"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho sete",
+    "category": "cümle",
+    "tr": [
+      "susadı m"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho sonno",
+    "category": "cümle",
+    "tr": [
+      "uykum var"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sono felice",
+    "category": "cümle",
+    "tr": [
+      "mutluyum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sei arrabbiato?",
+    "category": "cümle",
+    "tr": [
+      "sinirli misin?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sono un po’ stanco",
+    "category": "cümle",
+    "tr": [
+      "biraz yorgunum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "oggi sono triste",
+    "category": "cümle",
+    "tr": [
+      "bugün üzgünüm"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lei è molto simpatica",
+    "category": "cümle",
+    "tr": [
+      "o çok sempatik"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lui è pigro",
+    "category": "cümle",
+    "tr": [
+      "o tembel"
+    ],
+    "note": ""
+  },
+  {
+    "it": "siamo felici insieme",
+    "category": "cümle",
+    "tr": [
+      "birlikte mutluyuz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sono stressato dal lavoro",
+    "category": "cümle",
+    "tr": [
+      "iş ten stresliyim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "è una persona gentile",
+    "category": "cümle",
+    "tr": [
+      "nazik bir insan"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi sento bene",
+    "category": "cümle",
+    "tr": [
+      "kendimi iyi hissediyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non mi sento bene",
+    "category": "cümle",
+    "tr": [
+      "kendimi iyi hissetmiyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho bisogno di aiuto",
+    "category": "cümle",
+    "tr": [
+      "yardı ma ihtiyacı m var"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi piace molto",
+    "category": "cümle",
+    "tr": [
+      "çok hoş uma gidiyor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non mi piace",
+    "category": "cümle",
+    "tr": [
+      "hoş lanmı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sei libero domani?",
+    "category": "cümle",
+    "tr": [
+      "yarı n müsait misin?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "va tutto bene",
+    "category": "cümle",
+    "tr": [
+      "her ş ey yolunda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non c’è problema",
+    "category": "cümle",
+    "tr": [
+      "sorun yok"
+    ],
+    "note": ""
+  },
+  {
+    "it": "è una bella giornata",
+    "category": "cümle",
+    "tr": [
+      "güzel bir gün"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fa caldo oggi",
+    "category": "cümle",
+    "tr": [
+      "bugün hava sı cak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fa freddo questa sera",
+    "category": "cümle",
+    "tr": [
+      "bu akş am hava soğ uk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sono a casa con la famiglia",
+    "category": "cümle",
+    "tr": [
+      "ailemle evdeyim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’appartamento",
+    "category": "isim",
+    "tr": [
+      "daire"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la stanza",
+    "category": "isim",
+    "tr": [
+      "oda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il soggiorno",
+    "category": "isim",
+    "tr": [
+      "oturma odası"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cucina",
+    "category": "isim",
+    "tr": [
+      "mutfak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il bagno",
+    "category": "isim",
+    "tr": [
+      "banyo"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la camera da letto",
+    "category": "isim",
+    "tr": [
+      "yatak odası"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il balcone",
+    "category": "isim",
+    "tr": [
+      "balkon"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il giardino",
+    "category": "isim",
+    "tr": [
+      "bahçe"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il corridoio",
+    "category": "isim",
+    "tr": [
+      "koridor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il tetto",
+    "category": "isim",
+    "tr": [
+      "çatı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il muro",
+    "category": "isim",
+    "tr": [
+      "duvar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pavimento",
+    "category": "isim",
+    "tr": [
+      "zemin",
+      "yer"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il soffitto",
+    "category": "isim",
+    "tr": [
+      "tavan"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la lampada",
+    "category": "isim",
+    "tr": [
+      "lamba"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il divano",
+    "category": "isim",
+    "tr": [
+      "kanepe"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la poltrona",
+    "category": "isim",
+    "tr": [
+      "koltuk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il letto",
+    "category": "isim",
+    "tr": [
+      "yatak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’armadio",
+    "category": "isim",
+    "tr": [
+      "dolap"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lo specchio",
+    "category": "isim",
+    "tr": [
+      "ayna"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il tappeto",
+    "category": "isim",
+    "tr": [
+      "halı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la doccia",
+    "category": "isim",
+    "tr": [
+      "duş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il frigorifero",
+    "category": "isim",
+    "tr": [
+      "buzdolabı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il forno",
+    "category": "isim",
+    "tr": [
+      "fı rı n"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il lavandino",
+    "category": "isim",
+    "tr": [
+      "lavabo"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la lavatrice",
+    "category": "isim",
+    "tr": [
+      "çamaş ı r makinesi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il piatto",
+    "category": "isim",
+    "tr": [
+      "tabak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il bicchiere",
+    "category": "isim",
+    "tr": [
+      "bardak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la forchetta",
+    "category": "isim",
+    "tr": [
+      "çatal"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il coltello",
+    "category": "isim",
+    "tr": [
+      "bı çak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cucchiaio",
+    "category": "isim",
+    "tr": [
+      "kaş ı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cuscino",
+    "category": "isim",
+    "tr": [
+      "yastı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la coperta",
+    "category": "isim",
+    "tr": [
+      "battaniye"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la finestra è aperta",
+    "category": "cümle",
+    "tr": [
+      "pencere açı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il letto è comodo",
+    "category": "cümle",
+    "tr": [
+      "yatak rahat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il divano è nuovo",
+    "category": "cümle",
+    "tr": [
+      "kanepe yeni"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cucina è pulita",
+    "category": "cümle",
+    "tr": [
+      "mutfak temiz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho bisogno di una sedia",
+    "category": "cümle",
+    "tr": [
+      "bir sandalyeye ihtiyacı m var"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la maglietta",
+    "category": "isim",
+    "tr": [
+      "tiş ört"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la camicia",
+    "category": "isim",
+    "tr": [
+      "gömlek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "i pantaloni",
+    "category": "isim",
+    "tr": [
+      "pantolon"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la gonna",
+    "category": "isim",
+    "tr": [
+      "etek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il vestito",
+    "category": "isim",
+    "tr": [
+      "elbise"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il maglione",
+    "category": "isim",
+    "tr": [
+      "kazak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la giacca",
+    "category": "isim",
+    "tr": [
+      "ceket"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cappotto",
+    "category": "isim",
+    "tr": [
+      "palto"
+    ],
+    "note": ""
+  },
+  {
+    "it": "le scarpe",
+    "category": "isim",
+    "tr": [
+      "ayakkabı lar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "i sandali",
+    "category": "isim",
+    "tr": [
+      "sandaletler"
+    ],
+    "note": ""
+  },
+  {
+    "it": "gli stivali",
+    "category": "isim",
+    "tr": [
+      "botlar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "le calze",
+    "category": "isim",
+    "tr": [
+      "çoraplar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cappello",
+    "category": "isim",
+    "tr": [
+      "ş apka"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la borsa",
+    "category": "isim",
+    "tr": [
+      "çanta"
+    ],
+    "note": ""
+  },
+  {
+    "it": "gli occhiali",
+    "category": "isim",
+    "tr": [
+      "gözlük"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’orologio",
+    "category": "isim",
+    "tr": [
+      "saat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cintura",
+    "category": "isim",
+    "tr": [
+      "kemer"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il costume da bagno",
+    "category": "isim",
+    "tr": [
+      "mayo"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cravatta",
+    "category": "isim",
+    "tr": [
+      "kravat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pigiama",
+    "category": "isim",
+    "tr": [
+      "pijama"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la scarpa è comoda",
+    "category": "cümle",
+    "tr": [
+      "ayakkabı rahat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi metto la giacca",
+    "category": "cümle",
+    "tr": [
+      "ceketimi giyiyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "hai una camicia bianca?",
+    "category": "cümle",
+    "tr": [
+      "beyaz bir gömleğ in var mı ?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "preferisco i jeans",
+    "category": "cümle",
+    "tr": [
+      "kot pantolonu tercih ederim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "porto sempre il cappello",
+    "category": "cümle",
+    "tr": [
+      "her zaman ş apka takarı m"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la birra",
+    "category": "isim",
+    "tr": [
+      "bira"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il latte",
+    "category": "isim",
+    "tr": [
+      "süt"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il caffè",
+    "category": "isim",
+    "tr": [
+      "kahve"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il tè",
+    "category": "isim",
+    "tr": [
+      "çay"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il formaggio",
+    "category": "isim",
+    "tr": [
+      "peynir"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la carne",
+    "category": "isim",
+    "tr": [
+      "et"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pollo",
+    "category": "isim",
+    "tr": [
+      "tavuk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pesce",
+    "category": "isim",
+    "tr": [
+      "balı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la frutta",
+    "category": "isim",
+    "tr": [
+      "meyve"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la verdura",
+    "category": "isim",
+    "tr": [
+      "sebze"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la mela",
+    "category": "isim",
+    "tr": [
+      "elma"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la banana",
+    "category": "isim",
+    "tr": [
+      "muz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’arancia",
+    "category": "isim",
+    "tr": [
+      "portakal"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’uva",
+    "category": "isim",
+    "tr": [
+      "üzüm"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il limone",
+    "category": "isim",
+    "tr": [
+      "limon"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la fragola",
+    "category": "isim",
+    "tr": [
+      "çilek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la patata",
+    "category": "isim",
+    "tr": [
+      "patates"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il pomodoro",
+    "category": "isim",
+    "tr": [
+      "domates"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cipolla",
+    "category": "isim",
+    "tr": [
+      "soğ an"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’insalata",
+    "category": "isim",
+    "tr": [
+      "salata"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il riso",
+    "category": "isim",
+    "tr": [
+      "pirinç"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la pasta",
+    "category": "isim",
+    "tr": [
+      "makarna"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la pizza",
+    "category": "isim",
+    "tr": [
+      "pizza"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il dolce",
+    "category": "isim",
+    "tr": [
+      "tatlı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il gelato",
+    "category": "isim",
+    "tr": [
+      "dondurma"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lo zucchero",
+    "category": "isim",
+    "tr": [
+      "ş eker"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il sale",
+    "category": "isim",
+    "tr": [
+      "tuz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’olio",
+    "category": "isim",
+    "tr": [
+      "yağ"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’uovo",
+    "category": "isim",
+    "tr": [
+      "yumurta"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vorrei un caffè",
+    "category": "cümle",
+    "tr": [
+      "bir kahve istiyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "posso avere il conto?",
+    "category": "cümle",
+    "tr": [
+      "hesabı alabilir miyim?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quanto costa la pizza?",
+    "category": "cümle",
+    "tr": [
+      "pizza ne kadar?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "è molto buono!",
+    "category": "cümle",
+    "tr": [
+      "çok lezzetli!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la strada",
+    "category": "isim",
+    "tr": [
+      "sokak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la piazza",
+    "category": "isim",
+    "tr": [
+      "meydan"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la fermata",
+    "category": "isim",
+    "tr": [
+      "durak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la stazione",
+    "category": "isim",
+    "tr": [
+      "istasyon"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’aeroporto",
+    "category": "isim",
+    "tr": [
+      "havaalanı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’ospedale",
+    "category": "isim",
+    "tr": [
+      "hastane"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la farmacia",
+    "category": "isim",
+    "tr": [
+      "eczane"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il supermercato",
+    "category": "isim",
+    "tr": [
+      "süpermarket"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il negozio",
+    "category": "isim",
+    "tr": [
+      "mağ aza"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la banca",
+    "category": "isim",
+    "tr": [
+      "banka"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la posta",
+    "category": "isim",
+    "tr": [
+      "postane"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’università",
+    "category": "isim",
+    "tr": [
+      "üniversite"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la chiesa",
+    "category": "isim",
+    "tr": [
+      "kilise"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il parco",
+    "category": "isim",
+    "tr": [
+      "park"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il museo",
+    "category": "isim",
+    "tr": [
+      "müze"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il ristorante",
+    "category": "isim",
+    "tr": [
+      "restoran"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il bar",
+    "category": "isim",
+    "tr": [
+      "kafe",
+      "bar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’albergo",
+    "category": "isim",
+    "tr": [
+      "otel"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il teatro",
+    "category": "isim",
+    "tr": [
+      "tiyatro"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cinema",
+    "category": "isim",
+    "tr": [
+      "sinema"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il mercato",
+    "category": "isim",
+    "tr": [
+      "pazar"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il mare",
+    "category": "isim",
+    "tr": [
+      "deniz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la montagna",
+    "category": "isim",
+    "tr": [
+      "dağ"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il ponte",
+    "category": "isim",
+    "tr": [
+      "köprü"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la stazione è vicina",
+    "category": "cümle",
+    "tr": [
+      "istasyon yakı n"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il museo è lontano",
+    "category": "cümle",
+    "tr": [
+      "müze uzak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dove si trova la farmacia?",
+    "category": "cümle",
+    "tr": [
+      "eczane nerede?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vado al supermercato",
+    "category": "cümle",
+    "tr": [
+      "süpermarkete gidiyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "abito in centro",
+    "category": "cümle",
+    "tr": [
+      "ş ehir merkezinde yaş ı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il treno",
+    "category": "isim",
+    "tr": [
+      "tren"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’autobus",
+    "category": "isim",
+    "tr": [
+      "otobüs"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la bicicletta",
+    "category": "isim",
+    "tr": [
+      "bisiklet"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’aereo",
+    "category": "isim",
+    "tr": [
+      "uçak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la barca",
+    "category": "isim",
+    "tr": [
+      "tekne"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la moto",
+    "category": "isim",
+    "tr": [
+      "motosiklet"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il taxi",
+    "category": "isim",
+    "tr": [
+      "taksi"
+    ],
+    "note": ""
+  },
+  {
+    "it": "a piedi",
+    "category": "ifade",
+    "tr": [
+      "yürüyerek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in macchina",
+    "category": "ifade",
+    "tr": [
+      "arabayla"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in treno",
+    "category": "ifade",
+    "tr": [
+      "trenle"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in autobus",
+    "category": "ifade",
+    "tr": [
+      "otobüsle"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in bicicletta",
+    "category": "ifade",
+    "tr": [
+      "bisikletle"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in aereo",
+    "category": "ifade",
+    "tr": [
+      "uçakla"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in taxi",
+    "category": "ifade",
+    "tr": [
+      "taksiyle"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il viaggio",
+    "category": "isim",
+    "tr": [
+      "yolculuk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la valigia",
+    "category": "isim",
+    "tr": [
+      "valiz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il biglietto",
+    "category": "isim",
+    "tr": [
+      "bilet"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la fermata è qui",
+    "category": "cümle",
+    "tr": [
+      "durak burada"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il treno parte alle nove",
+    "category": "cümle",
+    "tr": [
+      "tren saat dokuzda kalkı yor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dove compro il biglietto?",
+    "category": "cümle",
+    "tr": [
+      "bileti nereden alabilirim?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "arrivo domani",
+    "category": "cümle",
+    "tr": [
+      "yarı n varı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi piace viaggiare",
+    "category": "cümle",
+    "tr": [
+      "seyahat etmeyi seviyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il prezzo",
+    "category": "isim",
+    "tr": [
+      "fiyat"
+    ],
+    "note": ""
+  },
+  {
+    "it": "i soldi",
+    "category": "isim",
+    "tr": [
+      "para"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la carta di credito",
+    "category": "isim",
+    "tr": [
+      "kredi kartı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il contante",
+    "category": "isim",
+    "tr": [
+      "nakit"
+    ],
+    "note": ""
+  },
+  {
+    "it": "lo sconto",
+    "category": "isim",
+    "tr": [
+      "indirim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cassa",
+    "category": "isim",
+    "tr": [
+      "kasa"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cliente",
+    "category": "isim",
+    "tr": [
+      "müş teri (erkek)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la cliente",
+    "category": "isim",
+    "tr": [
+      "müş teri (kadı n)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il negozio di vestiti",
+    "category": "isim",
+    "tr": [
+      "giyim mağ azası"
+    ],
+    "note": ""
+  },
+  {
+    "it": "la boutique",
+    "category": "isim",
+    "tr": [
+      "butik"
+    ],
+    "note": ""
+  },
+  {
+    "it": "provare",
+    "category": "fiil",
+    "tr": [
+      "denemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "pagare",
+    "category": "fiil",
+    "tr": [
+      "ödemek"
+    ],
+    "note": ""
+  },
+  {
+    "it": "vendere",
+    "category": "fiil",
+    "tr": [
+      "satmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "funzionare",
+    "category": "fiil",
+    "tr": [
+      "çalı ş mak (cihaz)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "costare",
+    "category": "fiil",
+    "tr": [
+      "fiyatı olmak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quanto costa questo?",
+    "category": "cümle",
+    "tr": [
+      "bu ne kadar?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "posso provarlo?",
+    "category": "cümle",
+    "tr": [
+      "bunu deneyebilir miyim?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "accettate la carta?",
+    "category": "cümle",
+    "tr": [
+      "kart kabul ediyor musunuz?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi piace questo vestito",
+    "category": "cümle",
+    "tr": [
+      "bu elbiseyi beğ endim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "è troppo caro",
+    "category": "cümle",
+    "tr": [
+      "çok pahalı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "è economico",
+    "category": "cümle",
+    "tr": [
+      "ucuz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cerco una taglia più grande",
+    "category": "cümle",
+    "tr": [
+      "daha büyük beden arı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dov’è la cassa?",
+    "category": "cümle",
+    "tr": [
+      "kasa nerede?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "grazie, arrivederci",
+    "category": "ifade",
+    "tr": [
+      "teş ekkürler, hoşça kalı n"
+    ],
+    "note": ""
+  },
+  {
+    "it": "preoccupato",
+    "category": "sı fat",
+    "tr": [
+      "endiş eli"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sorpreso",
+    "category": "sı fat",
+    "tr": [
+      "ş aş ı rmı ş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "annoiato",
+    "category": "sı fat",
+    "tr": [
+      "sı kı lmı ş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "imbarazzato",
+    "category": "sı fat",
+    "tr": [
+      "utanmı ş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "innamorato",
+    "category": "sı fat",
+    "tr": [
+      "aş ı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "geloso",
+    "category": "sı fat",
+    "tr": [
+      "kı skanç"
+    ],
+    "note": ""
+  },
+  {
+    "it": "deluso",
+    "category": "sı fat",
+    "tr": [
+      "hayal kı rı klı ğ ı na uğ ramı ş"
+    ],
+    "note": ""
+  },
+  {
+    "it": "emozionato",
+    "category": "sı fat",
+    "tr": [
+      "heyecanlı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "malato",
+    "category": "sı fat",
+    "tr": [
+      "hasta"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sano",
+    "category": "sı fat",
+    "tr": [
+      "sağ lı klı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho paura",
+    "category": "cümle",
+    "tr": [
+      "korkuyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sono felice oggi",
+    "category": "cümle",
+    "tr": [
+      "bugün mutluyum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non sono arrabbiato",
+    "category": "cümle",
+    "tr": [
+      "sinirli değ ilim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi sento male",
+    "category": "cümle",
+    "tr": [
+      "kendimi kötü hissediyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho mal di testa",
+    "category": "cümle",
+    "tr": [
+      "baş ı m ağ rı yor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "voglio riposare",
+    "category": "cümle",
+    "tr": [
+      "dinlenmek istiyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fa caldo",
+    "category": "cümle",
+    "tr": [
+      "hava sı cak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fa freddo",
+    "category": "cümle",
+    "tr": [
+      "hava soğ uk"
+    ],
+    "note": ""
+  },
+  {
+    "it": "c’è il sole",
+    "category": "cümle",
+    "tr": [
+      "güneş li"
+    ],
+    "note": ""
+  },
+  {
+    "it": "c’è vento",
+    "category": "cümle",
+    "tr": [
+      "rüzgarlı"
+    ],
+    "note": ""
+  },
+  {
+    "it": "piove",
+    "category": "fiil",
+    "tr": [
+      "yağ mur yağ ı yor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "nevica",
+    "category": "fiil",
+    "tr": [
+      "kar yağ ı yor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "è nuvoloso",
+    "category": "cümle",
+    "tr": [
+      "bulutlu"
+    ],
+    "note": ""
+  },
+  {
+    "it": "c’è la nebbia",
+    "category": "cümle",
+    "tr": [
+      "sisli"
+    ],
+    "note": ""
+  },
+  {
+    "it": "il cielo è sereno",
+    "category": "cümle",
+    "tr": [
+      "gökyüzü açı k"
+    ],
+    "note": ""
+  },
+  {
+    "it": "che tempo fa oggi?",
+    "category": "cümle",
+    "tr": [
+      "bugün hava nası l?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "oggi piove molto",
+    "category": "cümle",
+    "tr": [
+      "bugün çok yağ mur yağ ı yor"
+    ],
+    "note": ""
+  },
+  {
+    "it": "fa caldo d’estate",
+    "category": "cümle",
+    "tr": [
+      "yazı n hava sı cak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi piace la pioggia",
+    "category": "cümle",
+    "tr": [
+      "yağ muru seviyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "odio il freddo",
+    "category": "cümle",
+    "tr": [
+      "soğ uktan nefret ediyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "qualche volta",
+    "category": "zarf",
+    "tr": [
+      "bazen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ogni giorno",
+    "category": "zarf",
+    "tr": [
+      "her gün"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ogni tanto",
+    "category": "zarf",
+    "tr": [
+      "ara sı ra"
+    ],
+    "note": ""
+  },
+  {
+    "it": "di solito",
+    "category": "zarf",
+    "tr": [
+      "genellikle"
+    ],
+    "note": ""
+  },
+  {
+    "it": "poi",
+    "category": "zarf",
+    "tr": [
+      "sonra"
+    ],
+    "note": ""
+  },
+  {
+    "it": "prima",
+    "category": "zarf",
+    "tr": [
+      "önce"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ancora",
+    "category": "zarf",
+    "tr": [
+      "henüz",
+      "hâlâ"
+    ],
+    "note": ""
+  },
+  {
+    "it": "già",
+    "category": "zarf",
+    "tr": [
+      "zaten"
+    ],
+    "note": ""
+  },
+  {
+    "it": "subito",
+    "category": "zarf",
+    "tr": [
+      "hemen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dopo domani",
+    "category": "zarf",
+    "tr": [
+      "yarı ndan sonra"
+    ],
+    "note": ""
+  },
+  {
+    "it": "l’altro ieri",
+    "category": "zarf",
+    "tr": [
+      "dünden önceki gün"
+    ],
+    "note": ""
+  },
+  {
+    "it": "e",
+    "category": "bağ laç",
+    "tr": [
+      "ve"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ma",
+    "category": "bağ laç",
+    "tr": [
+      "ama"
+    ],
+    "note": ""
+  },
+  {
+    "it": "perché",
+    "category": "bağ laç",
+    "tr": [
+      "çünkü",
+      "neden"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quindi",
+    "category": "bağ laç",
+    "tr": [
+      "bu yüzden"
+    ],
+    "note": ""
+  },
+  {
+    "it": "se",
+    "category": "bağ laç",
+    "tr": [
+      "eğ er"
+    ],
+    "note": ""
+  },
+  {
+    "it": "anche",
+    "category": "bağ laç",
+    "tr": [
+      "ayrı ca",
+      "de"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quando",
+    "category": "bağ laç",
+    "tr": [
+      "-dı ğ ı nda",
+      "ne zaman"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mentre",
+    "category": "bağ laç",
+    "tr": [
+      "-iken"
+    ],
+    "note": ""
+  },
+  {
+    "it": "o",
+    "category": "bağ laç",
+    "tr": [
+      "ya da"
+    ],
+    "note": ""
+  },
+  {
+    "it": "anche se",
+    "category": "bağ laç",
+    "tr": [
+      "olsa bile"
+    ],
+    "note": ""
+  },
+  {
+    "it": "invece",
+    "category": "bağ laç",
+    "tr": [
+      "aksine"
+    ],
+    "note": ""
+  },
+  {
+    "it": "però",
+    "category": "bağ laç",
+    "tr": [
+      "ancak"
+    ],
+    "note": ""
+  },
+  {
+    "it": "così",
+    "category": "bağ laç",
+    "tr": [
+      "böylece"
+    ],
+    "note": ""
+  },
+  {
+    "it": "per esempio",
+    "category": "ifade",
+    "tr": [
+      "örneğ in"
+    ],
+    "note": ""
+  },
+  {
+    "it": "mi chiamo...",
+    "category": "cümle",
+    "tr": [
+      "adı m..."
+    ],
+    "note": ""
+  },
+  {
+    "it": "come ti chiami?",
+    "category": "cümle",
+    "tr": [
+      "adı n ne?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "piacere",
+    "category": "ifade",
+    "tr": [
+      "memnun oldum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "quanti anni hai?",
+    "category": "cümle",
+    "tr": [
+      "kaç yaş ı ndası n?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ho vent’anni",
+    "category": "cümle",
+    "tr": [
+      "yirmi yaş ı ndayı m"
+    ],
+    "note": ""
+  },
+  {
+    "it": "di dove sei?",
+    "category": "cümle",
+    "tr": [
+      "nerelisin?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sono di Ankara",
+    "category": "cümle",
+    "tr": [
+      "Ankaralı yı m"
+    ],
+    "note": ""
+  },
+  {
+    "it": "abito a Roma",
+    "category": "cümle",
+    "tr": [
+      "Roma’da yaş ı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "che lavoro fai?",
+    "category": "cümle",
+    "tr": [
+      "ne iş yapı yorsun?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "faccio lo studente",
+    "category": "cümle",
+    "tr": [
+      "öğ renciyim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "parli inglese?",
+    "category": "cümle",
+    "tr": [
+      "İ ngilizce konuş uyor musun?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "parlo un po’ d’italiano",
+    "category": "cümle",
+    "tr": [
+      "biraz İ talyanca konuş uyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non capisco",
+    "category": "cümle",
+    "tr": [
+      "anlamı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "capisco",
+    "category": "cümle",
+    "tr": [
+      "anlı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "puoi ripetere, per favore?",
+    "category": "cümle",
+    "tr": [
+      "tekrar eder misin, lütfen?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "più lentamente, per favore",
+    "category": "cümle",
+    "tr": [
+      "biraz daha yavaş lütfen"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non lo so",
+    "category": "cümle",
+    "tr": [
+      "bilmiyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non importa",
+    "category": "cümle",
+    "tr": [
+      "önemli değ il"
+    ],
+    "note": ""
+  },
+  {
+    "it": "grazie mille",
+    "category": "ifade",
+    "tr": [
+      "çok teş ekkür ederim"
+    ],
+    "note": ""
+  },
+  {
+    "it": "di niente",
+    "category": "ifade",
+    "tr": [
+      "bir ş ey değ il"
+    ],
+    "note": ""
+  },
+  {
+    "it": "va bene",
+    "category": "ifade",
+    "tr": [
+      "tamam",
+      "olur"
+    ],
+    "note": ""
+  },
+  {
+    "it": "certo",
+    "category": "ifade",
+    "tr": [
+      "tabii"
+    ],
+    "note": ""
+  },
+  {
+    "it": "attenzione!",
+    "category": "ifade",
+    "tr": [
+      "dikkat et!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "auguri!",
+    "category": "ifade",
+    "tr": [
+      "tebrikler!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "buon compleanno!",
+    "category": "ifade",
+    "tr": [
+      "doğ um günün kutlu olsun!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "buon appetito!",
+    "category": "ifade",
+    "tr": [
+      "afiyet olsun!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "buon viaggio!",
+    "category": "ifade",
+    "tr": [
+      "iyi yolculuklar!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "in bocca al lupo!",
+    "category": "ifade",
+    "tr": [
+      "bol ş ans!"
+    ],
+    "note": ""
+  },
+  {
+    "it": "come va?",
+    "category": "cümle",
+    "tr": [
+      "nası l gidiyor?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "va bene, grazie",
+    "category": "cümle",
+    "tr": [
+      "iyi, teş ekkürler"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cos’hai?",
+    "category": "cümle",
+    "tr": [
+      "neyin var?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "niente, tutto bene",
+    "category": "cümle",
+    "tr": [
+      "bir ş ey yok, her ş ey yolunda"
+    ],
+    "note": ""
+  },
+  {
+    "it": "cosa fai stasera?",
+    "category": "cümle",
+    "tr": [
+      "bu akş am ne yapı yorsun?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "esco con gli amici",
+    "category": "cümle",
+    "tr": [
+      "arkadaş larla dı ş arı çı kı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "dove andiamo?",
+    "category": "cümle",
+    "tr": [
+      "nereye gidiyoruz?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "andiamo al cinema",
+    "category": "cümle",
+    "tr": [
+      "sinemaya gidiyoruz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non mi piace per niente",
+    "category": "cümle",
+    "tr": [
+      "hiç hoş lanmı yorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sei pronto?",
+    "category": "cümle",
+    "tr": [
+      "hazı r mı sı n?"
+    ],
+    "note": ""
+  },
+  {
+    "it": "sono pronto",
+    "category": "cümle",
+    "tr": [
+      "hazı rı m"
+    ],
+    "note": ""
+  },
+  {
+    "it": "aspetta un attimo",
+    "category": "cümle",
+    "tr": [
+      "bir dakika bekle"
+    ],
+    "note": ""
+  },
+  {
+    "it": "arrivo subito",
+    "category": "cümle",
+    "tr": [
+      "hemen geliyorum"
+    ],
+    "note": ""
+  },
+  {
+    "it": "non preoccuparti",
+    "category": "cümle",
+    "tr": [
+      "merak etme"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ti voglio bene",
+    "category": "cümle",
+    "tr": [
+      "seni seviyorum (samimi)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ti amo",
+    "category": "cümle",
+    "tr": [
+      "seni seviyorum (aş k anlamı nda)"
+    ],
+    "note": ""
+  },
+  {
+    "it": "buona notte",
+    "category": "ifade",
+    "tr": [
+      "iyi geceler"
+    ],
+    "note": ""
+  },
+  {
+    "it": "a domani",
+    "category": "ifade",
+    "tr": [
+      "yarı n görüş ürüz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "a presto",
+    "category": "ifade",
+    "tr": [
+      "yakı nda görüş ürüz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "ci vediamo",
+    "category": "ifade",
+    "tr": [
+      "görüş ürüz"
+    ],
+    "note": ""
+  },
+  {
+    "it": "addio",
+    "category": "ifade",
+    "tr": [
+      "elveda"
+    ],
+    "note": ""
+  }
+]

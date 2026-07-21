@@ -1,0 +1,200 @@
+import type { Unit } from '../../types/curriculum';
+
+const U = 'CHK-A2-FINAL';
+
+export const unitChkA2: Unit = {
+  id: U,
+  level: 'A2',
+  order: 13,
+  slug: 'a2-checkpoint',
+  titleIt: 'A2 Checkpoint',
+  titleTr: 'A2 Kontrol Noktası',
+  outcomeTr:
+    'A1 ve A2 seviyesinde öğrenilen tüm üniteleri bütünleşik olarak kullanarak aile, restoran, geçmiş anlatım, alışveriş, dönüşlü fiiller, rica/emir ve koşul kipini karıştırarak göster.',
+  grammarFocus: [
+    'A1 tekrar: presente, artikeller, passato prossimo, futuro',
+    'possessivi ve piacere',
+    'imperfetto vs passato prossimo, trapassato',
+    'doğrudan/dolaylı nesne zamirleri, ne',
+    'dönüşlü fiiller ve kişisiz si',
+    'emir kipi ve condizionale',
+  ],
+  vocabFocus: [
+    'famiglia ve restoran',
+    'cinema ve anı anlatımı',
+    'market ve alışveriş',
+    'giyim mağazası',
+    'medya ve yön tarifi',
+    'müzik ve etkinlik',
+  ],
+  estimatedHours: '3-4 saat',
+  lessons: [
+    {
+      id: 'LSN-CHK-A2-FINAL-01',
+      unitId: U,
+      order: 1,
+      titleIt: 'Revisione generale A1-A2',
+      titleTr: 'A1-A2 genel tekrar sınavı',
+      goalsTr: [
+        'Ünite 0-11 dil bilgisini karışık olarak uygulama',
+        'A2 bütünleşik performans değerlendirmesi',
+      ],
+      estimatedMinutes: 35,
+      exercises: [
+        {
+          id: 'ACT-CHK-A2-FINAL-01-01-EXPLAIN',
+          type: 'EXPLAIN',
+          skills: ['grammar', 'reading'],
+          promptTr: 'A1-A2 genel tekrar',
+          explanation:
+            'Bu sınav, Benvenuti’den A ritmo di musica’ya kadar (Ünite 0-11) öğrendiğin her şeyi karışık olarak test eder: presente, artikeller, passato prossimo, futuro, possessivi, piacere, imperfetto/trapassato, nesne zamirleri, ne, dönüşlü fiiller, kişisiz si, emir kipi ve condizionale.\n\nHer soruyu dikkatlice oku; bazı sorular birden fazla üniteden yapı birleştirir.',
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-02-CONJ',
+          type: 'CONJUGATE',
+          skills: ['grammar'],
+          promptTr: 'essere — loro (A1 Ünite 0)',
+          lemma: 'essere',
+          person: 'loro',
+          acceptedAnswers: ['sono'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-03-CLOZE',
+          type: 'CLOZE',
+          skills: ['grammar', 'writing'],
+          promptTr: 'İyelik testi (A2-06)',
+          blanks: [
+            { before: 'Sono ', after: ' sorelle. (io)', answer: 'le mie' },
+            { before: 'Mi ', after: ' i ravioli. (piacere)', answer: 'piacciono' },
+          ],
+          acceptedAnswers: ['le mie', 'piacciono'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-04-MCQ',
+          type: 'MCQ',
+          skills: ['grammar'],
+          promptTr: 'Doğru hangisi? (A2-07 — imperfetto vs passato prossimo)',
+          options: [
+            'Mentre studiavo, Marco ha telefonato.',
+            'Mentre ho studiato, Marco telefonava.',
+            'Mentre studio, Marco ha telefonato ieri.',
+          ],
+          acceptedAnswers: ['Mentre studiavo, Marco ha telefonato.'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-05-CLOZE',
+          type: 'CLOZE',
+          skills: ['grammar', 'writing'],
+          promptTr: 'Trapassato testi (A2-07)',
+          blanks: [
+            { before: 'Quando siamo arrivati, il film era già ', after: '. (cominciare)', answer: 'cominciato' },
+          ],
+          acceptedAnswers: ['cominciato'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-06-TRANSFORM',
+          type: 'TRANSFORM',
+          skills: ['grammar', 'writing'],
+          promptTr: 'Zamirle değiştir (A2-08)',
+          transformFrom: 'Compro la pasta.',
+          acceptedAnswers: ['La compro.'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-07-CLOZE',
+          type: 'CLOZE',
+          skills: ['grammar', 'writing'],
+          promptTr: 'ne ve ortaç uyumu testi (A2-08)',
+          blanks: [
+            { before: 'Quante uova vuoi? ', after: ' voglio sei.', answer: 'Ne' },
+            { before: 'Le mele? Le ho ', after: '. (comprare)', answer: 'comprate' },
+          ],
+          acceptedAnswers: ['Ne', 'comprate'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-08-CONJ',
+          type: 'CONJUGATE',
+          skills: ['grammar'],
+          promptTr: 'vestirsi (dönüşlü) — noi (A2-09)',
+          lemma: 'vestirsi',
+          person: 'noi',
+          acceptedAnswers: ['ci vestiamo'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-09-TRANSFORM',
+          type: 'TRANSFORM',
+          skills: ['grammar', 'writing'],
+          promptTr: 'Kişisiz si testi (A2-09)',
+          transformFrom: 'In questo negozio i clienti pagano con la carta.',
+          acceptedAnswers: ['In questo negozio si paga con la carta.'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-10-TRANSFORM',
+          type: 'TRANSFORM',
+          skills: ['grammar', 'writing'],
+          promptTr: 'Zamirli emir testi (A2-10)',
+          transformFrom: 'Prendi il libro.',
+          acceptedAnswers: ['Prendilo.'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-11-CLOZE',
+          type: 'CLOZE',
+          skills: ['grammar', 'writing'],
+          promptTr: 'Düzensiz emir testi (A2-10)',
+          blanks: [{ before: '', after: ' la verità! (dire a me)', answer: 'Dimmi' }],
+          acceptedAnswers: ['Dimmi'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-12-CONJ',
+          type: 'CONJUGATE',
+          skills: ['grammar'],
+          promptTr: 'potere — condizionale — tu (A2-11)',
+          lemma: 'potere',
+          person: 'tu (condizionale)',
+          acceptedAnswers: ['potresti'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-13-CLOZE',
+          type: 'CLOZE',
+          skills: ['grammar', 'writing'],
+          promptTr: 'Condizionale composto testi (A2-11)',
+          blanks: [{ before: '', after: ' voluto venire, ma ero malato. (avere)', answer: 'Avrei' }],
+          acceptedAnswers: ['Avrei'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-14-DIALOGUE',
+          type: 'DIALOGUE_CHOICE',
+          skills: ['reading'],
+          promptTr: 'Restoranda kibarca sipariş ver (A1-A2 karışık)',
+          dialogue: [{ speaker: 'Cameriere', text: 'Cosa desidera ordinare?' }],
+          options: [
+            'Vorrei gli spaghetti e un’acqua, per favore.',
+            'Dammi spaghetti.',
+            'Spaghetti io.',
+          ],
+          acceptedAnswers: ['Vorrei gli spaghetti e un’acqua, per favore.'],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-15-FREE',
+          type: 'FREE_TRANSLATION',
+          skills: ['writing'],
+          promptTr:
+            'Çevir: “Çocukken her yaz denize giderdik, ama geçen yıl gidemedim çünkü çok çalıştım.”',
+          acceptedAnswers: [
+            'Da bambini andavamo al mare ogni estate, ma l’anno scorso non sono potuto/a andare perché ho lavorato molto.',
+          ],
+        },
+        {
+          id: 'ACT-CHK-A2-FINAL-01-16-OPEN',
+          type: 'OPEN_SPEAK',
+          skills: ['speaking'],
+          promptTr:
+            'A2 final görevi (60-120 sn): Kendini tanıt, ailenden bahset, geçen hafta sonunu anlat (imperfetto/passato prossimo) ve bir gelecek planını condizionale ile söyle.',
+          audioText:
+            'Mi chiamo Ayşe. I miei genitori vivono a Istanbul. Il fine settimana scorso siamo andati al ristorante e mi sono piaciuti molto i ravioli. Il prossimo mese vorrei andare a un concerto con la mia famiglia.',
+          acceptedAnswers: ['mi chiamo', 'siamo andati', 'vorrei'],
+          targetCoverage: ['mi chiamo'],
+        },
+      ],
+    },
+  ],
+};

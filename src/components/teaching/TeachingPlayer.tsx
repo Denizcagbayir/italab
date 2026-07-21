@@ -75,6 +75,7 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
   const [checkIndex, setCheckIndex] = useState(0);
   const [checkCorrect, setCheckCorrect] = useState(0);
   const [picked, setPicked] = useState<string | null>(null);
+  const [checkDraft, setCheckDraft] = useState('');
   const [noticePick, setNoticePick] = useState<string | null>(null);
   const [practiceInput, setPracticeInput] = useState('');
   const [practiceChecked, setPracticeChecked] = useState(false);
@@ -125,6 +126,25 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
     return pool;
   }, [lesson]);
 
+  const normalize = (s: string) =>
+    s
+      .trim()
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/\p{M}/gu, '')
+      .replace(/[“”«»"'`]/g, '')
+      .replace(/\s+/g, ' ');
+
+  const answersMatch = (user: string, expected: string) => {
+    const u = normalize(user);
+    const e = normalize(expected);
+    if (!u || !e) return false;
+    if (u === e) return true;
+    // Allow short answers contained in longer expected explanations
+    if (e.includes(u) && u.length >= Math.min(4, e.length)) return true;
+    return false;
+  };
+
   if (!lesson) {
     return (
       <div className="page">
@@ -135,11 +155,18 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
   }
 
   const check = lesson.checks[checkIndex];
+  const checkOptions = check?.options?.filter(Boolean) ?? [];
+  const isMcq = checkOptions.length >= 2;
   const miniPassed = checkCorrect >= LESSON_PASS.miniCheckMinCorrect;
   const noticeCorrect = lesson.rules[0] ?? noticeOptions[0];
 
-  const goNext = () => {
+  const resetCheckUi = () => {
     setPicked(null);
+    setCheckDraft('');
+  };
+
+  const goNext = () => {
+    resetCheckUi();
     if (stepId === 'checks' && checkIndex < lesson.checks.length - 1) {
       setCheckIndex((i) => i + 1);
       return;
@@ -148,7 +175,7 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
   };
 
   const goPrev = () => {
-    setPicked(null);
+    resetCheckUi();
     if (stepId === 'checks' && checkIndex > 0) {
       setCheckIndex((i) => i - 1);
       return;
@@ -156,20 +183,27 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
     if (step > 0) setStep((s) => s - 1);
   };
 
-  const answerCheck = (opt: string) => {
+  const gradeCheck = (userAnswer: string) => {
     if (picked || !check) return;
-    setPicked(opt);
-    const ok = opt === check.a;
+    const ok = answersMatch(userAnswer, check.a);
+    setPicked(userAnswer);
     if (ok) setCheckCorrect((c) => c + 1);
     else {
       addMistake({
         exerciseId: `${lesson.id}-check-${checkIndex}`,
         prompt: check.q,
         expected: check.a,
-        userAnswer: opt,
-        type: 'MCQ',
+        userAnswer,
+        type: isMcq ? 'MCQ' : 'FREE_TRANSLATION',
       });
     }
+  };
+
+  const answerCheck = (opt: string) => gradeCheck(opt);
+
+  const submitOpenCheck = () => {
+    if (!checkDraft.trim()) return;
+    gradeCheck(checkDraft);
   };
 
   const seedSrs = () => {
@@ -198,16 +232,9 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
     setFinished(true);
   };
 
-  const normalize = (s: string) =>
-    s
-      .trim()
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/\p{M}/gu, '');
-
   const checkPractice = () => {
     if (!practice || practiceChecked) return;
-    const ok = normalize(practiceInput) === normalize(practice.answer);
+    const ok = answersMatch(practiceInput, practice.answer);
     setPracticeOk(ok);
     setPracticeChecked(true);
     if (!ok) {
@@ -222,7 +249,7 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
   };
 
   const primaryLabel = (): string | null => {
-    if (stepId === 'checks' && !picked) return null;
+    if (stepId === 'checks' && check && !picked) return null;
     if (stepId === 'noticing' && !noticePick) return null;
     if (stepId === 'practice' && practice && !practiceChecked) return null;
     if (stepId === 'checks' && checkIndex < lesson.checks.length - 1) {
@@ -434,34 +461,76 @@ export function TeachingPlayer({ unitId, lessonId }: Props) {
               eyebrow={`Mini kontrol ${checkIndex + 1}/${lesson.checks.length}`}
               title={check.q}
             >
-              <div className="choice-list">
-                {check.options.map((opt) => {
-                  const isPick = picked === opt;
-                  const isAnswer = opt === check.a;
-                  let cls = 'choice';
-                  if (picked) {
-                    if (isAnswer) cls += ' ok';
-                    else if (isPick) cls += ' bad';
-                  }
-                  return (
-                    <button
-                      key={opt}
-                      type="button"
-                      className={cls}
+              {isMcq ? (
+                <div className="choice-list">
+                  {checkOptions.map((opt) => {
+                    const isPick = picked === opt;
+                    const isAnswer = answersMatch(opt, check.a);
+                    let cls = 'choice';
+                    if (picked) {
+                      if (isAnswer) cls += ' ok';
+                      else if (isPick) cls += ' bad';
+                    }
+                    return (
+                      <button
+                        key={opt}
+                        type="button"
+                        className={cls}
+                        disabled={Boolean(picked)}
+                        onClick={() => answerCheck(opt)}
+                      >
+                        <span lang="it">{opt}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="teach-open-check">
+                  <label className="field">
+                    <span>Cevabını yaz</span>
+                    <input
+                      className="text-input"
+                      value={checkDraft}
                       disabled={Boolean(picked)}
-                      onClick={() => answerCheck(opt)}
+                      onChange={(e) => setCheckDraft(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') submitOpenCheck();
+                      }}
+                      placeholder="Örn. capisco"
+                      autoCapitalize="off"
+                      autoCorrect="off"
+                    />
+                  </label>
+                  {!picked && (
+                    <button
+                      type="button"
+                      className="btn primary"
+                      onClick={submitOpenCheck}
+                      disabled={!checkDraft.trim()}
                     >
-                      <span lang="it">{opt}</span>
+                      Kontrol et
                     </button>
-                  );
-                })}
-              </div>
+                  )}
+                </div>
+              )}
               {picked && (
-                <p className={`status-msg ${picked === check.a ? 'ok' : 'bad'}`}>
-                  {picked === check.a ? 'Doğru! ' : 'Henüz değil. '}
+                <p
+                  className={`status-msg ${
+                    answersMatch(picked, check.a) ? 'ok' : 'bad'
+                  }`}
+                >
+                  {answersMatch(picked, check.a)
+                    ? 'Doğru! '
+                    : `Henüz değil. Doğru yanıt: ${check.a}. `}
                   {check.why}
                 </p>
               )}
+            </TeachBlock>
+          )}
+
+          {stepId === 'checks' && !check && (
+            <TeachBlock eyebrow="Mini kontrol" title="Soru yüklenemedi">
+              <p className="lede">Bu soru eksik; devam ederek sonraki adıma geçebilirsin.</p>
             </TeachBlock>
           )}
 

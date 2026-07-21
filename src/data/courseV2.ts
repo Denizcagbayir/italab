@@ -4,7 +4,7 @@ import type { CourseMapUnit, Lesson, Skill, Unit } from '../types/curriculum';
 
 export type TeachingCheck = {
   q: string;
-  options: string[];
+  options?: string[];
   a: string;
   why: string;
 };

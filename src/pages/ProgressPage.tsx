@@ -77,7 +77,6 @@ export function ProgressPage() {
   const skillEntries = (
     Object.entries(skills) as [keyof typeof skills, number][]
   ).sort((a, b) => b[1] - a[1]);
-  const maxSkill = Math.max(1, ...skillEntries.map(([, v]) => v));
 
   const summary = [
     { label: 'Toplam XP', value: xp, hint: 'Tüm zamandan' },
@@ -91,8 +90,8 @@ export function ProgressPage() {
       <header className="page-header">
         <h1>İlerleme</h1>
         <p className="lede">
-          Bugünü, becerilerini ve üniteni tek bakışta gör. Eksik hissettiğin
-          yere pratikten devam et.
+          Günlük hedefini, becerilerini ve ünite ilerlemeni buradan takip et.
+          Eksik hissettiğin yere pratikten devam edebilirsin.
         </p>
       </header>
 
@@ -161,16 +160,32 @@ export function ProgressPage() {
           <h2>Beceri haritası</h2>
           <span className="muted small">0–100 puan</span>
         </div>
+        <p className="section-desc skill-chart-intro">
+          Her bar, o becerideki puanının 100 üzerinden payını gösterir. Ders
+          bitirdikçe dolar — 19 puan ≈ çubuğun beşte biri.
+        </p>
         <div className="skill-chart-list">
           {skillEntries.map(([k, v], i) => {
-            const width = Math.max(6, Math.round((v / maxSkill) * 100));
+            const score = Math.max(0, Math.min(100, v));
+            // Absolute 0–100 scale (not relative to the highest skill)
+            const width = score;
             return (
               <div key={k} className="skill-chart-row">
                 <div className="skill-chart-meta">
                   <span>{SKILL_LABELS[k]}</span>
-                  <strong>{v}</strong>
+                  <strong>
+                    {score}
+                    <span className="skill-score-max">/100</span>
+                  </strong>
                 </div>
-                <div className="skill-chart-track">
+                <div
+                  className="skill-chart-track"
+                  role="meter"
+                  aria-valuenow={score}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-label={`${SKILL_LABELS[k]} ${score} üzerinden 100`}
+                >
                   <motion.div
                     className={`skill-chart-fill skill-${k}`}
                     initial={{ width: 0 }}

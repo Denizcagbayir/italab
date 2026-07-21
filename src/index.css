@@ -1775,11 +1775,23 @@ a.btn {
   overflow: hidden;
 }
 
+.skill-chart-intro {
+  margin: 0 0 var(--space-4);
+  text-align: left;
+}
+
+.skill-score-max {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-left: 2px;
+}
+
 .skill-chart-fill {
   height: 100%;
   border-radius: inherit;
   background: linear-gradient(90deg, var(--brand), var(--accent));
-  min-width: 8px;
+  min-width: 0;
 }
 
 .skill-chart-fill.skill-listening {

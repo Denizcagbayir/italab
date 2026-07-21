@@ -89,7 +89,9 @@ export function PathPage() {
     <div className="page">
       <header className="page-header">
         <h1>Yol</h1>
-        <p className="lede">A1 → A2 · müfredat haritası</p>
+        <p className="lede">
+          A1’den A2’ye ünite haritası. Açık üniteye dokun, sıradaki derse gir.
+        </p>
       </header>
       <div className="path-tree">
         {COURSE_MAP.map((u) => {

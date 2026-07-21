@@ -63,7 +63,7 @@ export function PracticeArticles() {
   return (
     <div className="page practice-drill">
       <Link to="/practice" className="back-link">
-        ← Pratik Hub
+        ← Pratik
       </Link>
       <header className="page-header">
         <h1>İsim & artikel</h1>

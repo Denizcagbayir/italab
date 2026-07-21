@@ -16,7 +16,7 @@ export function PracticeSrs() {
     return (
       <div className="page">
         <Link to="/practice" className="back-link">
-          ← Pratik Hub
+          ← Pratik
         </Link>
         <div className="empty-card">
           <h2>Tekrar yok</h2>
@@ -39,7 +39,7 @@ export function PracticeSrs() {
     return (
       <div className="page">
         <Link to="/practice" className="back-link">
-          ← Pratik Hub
+          ← Pratik
         </Link>
         <div className="empty-card">
           <h2>Tur bitti</h2>
@@ -55,7 +55,7 @@ export function PracticeSrs() {
   return (
     <div className="page">
       <Link to="/practice" className="back-link">
-        ← Pratik Hub
+        ← Pratik
       </Link>
       <header className="page-header">
         <h1>Aralıklı tekrar</h1>

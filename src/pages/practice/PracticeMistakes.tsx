@@ -10,7 +10,7 @@ export function PracticeMistakes() {
   return (
     <div className="page">
       <Link to="/practice" className="back-link">
-        ← Pratik Hub
+        ← Pratik
       </Link>
       <header className="page-header">
         <h1>Hatalar</h1>

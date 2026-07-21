@@ -9,7 +9,7 @@ import type {
   SrsCard,
   UserProgress,
 } from '../types/curriculum';
-import { createCard } from '../lib/srs';
+import { cardFromExercise, repairSrsDeck } from '../lib/srsCards';
 import {
   UNIT_SEQUENCE,
   getUnit,
@@ -100,10 +100,19 @@ export const useProgress = create<Store>()(
       hydrateDay: () => {
         const s = get();
         const today = todayKey();
+        const repaired = repairSrsDeck(s.srs);
+        const needsRepair =
+          repaired.length !== s.srs.length ||
+          repaired.some((c, i) => c.back !== s.srs[i]?.back);
         if (s.lastStudyDate && s.lastStudyDate !== today) {
-          // reset daily counters without breaking streak until study
-          set({ todayMinutes: 0, todayXp: 0 });
+          set({
+            todayMinutes: 0,
+            todayXp: 0,
+            ...(needsRepair ? { srs: repaired } : {}),
+          });
+          return;
         }
+        if (needsRepair) set({ srs: repaired });
       },
 
       setVoiceName: (voiceName) => set({ voiceName }),
@@ -177,25 +186,19 @@ export const useProgress = create<Store>()(
         })),
 
       upsertSrsFromExercise: (ex, known) => {
-        const front =
-          ex.audioText ||
-          ex.promptIt ||
-          ex.acceptedAnswers?.[0] ||
-          ex.pairs?.[0]?.left ||
-          ex.id;
-        const back =
-          ex.promptTr ||
-          ex.pairs?.[0]?.right ||
-          ex.acceptedAnswers?.[0] ||
-          '';
+        const built = cardFromExercise(ex);
+        if (!built) return;
         set((s) => {
-          const existing = s.srs.find((c) => c.id === ex.id);
+          const existing = s.srs.find((c) => c.id === built.id);
           if (existing) {
             return {
               srs: s.srs.map((c) =>
-                c.id === ex.id
+                c.id === built.id
                   ? {
                       ...c,
+                      front: built.front,
+                      back: built.back,
+                      audioText: built.audioText,
                       due: known
                         ? Date.now() + 24 * 60 * 60 * 1000
                         : Date.now() + 10 * 60 * 1000,
@@ -206,8 +209,10 @@ export const useProgress = create<Store>()(
               ),
             };
           }
-          const card = createCard(ex.id, front, back, ex.audioText);
-          if (!known) card.due = Date.now();
+          const card = {
+            ...built,
+            due: known ? Date.now() + 24 * 60 * 60 * 1000 : Date.now(),
+          };
           return { srs: [...s.srs, card] };
         });
       },
@@ -257,6 +262,7 @@ export const useProgress = create<Store>()(
             ...data,
             settings: { ...initial.settings, ...data.settings },
             skills: { ...defaultSkills, ...data.skills },
+            srs: repairSrsDeck(data.srs ?? []),
           });
           return true;
         } catch {

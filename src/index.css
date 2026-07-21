@@ -288,8 +288,8 @@ textarea {
   gap: var(--space-2);
 }
 
+.btn.continue-cta,
 .continue-cta {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2px;
@@ -343,17 +343,21 @@ textarea {
 .srs-actions {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--space-2);
+  gap: var(--space-3);
   margin-top: var(--space-4);
 }
 
 .srs-actions .btn {
   width: 100%;
+  min-height: 56px;
+  padding: 12px 14px;
+  flex-direction: column;
+  gap: 2px;
 }
 
 @media (min-width: 560px) {
   .srs-actions {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
@@ -365,12 +369,37 @@ textarea {
   padding: 12px 16px;
   border-radius: 14px;
   font-weight: 600;
+  font-size: 0.98rem;
+  line-height: 1.25;
   cursor: pointer;
   min-height: var(--touch);
   display: inline-flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 8px;
+  text-align: center;
   -webkit-tap-highlight-color: transparent;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.1s ease,
+    box-shadow 0.15s ease;
+}
+
+.btn:hover:not(:disabled) {
+  border-color: rgba(26, 92, 69, 0.35);
+  box-shadow: 0 4px 14px rgba(15, 61, 46, 0.08);
+}
+
+.btn:active:not(:disabled) {
+  transform: scale(0.985);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .btn.primary {
@@ -379,12 +408,29 @@ textarea {
   color: #f4f7f5;
 }
 
-.btn.primary:hover {
+.btn.primary:hover:not(:disabled) {
   background: var(--brand-deep);
+  border-color: transparent;
+}
+
+.btn.secondary {
+  background: #fff;
+  border-color: rgba(26, 92, 69, 0.35);
+  color: var(--brand-deep);
+}
+
+.btn.secondary:hover:not(:disabled) {
+  background: rgba(26, 92, 69, 0.06);
 }
 
 .btn.ghost {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.55);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.btn.ghost:hover:not(:disabled) {
+  background: #fff;
 }
 
 .btn.bad {
@@ -393,24 +439,60 @@ textarea {
   color: #fff;
 }
 
+.btn.bad:hover:not(:disabled) {
+  filter: brightness(0.95);
+  border-color: transparent;
+}
+
 .btn.lg {
   padding: 14px 18px;
   font-size: 1.02rem;
+  min-height: 52px;
 }
 
 .btn.tiny {
-  min-height: 32px;
-  padding: 4px 8px;
-  font-size: 0.75rem;
+  flex-direction: row;
+  min-height: 36px;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  border-radius: 10px;
 }
 
 .btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
 }
 
-.btn.mic {
-  min-width: min(180px, 100%);
+.btn-title {
+  font-weight: 700;
+  font-size: 0.98rem;
+}
+
+.btn-sub {
+  font-weight: 500;
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+.btn.primary .btn-sub,
+.btn.bad .btn-sub {
+  opacity: 0.9;
+}
+
+a.btn {
+  text-decoration: none;
+  flex-direction: row;
+}
+
+/* Primary CTA on home keeps stacked label */
+.btn.continue-cta {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+  gap: 2px;
 }
 
 .home-stats {
@@ -783,6 +865,23 @@ textarea {
   font-weight: 600;
   min-height: var(--touch);
   -webkit-tap-highlight-color: transparent;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
+}
+
+.choice:hover:not(:disabled),
+.chip:hover:not(:disabled) {
+  border-color: rgba(26, 92, 69, 0.35);
+}
+
+.choice:active:not(:disabled),
+.chip:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.choice:focus-visible,
+.chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .choice.ok,
@@ -1142,20 +1241,40 @@ textarea {
 
 .speak-btn {
   appearance: none;
-  border: none;
+  border: 1px solid transparent;
   background: rgba(26, 92, 69, 0.1);
-  border-radius: 10px;
-  padding: 8px 10px;
+  border-radius: 12px;
+  padding: 10px 12px;
   cursor: pointer;
   display: inline-flex;
+  flex-direction: row;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  gap: 8px;
   font-weight: 600;
   color: var(--brand);
+  min-height: 40px;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.speak-btn:hover {
+  background: rgba(26, 92, 69, 0.16);
+}
+
+.speak-btn:active {
+  transform: scale(0.98);
+}
+
+.speak-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .speak-btn.small {
-  padding: 4px 6px;
+  padding: 8px;
+  min-height: 40px;
+  min-width: 40px;
   font-size: 0.9rem;
 }
 
@@ -1258,25 +1377,90 @@ textarea {
 
 .srs-card {
   width: 100%;
-  min-height: 220px;
+  min-height: 240px;
   display: grid;
   place-items: center;
-  gap: 12px;
+  gap: var(--space-4);
   cursor: pointer;
   text-align: center;
+  padding: var(--space-5) var(--space-4);
+}
+
+.srs-card.flipped {
+  cursor: default;
 }
 
 .srs-front {
-  font-family: var(--font-display);
-  font-size: 1.8rem;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.srs-word {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 7vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
 }
 
 .srs-back {
-  font-size: 1.15rem;
+  display: grid;
+  gap: 6px;
+  width: 100%;
+  max-width: 28rem;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line);
+}
+
+.srs-back-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.srs-back strong {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.srs-hint {
   color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.empty-card {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.empty-card .lede {
+  margin: 0;
+}
+
+.empty-card .btn,
+.empty-card .settings-actions {
+  margin-top: var(--space-2);
+}
+
+.mistake-list li {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.mistake-list .btn {
+  width: 100%;
+}
+
+.mistake-expected {
+  margin: 0;
 }
 
 .mistake-list {

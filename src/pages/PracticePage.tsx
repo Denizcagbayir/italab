@@ -16,37 +16,37 @@ function PracticeHome() {
   const cards = [
     {
       to: 'vocab',
-      title: 'Kelime & cümle',
-      desc: '666+ ifade · IT → TR çeviri',
-      meta: 'Sesli pratik',
+      title: 'Kelime',
+      desc: 'İtalyanca ifadeyi gör, Türkçesini yaz.',
+      meta: 'Sesli destek var',
       priority: false,
     },
     {
       to: 'articles',
       title: 'İsim & artikel',
-      desc: '888 isim · tekil ↔ çoğul',
-      meta: 'Artikel zorunlu',
+      desc: 'İsimlerin artikelini ve çoğulunu çalış.',
+      meta: 'Gramer temeli',
       priority: false,
     },
     {
       to: 'verbs',
       title: 'Fiil çekimi',
-      desc: 'Presente indicativo',
-      meta: '606 biçim',
+      desc: 'Presente (şimdiki zaman) çekimlerini yaz.',
+      meta: 'Kişi + fiil',
       priority: false,
     },
     {
       to: 'srs',
       title: 'Aralıklı tekrar',
-      desc: 'SRS flashcard',
-      meta: due ? `${due} kart hazır` : 'Kart yok / hepsi güncel',
+      desc: 'Öğrendiğin kelimeleri doğru zamanda hatırla.',
+      meta: due ? `${due} kart seni bekliyor` : 'Şimdilik kart yok',
       priority: due > 0,
     },
     {
       to: 'mistakes',
       title: 'Hatalar',
-      desc: 'Yanlışlarını düzelt',
-      meta: openMistakes ? `${openMistakes} açık` : 'Temiz',
+      desc: 'Yanlış yaptığın maddeleri gözden geçir.',
+      meta: openMistakes ? `${openMistakes} açık madde` : 'Hepsi temiz',
       priority: openMistakes > 0,
     },
   ];
@@ -56,7 +56,8 @@ function PracticeHome() {
       <header className="page-header">
         <h1>Pratik</h1>
         <p className="lede">
-          Serbest alıştırma — kelime, artikel, fiil, tekrar ve hatalar.
+          Dersi bitirdikten sonra buradan serbest çalış. İhtiyacın olanı seç —
+          kelime, gramer veya tekrar.
         </p>
       </header>
       <div className="practice-grid">

@@ -67,7 +67,9 @@ export function PracticeArticles() {
       </Link>
       <header className="page-header">
         <h1>İsim & artikel</h1>
-        <p className="lede">Tekil ↔ çoğul (artikel dahil).</p>
+        <p className="lede">
+          İsmi gör, artikelini koruyarak tekil veya çoğul biçimi yaz.
+        </p>
       </header>
       <div className="toolbar">
         <select value={mode} onChange={(e) => setMode(e.target.value as typeof mode)}>

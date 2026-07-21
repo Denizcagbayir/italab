@@ -40,8 +40,10 @@ export function PracticeVocab() {
         ← Pratik
       </Link>
       <header className="page-header">
-        <h1>Kelime & cümle</h1>
-        <p className="lede">İtalyanca ifadeyi gör, Türkçesini yaz.</p>
+        <h1>Kelime</h1>
+        <p className="lede">
+          İtalyanca ifadeyi oku (istersen dinle), Türkçe karşılığını yaz.
+        </p>
       </header>
       <div className="toolbar">
         <label>

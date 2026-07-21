@@ -51,7 +51,10 @@ export function PracticeVerbs() {
       </Link>
       <header className="page-header">
         <h1>Fiil çekimi · Presente</h1>
-        <p className="lede">Lemma + kişi → doğru biçim.</p>
+        <p className="lede">
+          Fiilin kökünü ve kişiyi gör, presente biçimini yaz (ör. parlare →
+          parlo).
+        </p>
       </header>
       <div className="toolbar">
         <select value={n} onChange={(e) => setN(Number(e.target.value))}>

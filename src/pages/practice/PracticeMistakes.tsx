@@ -14,28 +14,38 @@ export function PracticeMistakes() {
       </Link>
       <header className="page-header">
         <h1>Hatalar</h1>
-        <p className="lede">{open.length} açık hata</p>
+        <p className="lede">
+          Derslerde yanlış yaptığın maddeler burada. İncele, dinle, sonra
+          “Çözüldü” de.
+        </p>
       </header>
       {!open.length ? (
         <div className="empty-card">
-          <h2>Temiz</h2>
-          <p>Şimdilik kayıtlı açık hata yok.</p>
+          <h2>Açık hata yok</h2>
+          <p className="lede">Şimdilik kayıtlı bir yanlışın yok. Böyle devam!</p>
+          <Link className="btn primary" to="/practice">
+            Pratiğe dön
+          </Link>
         </div>
       ) : (
         <ul className="mistake-list">
           {open.map((m) => (
             <li key={m.id}>
-              <p className="muted small">{m.type}</p>
-              <p>{m.prompt}</p>
+              <p className="muted small">{m.prompt}</p>
               <p>
-                Senin: <em>{m.userAnswer}</em>
+                Senin cevap: <em>{m.userAnswer}</em>
               </p>
-              <p lang="it">
-                Doğru: <strong>{m.expected}</strong>{' '}
+              <p lang="it" className="mistake-expected">
+                Doğru:{' '}
+                <strong>{m.expected}</strong>{' '}
                 <SpeakButton text={m.expected.split(' / ')[0]} small />
               </p>
-              <button className="btn primary" onClick={() => resolveMistake(m.id)}>
-                Anladım / çözüldü
+              <button
+                type="button"
+                className="btn primary"
+                onClick={() => resolveMistake(m.id)}
+              >
+                Çözüldü
               </button>
             </li>
           ))}

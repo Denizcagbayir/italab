@@ -1,6 +1,13 @@
 import { Link, useParams } from 'react-router-dom';
-import { COURSE_MAP, getUnit } from '../data/course';
+import { COURSE_MAP, getUnit, getUnitMeta, CURRICULUM_STATS } from '../data/course';
 import { useProgress } from '../store/progressStore';
+
+function kindLabel(kind?: string) {
+  if (kind === 'mission') return 'Ünite görevi';
+  if (kind === 'exam') return 'Sınav';
+  if (kind === 'teaching') return 'Öğretim dersi';
+  return 'Ders';
+}
 
 export function PathPage() {
   const { unitId } = useParams();
@@ -10,6 +17,7 @@ export function PathPage() {
   if (unitId) {
     const meta = COURSE_MAP.find((u) => u.id === unitId);
     const unit = getUnit(unitId);
+    const unitMeta = getUnitMeta(unitId);
     if (!meta) return <p>Ünite bulunamadı.</p>;
     const isUnlocked = unlocked.includes(unitId);
 
@@ -25,6 +33,24 @@ export function PathPage() {
           <h1>{meta.titleIt}</h1>
           <p className="lede">{meta.titleTr} — {meta.outcomeTr}</p>
           <p className="muted small">{meta.grammarFocus.join(' · ')}</p>
+          {unitMeta && (
+            <div className="source-chip">
+              <p>
+                <strong>Öğrenci kitabı:</strong> s. {unitMeta.bookPages}
+              </p>
+              <p>
+                <strong>Dilbilgisi başvuru:</strong> s. {unitMeta.grammarPages}
+              </p>
+              <p className="muted small">
+                Kitaplar kapsam/sıra referansı; uygulama metinleri özgün içeriktir.
+              </p>
+            </div>
+          )}
+          {unitMeta?.missionTr && (
+            <p className="mission-teaser">
+              <strong>Ünite görevi:</strong> {unitMeta.missionTr}
+            </p>
+          )}
         </header>
 
         {unit && !isUnlocked ? (
@@ -58,7 +84,9 @@ export function PathPage() {
                       <span className="num">{i + 1}</span>
                       <div>
                         <strong>{l.titleIt}</strong>
-                        <span className="muted">{l.titleTr}</span>
+                        <span className="muted">
+                          {kindLabel(l.kind)} · {l.titleTr}
+                        </span>
                       </div>
                       <span className="lock">🔒</span>
                     </div>
@@ -68,7 +96,7 @@ export function PathPage() {
                       <div>
                         <strong>{l.titleIt}</strong>
                         <span className="muted">
-                          {l.titleTr} · ~{l.estimatedMinutes} dk
+                          {kindLabel(l.kind)} · ~{l.estimatedMinutes} dk
                         </span>
                       </div>
                       {done && lessons[l.id] && (
@@ -90,7 +118,9 @@ export function PathPage() {
       <header className="page-header">
         <h1>Yol</h1>
         <p className="lede">
-          A1’den A2’ye ünite haritası. Açık üniteye dokun, sıradaki derse gir.
+          Müfredat v{CURRICULUM_STATS.version}: {CURRICULUM_STATS.instructionalLessons}{' '}
+          öğretim dersi + ünite görevleri. Her ders anlatım, örnek, diyalog ve
+          üretimle öğretir.
         </p>
       </header>
       <div className="path-tree">

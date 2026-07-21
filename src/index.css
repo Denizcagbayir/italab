@@ -1903,3 +1903,231 @@ a.btn {
     transition: none !important;
   }
 }
+
+/* —— Teaching curriculum v2 —— */
+.teaching-player .teach-card {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.teach-goal {
+  font-size: 1.05rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.teach-prose {
+  white-space: pre-wrap;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+}
+
+.teach-sub {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+.teach-rules {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 10px;
+  line-height: 1.45;
+}
+
+.teach-examples,
+.teach-vocab,
+.teach-errors,
+.teach-summary {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.teach-example-it {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.teach-example-tr {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.teach-vocab-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.teach-vocab-tr {
+  display: block;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.teach-vocab-ex {
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.teach-listen-plan {
+  display: grid;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(26, 92, 69, 0.06);
+  border: 1px solid rgba(26, 92, 69, 0.15);
+  margin-bottom: 8px;
+}
+
+.teach-listen-plan p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.teach-dialogue {
+  display: grid;
+  gap: 10px;
+}
+
+.teach-dialogue-line {
+  line-height: 1.45;
+}
+
+.teach-notice-ex {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.teach-error-bad,
+.teach-error-ok {
+  margin: 0 0 4px;
+  line-height: 1.4;
+}
+
+.teach-error-bad .pill,
+.teach-error-ok .pill {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.teach-error-bad .pill {
+  background: rgba(180, 50, 50, 0.12);
+  color: #a12a2a;
+}
+
+.teach-error-ok .pill {
+  background: rgba(31, 138, 91, 0.14);
+  color: #1a6b45;
+}
+
+.teach-practice-prompt {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.teach-textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.teach-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: var(--space-4);
+  padding-bottom: 8px;
+}
+
+.source-chip {
+  margin-top: var(--space-3);
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.55);
+  display: grid;
+  gap: 4px;
+}
+
+.source-chip p {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.mission-teaser {
+  margin-top: var(--space-3);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.source-matrix {
+  display: grid;
+  gap: 10px;
+}
+
+.source-matrix-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.source-matrix-row strong {
+  display: block;
+}
+
+.source-matrix-pages {
+  display: grid;
+  gap: 2px;
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+@media (max-width: 520px) {
+  .source-matrix-row {
+    flex-direction: column;
+  }
+  .source-matrix-pages {
+    text-align: left;
+  }
+}
+
+.status-msg.warn {
+  background: rgba(180, 120, 20, 0.12);
+  color: #8a5a10;
+}
+
+.status-msg.info {
+  background: rgba(42, 111, 151, 0.1);
+  color: #1e4f6d;
+}

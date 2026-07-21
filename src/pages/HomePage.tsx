@@ -35,6 +35,10 @@ export function HomePage() {
           <p className="lede">
             Dinle, yaz, konuş. ITAlab ile İtalyanca öğren!
           </p>
+          <p className="muted small home-curriculum-note">
+            84 öğretim dersi · anlatım, örnek, diyalog, mini kontrol ve üretim
+            göreviyle gerçek eğitim
+          </p>
 
           {cont && (
             <div className="continue-card">

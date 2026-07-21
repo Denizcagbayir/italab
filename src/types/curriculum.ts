@@ -60,6 +60,8 @@ export interface Lesson {
   goalsTr: string[];
   estimatedMinutes: number;
   exercises: Exercise[];
+  /** v2 curriculum: teaching screens, unit mission, or level exam shell */
+  kind?: 'teaching' | 'mission' | 'exam' | 'legacy';
 }
 
 export interface Unit {

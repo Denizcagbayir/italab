@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { COURSE_MAP, getUnit } from '../data/course';
+import { UNIT_META } from '../data/unitsMeta';
 import { useProgress } from '../store/progressStore';
 import { dueCards } from '../lib/srs';
 
@@ -206,7 +207,7 @@ export function ProgressPage() {
         transition={{ delay: 0.2 }}
       >
         <div className="section-head">
-          <h2>Ünite 0 — Benvenuti</h2>
+          <h2>Ünite 0 — Benvenuti (öğretim)</h2>
           <Link to="/path/UNT-A1-00-BENVENUTI">Derse git</Link>
         </div>
         <ul className="lesson-chip-list">
@@ -270,6 +271,35 @@ export function ProgressPage() {
               {COURSE_MAP.filter((u) => u.available).length} aktif ünite
             </span>
           </Link>
+        </div>
+      </motion.section>
+
+      <motion.section
+        className="progress-panel"
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+      >
+        <h2>Kaynak eşlemesi</h2>
+        <p className="muted small" style={{ marginBottom: 12 }}>
+          Kitaplar kapsam ve sıra için referans; uygulama metinleri özgün. Telif:
+          sayfa/ses/soru kopyalanmaz.
+        </p>
+        <div className="source-matrix">
+          {UNIT_META.map((u) => (
+            <div key={u.id} className="source-matrix-row">
+              <div>
+                <strong>
+                  {u.level} · {u.titleIt}
+                </strong>
+                <span className="muted small">{u.titleTr}</span>
+              </div>
+              <div className="source-matrix-pages">
+                <span>Kitap s. {u.bookPages}</span>
+                <span>Gramer s. {u.grammarPages}</span>
+              </div>
+            </div>
+          ))}
         </div>
       </motion.section>
     </div>

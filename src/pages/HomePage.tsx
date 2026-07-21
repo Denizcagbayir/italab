@@ -16,14 +16,16 @@ export function HomePage() {
     ? cont.unit.lessons.filter((l) => lessons[l.id]?.completed).length
     : 0;
   const currentTotal = cont?.unit.lessons.length ?? 0;
+  const isFreshStart = currentDone === 0 && cont?.unit.order === 0;
+  const goalPct = Math.min(100, Math.round((todayMinutes / Math.max(1, dailyGoal)) * 100));
 
   return (
     <div className="page home">
       <section className="hero">
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.45 }}
+          transition={{ duration: 0.4 }}
           className="hero-inner"
         >
           <p className="eyebrow">İtalyanca A1–A2</p>
@@ -33,27 +35,39 @@ export function HomePage() {
           <p className="lede">
             Dinle, yaz, konuş. Kendi hızında, tarayıcında.
           </p>
+
           {cont && (
-            <div className="cta-row">
+            <div className="continue-card">
+              <div className="continue-meta">
+                <span className="lvl">{cont.unit.level}</span>
+                <span className="muted small">
+                  {cont.unit.titleIt} · {currentDone}/{currentTotal} ders
+                </span>
+              </div>
               <Link
-                className="btn primary lg"
+                className="btn primary lg continue-cta"
                 to={`/lesson/${cont.unit.id}/${cont.lesson.id}`}
               >
-                {currentDone === 0 && cont.unit.order === 0
-                  ? 'Başla'
-                  : 'Devam et'}{' '}
-                — {cont.lesson.titleTr}
+                <span className="continue-cta-main">
+                  {isFreshStart ? 'Başla' : 'Devam et'}
+                </span>
+                <span className="continue-cta-sub">{cont.lesson.titleTr}</span>
               </Link>
-              <Link className="btn ghost lg" to="/practice">
-                Pratik Hub
-              </Link>
+              <div className="cta-row secondary-cta">
+                <Link className="btn ghost" to="/path">
+                  Yola bak
+                </Link>
+                <Link className="btn ghost" to="/practice">
+                  Pratik
+                </Link>
+              </div>
             </div>
           )}
         </motion.div>
         <div className="hero-glow" aria-hidden />
       </section>
 
-      <section className="home-stats">
+      <section className="home-stats" aria-label="Bugünün özeti">
         <div>
           <strong>{streak}</strong>
           <span>gün seri</span>
@@ -67,6 +81,9 @@ export function HomePage() {
             {todayMinutes}/{dailyGoal}
           </strong>
           <span>dk hedef</span>
+          <div className="mini-bar home-goal-bar" aria-hidden>
+            <div style={{ width: `${goalPct}%` }} />
+          </div>
         </div>
         <div>
           <strong>
@@ -79,19 +96,25 @@ export function HomePage() {
       <section className="home-path-preview">
         <div className="section-head">
           <h2>Öğrenme yolu</h2>
-          <Link to="/path">Tümü</Link>
+          <Link to="/path">Tüm yol</Link>
         </div>
-        <div className="unit-strip">
-          {COURSE_MAP.slice(0, 6).map((u) => (
-            <Link
-              key={u.id}
-              to={u.available ? `/path/${u.id}` : '/path'}
-              className={`unit-pill ${u.available && unlocked.includes(u.id) ? '' : 'locked'}`}
-            >
-              <span className="lvl">{u.level}</span>
-              <span>{u.titleIt}</span>
-            </Link>
-          ))}
+        <div className="unit-strip" role="list">
+          {COURSE_MAP.slice(0, 6).map((u) => {
+            const open = u.available && unlocked.includes(u.id);
+            return (
+              <Link
+                key={u.id}
+                role="listitem"
+                to={open ? `/path/${u.id}` : '/path'}
+                className={`unit-pill ${open ? '' : 'locked'}`}
+                aria-label={`${u.level} ${u.titleIt}${open ? '' : ', kilitli veya yakında'}`}
+              >
+                <span className="lvl">{u.level}</span>
+                <span className="unit-pill-title">{u.titleIt}</span>
+                <span className="unit-pill-sub muted small">{u.titleTr}</span>
+              </Link>
+            );
+          })}
         </div>
       </section>
     </div>

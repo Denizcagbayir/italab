@@ -1,0 +1,26 @@
+---
+description: ITAlab product context — mobile-first learning app, design docs, and stack constraints.
+alwaysApply: true
+---
+
+# ITAlab project
+
+Vite + React SPA (`src/`). Progress is local (IndexedDB). UI copy is Turkish; lesson content is Italian.
+
+## Design sources
+
+- Tokens / IA / voice: `design/tokens/*`, `design/ia/navigation.md`, `design/content/voice-and-tone.md`
+- CSS variables live in `src/index.css` — keep them aligned with `design/tokens/`
+- Design rules: `.cursor/rules/core/*` + `.cursor/rules/frontend/*` (Spencer Goldade cursor-designer, GPLv3)
+
+## Current priorities
+
+1. **Mobile-first responsive** — usable at 320–430px; touch targets ≥44px; safe-area for bottom nav
+2. **Findability** — Continue CTA, Pratik modes, Yol units easy to discover
+3. Curriculum content changes only when explicitly requested
+
+## Constraints
+
+- Do not remove working lesson/practice engines
+- Prefer CSS in `index.css` + existing class patterns over new UI libraries
+- No purple-on-white / generic AI aesthetic; keep botanical green brand

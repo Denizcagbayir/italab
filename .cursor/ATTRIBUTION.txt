@@ -1,0 +1,1 @@
+Design rules adapted from Spencer Goldade cursor-designer (GPLv3). See cursor-designer-main/LICENSE in the parent ITALIANO folder.

@@ -19,45 +19,57 @@ function PracticeHome() {
       title: 'Kelime & cümle',
       desc: '666+ ifade · IT → TR çeviri',
       meta: 'Sesli pratik',
+      priority: false,
     },
     {
       to: 'articles',
       title: 'İsim & artikel',
       desc: '888 isim · tekil ↔ çoğul',
       meta: 'Artikel zorunlu',
+      priority: false,
     },
     {
       to: 'verbs',
       title: 'Fiil çekimi',
       desc: 'Presente indicativo',
       meta: '606 biçim',
+      priority: false,
     },
     {
       to: 'srs',
       title: 'Aralıklı tekrar',
       desc: 'SRS flashcard',
       meta: due ? `${due} kart hazır` : 'Kart yok / hepsi güncel',
+      priority: due > 0,
     },
     {
       to: 'mistakes',
       title: 'Hatalar',
       desc: 'Yanlışlarını düzelt',
       meta: openMistakes ? `${openMistakes} açık` : 'Temiz',
+      priority: openMistakes > 0,
     },
   ];
 
   return (
     <div className="page">
       <header className="page-header">
-        <h1>Pratik Hub</h1>
+        <h1>Pratik</h1>
         <p className="lede">
           Serbest alıştırma — kelime, artikel, fiil, tekrar ve hatalar.
         </p>
       </header>
       <div className="practice-grid">
         {cards.map((c) => (
-          <Link key={c.to} to={c.to} className="practice-card">
-            <h2>{c.title}</h2>
+          <Link
+            key={c.to}
+            to={c.to}
+            className={`practice-card${c.priority ? ' priority' : ''}`}
+          >
+            <div className="practice-card-top">
+              <h2>{c.title}</h2>
+              {c.priority && <span className="badge">Şimdi</span>}
+            </div>
             <p>{c.desc}</p>
             <span className="meta">{c.meta}</span>
           </Link>

@@ -16,7 +16,7 @@ export function PathPage() {
     return (
       <div className="page">
         <Link to="/path" className="back-link">
-          ← Öğrenme yolu
+          ← Yol
         </Link>
         <header className="page-header">
           <p className="eyebrow">
@@ -88,7 +88,7 @@ export function PathPage() {
   return (
     <div className="page">
       <header className="page-header">
-        <h1>Öğrenme yolu</h1>
+        <h1>Yol</h1>
         <p className="lede">A1 → A2 · müfredat haritası</p>
       </header>
       <div className="path-tree">

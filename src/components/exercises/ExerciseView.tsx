@@ -1,7 +1,12 @@
 import { useMemo, useState } from 'react';
 import type { Exercise } from '../../types/curriculum';
 import { answersMatch, softMatch, shuffle, turkishIncludesAny } from '../../lib/normalize';
-import { transcriptMatchScore, listenOnce, isAsrSupported } from '../../lib/asr';
+import {
+  transcriptMatchScore,
+  listenOnce,
+  isAsrSupported,
+  asrErrorMessage,
+} from '../../lib/asr';
 import { SpeakButton } from '../speech/SpeakButton';
 import { useProgress } from '../../store/progressStore';
 
@@ -476,7 +481,9 @@ function SpeakEx({
       onResult(ok, { userAnswer: res.transcript, expected: target });
     } catch (e) {
       setStatusKind('warn');
-      setStatus(e instanceof Error ? e.message : 'Bir sorun oluştu.');
+      const raw = e instanceof Error ? e.message : 'unknown';
+      // Always map — never show raw Web Speech codes like "language-not-supported"
+      setStatus(asrErrorMessage(raw));
     } finally {
       setListening(false);
     }

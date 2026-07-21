@@ -42,11 +42,36 @@ export function isAsrSupported() {
   return Boolean(getRecognitionCtor());
 }
 
+/** Map Web Speech API error codes to actionable Turkish copy. */
+export function asrErrorMessage(code: string): string {
+  switch (code) {
+    case 'language-not-supported':
+      return 'Bu tarayıcı/cihaz İtalyanca konuşma tanımayı desteklemiyor. Chrome (masaüstü veya Android) dene ya da Pas ile devam et.';
+    case 'not-allowed':
+    case 'service-not-allowed':
+      return 'Mikrofon izni verilmedi. Tarayıcı ayarlarından izin verip tekrar dene.';
+    case 'no-speech':
+      return 'Ses algılanamadı. Yakın konuşup tekrar dene.';
+    case 'audio-capture':
+      return 'Mikrofona erişilemedi. Başka bir uygulama mikrofonu kullanıyor olabilir.';
+    case 'network':
+      return 'Konuşma tanıma için ağ gerekli. Bağlantını kontrol et.';
+    case 'aborted':
+      return 'Dinleme iptal edildi.';
+    case 'busy':
+      return 'Tanıma meşgul. Bir saniye bekleyip tekrar dene.';
+    default:
+      return code && !code.includes(' ')
+        ? `Konuşma tanıma hatası (${code}). Pas ile devam edebilirsin.`
+        : code || 'Konuşma tanıma başarısız. Pas ile devam edebilirsin.';
+  }
+}
+
 export function listenOnce(lang = 'it-IT', timeoutMs = 8000): Promise<AsrResult> {
   return new Promise((resolve, reject) => {
     const Ctor = getRecognitionCtor();
     if (!Ctor) {
-      reject(new Error('Konuşma tanıma desteklenmiyor'));
+      reject(new Error(asrErrorMessage('language-not-supported')));
       return;
     }
 
@@ -91,21 +116,22 @@ export function listenOnce(lang = 'it-IT', timeoutMs = 8000): Promise<AsrResult>
       if (settled) return;
       settled = true;
       clearTimeout(timer);
-      reject(new Error(ev.error || 'Tanıma hatası'));
+      reject(new Error(asrErrorMessage(ev.error || 'unknown')));
     };
 
     rec.onend = () => {
       if (settled) return;
       settled = true;
       clearTimeout(timer);
-      reject(new Error('Ses algılanamadı'));
+      reject(new Error('Ses algılanamadı. Tekrar dene veya Pas geç.'));
     };
 
     try {
       rec.start();
     } catch (e) {
       clearTimeout(timer);
-      reject(e instanceof Error ? e : new Error('Mikrofon başlatılamadı'));
+      const msg = e instanceof Error ? e.message : 'Mikrofon başlatılamadı';
+      reject(new Error(asrErrorMessage(msg.includes('not-allowed') ? 'not-allowed' : msg)));
     }
   });
 }

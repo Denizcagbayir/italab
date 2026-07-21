@@ -45,38 +45,47 @@ export function LessonPlayer({ lesson, unitTitle }: Props) {
     setDone(true);
   };
 
-  const handleResult = (
-    ok: boolean,
-    detail?: { userAnswer: string; expected: string },
-  ) => {
-    if (feedback) return;
-    const nextAnswered = answered + (ex.type === 'EXPLAIN' ? 0 : 1);
-    const nextCorrect = correct + (ok && ex.type !== 'EXPLAIN' ? 1 : 0);
-    tally.current = { correct: nextCorrect, answered: nextAnswered };
-    if (ex.type !== 'EXPLAIN') {
-      setAnswered(nextAnswered);
-      setCorrect(nextCorrect);
-      upsertSrs(ex, ok);
-      if (!ok && detail) {
-        addMistake({
-          exerciseId: ex.id,
-          prompt: ex.promptTr,
-          expected: detail.expected,
-          userAnswer: detail.userAnswer,
-          type: ex.type,
-        });
-      }
-    }
-    setFeedback(ok ? 'ok' : 'bad');
-  };
-
-  const next = () => {
+  const advance = () => {
     setFeedback(null);
     if (index + 1 >= lesson.exercises.length) {
       finish(tally.current.correct, tally.current.answered);
       return;
     }
     setIndex((i) => i + 1);
+  };
+
+  const handleResult = (
+    ok: boolean,
+    detail?: { userAnswer: string; expected: string },
+  ) => {
+    if (feedback) return;
+
+    // Explanation slides are not scored — advance quietly (no "Doğru!").
+    if (ex.type === 'EXPLAIN') {
+      advance();
+      return;
+    }
+
+    const nextAnswered = answered + 1;
+    const nextCorrect = correct + (ok ? 1 : 0);
+    tally.current = { correct: nextCorrect, answered: nextAnswered };
+    setAnswered(nextAnswered);
+    setCorrect(nextCorrect);
+    upsertSrs(ex, ok);
+    if (!ok && detail) {
+      addMistake({
+        exerciseId: ex.id,
+        prompt: ex.promptTr,
+        expected: detail.expected,
+        userAnswer: detail.userAnswer,
+        type: ex.type,
+      });
+    }
+    setFeedback(ok ? 'ok' : 'bad');
+  };
+
+  const next = () => {
+    advance();
   };
 
   if (done) {
@@ -115,7 +124,7 @@ export function LessonPlayer({ lesson, unitTitle }: Props) {
               Üniteye dön
             </Link>
             <Link className="btn ghost" to="/practice">
-              Pratik Hub
+              Pratik
             </Link>
           </div>
         </motion.div>
@@ -150,17 +159,19 @@ export function LessonPlayer({ lesson, unitTitle }: Props) {
       </AnimatePresence>
 
       {feedback && (
-        <div className={`feedback-bar ${feedback}`}>
-          <span>{feedback === 'ok' ? 'Doğru!' : 'Henüz değil'}</span>
+        <div className={`feedback-bar ${feedback}`} role="status">
+          <strong className="feedback-title">
+            {feedback === 'ok' ? 'Doğru!' : 'Henüz değil'}
+          </strong>
           {feedback === 'bad' && ex.acceptedAnswers && (
-            <span className="muted" lang="it">
-              → {ex.acceptedAnswers[0]}
-            </span>
+            <p className="feedback-detail" lang="it">
+              Doğru cevap: {ex.acceptedAnswers[0]}
+            </p>
           )}
           {feedback === 'bad' && ex.hint && (
-            <span className="hint">{ex.hint}</span>
+            <p className="hint">{ex.hint}</p>
           )}
-          <button className="btn primary" onClick={next}>
+          <button type="button" className="btn primary" onClick={next}>
             Devam
           </button>
         </div>

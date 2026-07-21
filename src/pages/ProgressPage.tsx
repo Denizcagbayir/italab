@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import { COURSE_MAP, getUnit } from '../data/course';
 import { useProgress } from '../store/progressStore';
+import { dueCards } from '../lib/srs';
 
 export function ProgressPage() {
   const xp = useProgress((s) => s.xp);
@@ -13,6 +15,8 @@ export function ProgressPage() {
 
   const unit = getUnit('UNT-A1-00-BENVENUTI');
   const completedLessons = Object.values(lessons).filter((l) => l.completed).length;
+  const openMistakes = mistakes.filter((m) => !m.resolved).length;
+  const due = dueCards(srs).length;
 
   const skillEntries = Object.entries(skills) as [keyof typeof skills, number][];
   const labels: Record<string, string> = {
@@ -31,7 +35,7 @@ export function ProgressPage() {
         <p className="lede">Gelişimini buradan takip et.</p>
       </header>
 
-      <div className="home-stats">
+      <div className="home-stats" aria-label="Özet">
         <div>
           <strong>{xp}</strong>
           <span>toplam XP</span>
@@ -67,8 +71,8 @@ export function ProgressPage() {
         ))}
       </section>
 
-      <section>
-        <h2>Ünite 0</h2>
+      <section className="progress-panel">
+        <h2>Ünite 0 — Benvenuti</h2>
         <ul className="progress-lessons">
           {unit?.lessons.map((l) => {
             const p = lessons[l.id];
@@ -84,12 +88,19 @@ export function ProgressPage() {
         </ul>
       </section>
 
-      <section className="muted small">
-        <p>
-          Açık hata: {mistakes.filter((m) => !m.resolved).length} · SRS kart:{' '}
-          {srs.length} · Haritada {COURSE_MAP.filter((u) => u.available).length}{' '}
-          aktif ünite
-        </p>
+      <section className="progress-panel">
+        <h2>Hızlı bağlantılar</h2>
+        <div className="settings-actions">
+          <Link className="btn ghost" to="/practice/srs">
+            SRS {due ? `(${due} hazır)` : ''}
+          </Link>
+          <Link className="btn ghost" to="/practice/mistakes">
+            Hatalar {openMistakes ? `(${openMistakes})` : ''}
+          </Link>
+          <Link className="btn ghost" to="/path">
+            Yola git · {COURSE_MAP.filter((u) => u.available).length} aktif ünite
+          </Link>
+        </div>
       </section>
     </div>
   );

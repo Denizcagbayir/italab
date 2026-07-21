@@ -78,9 +78,15 @@ function Explain({
         </div>
       )}
       <pre className="explain-body">{ex.explanation}</pre>
-      <button className="btn primary" onClick={() => onResult(true, { userAnswer: 'ok', expected: 'ok' })}>
-        Anladım, devam
-      </button>
+      <div className="ex-actions">
+        <button
+          type="button"
+          className="btn primary"
+          onClick={() => onResult(true, { userAnswer: 'ok', expected: 'ok' })}
+        >
+          Anladım, devam
+        </button>
+      </div>
     </div>
   );
 }
@@ -261,9 +267,11 @@ function ClozeEx({
         ))}
       </div>
       {ex.hint && <p className="hint">{ex.hint}</p>}
-      <button className="btn primary" onClick={submit}>
-        Kontrol et
-      </button>
+      <div className="ex-actions">
+        <button type="button" className="btn primary" onClick={submit}>
+          Kontrol et
+        </button>
+      </div>
     </div>
   );
 }
@@ -321,9 +329,16 @@ function WordBankEx({
           </button>
         ))}
       </div>
-      <button className="btn primary" onClick={submit} disabled={!built.length}>
-        Kontrol et
-      </button>
+      <div className="ex-actions">
+        <button
+          type="button"
+          className="btn primary"
+          onClick={submit}
+          disabled={!built.length}
+        >
+          Kontrol et
+        </button>
+      </div>
     </div>
   );
 }
@@ -393,9 +408,16 @@ function TextEx({
         spellCheck={false}
       />
       {ex.hint && <p className="hint">{ex.hint}</p>}
-      <button className="btn primary" onClick={submit} disabled={!value.trim()}>
-        Kontrol et
-      </button>
+      <div className="ex-actions">
+        <button
+          type="button"
+          className="btn primary"
+          onClick={submit}
+          disabled={!value.trim()}
+        >
+          Kontrol et
+        </button>
+      </div>
     </div>
   );
 }
@@ -410,7 +432,11 @@ function SpeakEx({
   speakEnabled: boolean;
 }) {
   const [status, setStatus] = useState('');
+  const [statusKind, setStatusKind] = useState<'info' | 'ok' | 'bad' | 'warn'>(
+    'info',
+  );
   const [heard, setHeard] = useState('');
+  const [listening, setListening] = useState(false);
   const target = ex.audioText ?? ex.acceptedAnswers?.[0] ?? '';
 
   const skip = () => {
@@ -419,10 +445,15 @@ function SpeakEx({
 
   const start = async () => {
     if (!isAsrSupported()) {
-      setStatus('Bu tarayıcıda konuşma tanıma yok. Pas geçebilirsin.');
+      setStatusKind('warn');
+      setStatus(
+        'Bu tarayıcıda konuşma tanıma yok. Pas ile devam edebilirsin.',
+      );
       return;
     }
-    setStatus('Dinleniyor… konuş!');
+    setListening(true);
+    setStatusKind('info');
+    setStatus('Dinleniyor… şimdi konuş.');
     setHeard('');
     try {
       const res = await listenOnce('it-IT');
@@ -436,6 +467,7 @@ function SpeakEx({
         ex.type === 'OPEN_SPEAK'
           ? coverage || score >= 0.45
           : score >= 0.72;
+      setStatusKind(ok ? 'ok' : 'bad');
       setStatus(
         ok
           ? `Güzel! Benzerlik %${Math.round(score * 100)}`
@@ -443,7 +475,10 @@ function SpeakEx({
       );
       onResult(ok, { userAnswer: res.transcript, expected: target });
     } catch (e) {
-      setStatus(e instanceof Error ? e.message : 'Hata');
+      setStatusKind('warn');
+      setStatus(e instanceof Error ? e.message : 'Bir sorun oluştu.');
+    } finally {
+      setListening(false);
     }
   };
 
@@ -452,26 +487,38 @@ function SpeakEx({
       <h2 className="ex-prompt">{ex.promptTr}</h2>
       {target && (
         <p className="prompt-it" lang="it">
-          {target} <SpeakButton text={target} />
+          {target} <SpeakButton text={target} small />
         </p>
       )}
-      <div className="audio-row">
-        <SpeakButton text={target} label="Modeli dinle" />
-        <SpeakButton text={target} rate={0.75} label="Yavaş" />
-      </div>
-      {speakEnabled ? (
-        <button className="btn primary mic" onClick={start}>
-          Mikrofon — Konuş
+      <div className="ex-actions">
+        <div className="audio-row">
+          <SpeakButton text={target} label="Modeli dinle" />
+          <SpeakButton text={target} rate={0.75} label="Yavaş" />
+        </div>
+        {speakEnabled ? (
+          <button
+            className="btn primary"
+            onClick={start}
+            disabled={listening}
+          >
+            {listening ? 'Dinleniyor…' : 'Mikrofon — Konuş'}
+          </button>
+        ) : (
+          <p className="status-msg warn">
+            Konuşma alıştırmaları Ayarlar’dan kapalı.
+          </p>
+        )}
+        <button className="btn ghost" onClick={skip} disabled={listening}>
+          Şu an konuşamam — Pas
         </button>
-      ) : (
-        <p className="muted">Konuşma alıştırmaları ayarlardan kapalı.</p>
+      </div>
+      {status && (
+        <p className={`status-msg ${statusKind}`} role="status">
+          {status}
+        </p>
       )}
-      <button className="btn ghost" onClick={skip}>
-        Şu an konuşamam — Pas
-      </button>
-      {status && <p className="hint">{status}</p>}
       {heard && (
-        <p className="muted">
+        <p className="muted small">
           Algılanan: <span lang="it">{heard}</span>
         </p>
       )}
